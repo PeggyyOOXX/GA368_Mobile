@@ -525,7 +525,7 @@ code {
   }
 }
 
-.Header_usernameWrapper__s66mW {
+.Header_usernameWrapper {
   align-items: center;
   background: #1f2133 0 0 no-repeat padding-box;
   border: 1px solid #737797;
@@ -635,7 +635,7 @@ code {
   background-image: linear-gradient(180deg, #a0ff4c, #ebf8c1)
 }
 
-.Header_headerWrapper__7pTY4 {
+.Header_headerWrapper {
   align-items: center;
   display: flex;
   gap: 10px
@@ -1793,11 +1793,11 @@ code {
   }
 }
 
-.BalanceSection_balanceSectionOverlay__e-iOz {
+.BalanceSection_balanceSectionOverlay {
   position: relative
 }
 
-.BalanceSection_logoutWrapper__76eNu {
+.BalanceSection_logoutWrapper {
   align-items: center;
   background: #1f2133 0 0 no-repeat padding-box;
   border: 1px solid #737797;
@@ -1808,7 +1808,7 @@ code {
   width: 36px
 }
 
-.BalanceSection_balanceSectionOverlay__e-iOz,
+.BalanceSection_balanceSectionOverlay,
 .BalanceSection_balanceSection__5\+MLU {
   align-items: center;
   color: var(--lightColor);
@@ -1846,7 +1846,7 @@ code {
   width: 12px
 }
 
-.BalanceSection_userLogout__ZGnvH {
+.BalanceSection_userLogout {
   cursor: pointer;
   width: 24px
 }
@@ -1899,7 +1899,7 @@ code {
     width: 20px
   }
 
-  .BalanceSection_balanceSectionOverlay__e-iOz {
+  .BalanceSection_balanceSectionOverlay {
     gap: 10px
   }
 
@@ -1926,7 +1926,7 @@ code {
     height: 6px
   }
 
-  .BalanceSection_userLogout__ZGnvH {
+  .BalanceSection_userLogout {
     width: 14px
   }
 
@@ -2732,7 +2732,7 @@ code {
   animation: Loading_spin__gU-PD 1s linear infinite
 }
 
-.CopyItem_bankDetailItem__EIuK1 {
+.CopyItem_bankDetailItem {
   color: var(--lightColor);
   display: flex;
   font-weight: 600;
@@ -2740,13 +2740,13 @@ code {
   padding: 5px 10px
 }
 
-.CopyItem_copyLabel__3K3FJ {
+.CopyItem_copyLabel {
   color: var(--sv368ColorLight);
   font-size: 12px;
   font-weight: 600
 }
 
-.CopyItem_copyValue__pXrxQ {
+.CopyItem_copyValue {
   color: var(--lightColor);
   font-size: 13px;
   font-weight: 600
@@ -2777,7 +2777,7 @@ code {
 }
 
 @media only screen and (max-width:280px) {
-  .CopyItem_copyValue__pXrxQ {
+  .CopyItem_copyValue {
     font-size: 12px;
     font-weight: 600
   }
@@ -3954,12 +3954,12 @@ code {
   width: 90%
 }
 
-.DagaGameSection_homeMsgWrapper__Ttkm5 {
+.DagaGameSection_homeMsgWrapper {
   display: flex;
   justify-content: center
 }
 
-.DagaGameSection_homeMsg__QKDDj {
+.DagaGameSection_homeMsg {
   border: 1px solid #f7db89;
   border-radius: 13px;
   display: flex;
@@ -3982,7 +3982,7 @@ code {
   text-align: center
 }
 
-.DagaGameSection_depositButton__L\+70E {
+.DagaGameSection_depositButton {
   -webkit-animation: DagaGameSection_shake__KKRFp 1.5s ease infinite;
   animation: DagaGameSection_shake__KKRFp 1.5s ease infinite;
   background: transparent linear-gradient(180deg, #f7db89, #8b6b08);
@@ -4000,7 +4000,7 @@ code {
   width: 41%
 }
 
-.DagaGameSection_depositButton__L\+70E:hover {
+.DagaGameSection_depositButton:hover {
   background: transparent linear-gradient(180deg, #8b6b08, #f7db89)
 }
 
@@ -4118,7 +4118,7 @@ code {
   }
 }
 
-.DagaGameSection_depositActivationmsg__RjYIC {
+.DagaGameSection_depositActivationmsg {
   color: red;
   font-size: 15px;
   font-weight: 700;
@@ -4146,19 +4146,19 @@ code {
     width: 90%
   }
 
-  .DagaGameSection_depositButton__L\+70E {
+  .DagaGameSection_depositButton {
     padding: 9px 11px;
     width: 41%
   }
 }
 
 @media only screen and (max-width:280px) {
-  .DagaGameSection_homeMsg__QKDDj {
+  .DagaGameSection_homeMsg {
     padding: 5px 0;
     width: 95%
   }
 
-  .DagaGameSection_depositActivationmsg__RjYIC {
+  .DagaGameSection_depositActivationmsg {
     color: red;
     font-size: 12px;
     font-weight: 700;
@@ -4170,7 +4170,7 @@ code {
     border: 1px solid var(--dagaColor)
   }
 
-  .DagaGameSection_depositButton__L\+70E {
+  .DagaGameSection_depositButton {
     font-size: 16px;
     padding: 4px 8px;
     width: 40%
