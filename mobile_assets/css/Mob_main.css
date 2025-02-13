@@ -482,7 +482,7 @@ code {
 }
 
 .Layout_layoutOverlay {
-  background: url(/mobile_assets/img/Mhomepage-bg.webp) no-repeat top;
+  background: url(../img/Mhomepage-bg.webp) no-repeat top;
   background-size: cover;
   display: flex;
   flex-direction: column;
