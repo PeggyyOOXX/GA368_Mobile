@@ -24,9 +24,30 @@
                                     <img src="./mobile_assets/img/ga368-logo-new.webp" alt="logo" class="MenuLogo_logoStyles">
                                 </div>
                             </div>
-                            <div class="Header_loginButtonsOverlay">
+                            <!--Not logged-->
+                            <div class="Header_loginButtonsOverlay" style="display: none;">
                                 <button class="Header_buttonStyle Header_loginButtonNew">Đăng Nhập</button>
                                 <button class="Header_buttonStyle Header_registerButtonNew ">Đăng ký</button>
+                            </div>
+                            <!--Logged-->
+                            <div class="Header_headerWrapper">
+                                <div class="Header_usernameWrapper" style="cursor: pointer;">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" color="#00C1FE" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: rgb(0, 193, 254);">
+                                        <path d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z"></path>
+                                    </svg>
+                                </div>
+                                <div class="Header_usernameWrapper">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" color="#00C1FE" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: rgb(0, 193, 254);">
+                                        <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path>
+                                    </svg>0001231234
+                                </div>
+                                <div>
+                                    <div class="BalanceSection_balanceSectionOverlay">
+                                        <div class="BalanceSection_logoutWrapper">
+                                            <img src="./mobile_assets/img/Mlogout-b.png" alt="Logout" class="BalanceSection_userLogout">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </header>
@@ -69,7 +90,8 @@
                             </div>
 
                             <!--Member action-->
-                            <div class="DownloadSection_singleGamePageHeader">
+                            <!--Not logged-->
+                            <div class="DownloadSection_singleGamePageHeader" style="display: none;">
                                 <div class="DownloadSection_agentImgSection">
                                     <div class="DownloadSection_agencyImgWrapper">
                                         <img src="./mobile_assets/img/Mmember.png">
@@ -97,6 +119,41 @@
                                     </div>
                                 </div>
                             </div>
+                            <!--Logged-->
+                            <div class="DownloadSection_singleGamePageHeader">
+                                <div class="DownloadSection_agentImgSection">
+                                    <div class="DownloadSection_agencyImgWrapper">
+                                        <img src="./mobile_assets/img/Mbalance.webp" alt="walletImage">
+                                    </div>
+                                    <p>0.00</p>
+                                </div>
+                                <div class="DownloadSection_imageTextWrapper">
+                                    <div class="DownloadSection_agentImgSection">
+                                        <div class="DownloadSection_agencyImgWrapper">
+                                            <img src="./mobile_assets/img/Mdeposit.png">
+                                        </div>
+                                        <span>NẠP TIỀN</span>
+                                    </div>
+                                    <div class="DownloadSection_agentImgSection">
+                                        <div class="DownloadSection_agencyImgWrapper">
+                                            <img src="./mobile_assets/img/Mwithdraw.png">
+                                        </div>
+                                        <span>RÚT TIỀN</span>
+                                    </div>
+                                    <div class="DownloadSection_agentImgSection">
+                                        <div class="DownloadSection_agencyImgWrapper">
+                                            <img src="./mobile_assets/img/Magent.png">
+                                        </div>
+                                        <span>Đại Lý</span>
+                                    </div>
+                                    <div class="DownloadSection_agentImgSection">
+                                        <div class="DownloadSection_agencyImgWrapper">
+                                            <img src="./mobile_assets/img/Mmember.png">
+                                        </div>
+                                        <p>Invite</p>
+                                    </div>
+                                </div>
+                            </div>
 
                             <!--Game room-->
                             <div class="Home_homeContentOverlay">
@@ -111,6 +168,23 @@
                                         <div>
                                             <div class="DagaGameSection_gameImageWrapper">
                                                 <img src="./mobile_assets/img/DAGABTN.webp" alt="img" style="border-radius: 15px;">
+                                            </div>
+
+                                            <!--display after logged-->
+                                            <div class="DagaGameSection_homeMsgWrapper">
+                                                <div class="DagaGameSection_homeMsg">
+                                                    <div class="CopyItem_bankDetailItem">
+                                                        <div style="text-align: left;">
+                                                            <span class="CopyItem_copyLabel">Số điện thoại đăng nhập</span><br>
+                                                            <span class="CopyItem_copyValue">0001231234</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="DagaGameSection_depositActivationmsg">
+                                                        Để lấy tên tài khoản và mật khẩu. Vui lòng<br>
+                                                        Nạp Tiền kích hoạt tài khoản !
+                                                    </div>
+                                                    <a class="DagaGameSection_depositButton" href="/deposit">Nạp Tiền</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
