@@ -453,14 +453,14 @@ code {
 
 @media only screen and (max-width:340px) {
   .MuiTooltip-arrow {
-    left: -40px !important
+    left: -40px !important;
   }
 }
 
 @media only screen and (max-width:280px) {
   .MuiButtonBase-root.MuiTab-root {
     color: #c4c0c0;
-    font-size: 11px
+    font-size: 11px;
   }
 }
 
@@ -473,12 +473,12 @@ code {
 
 .MuiSvgIcon-root {
   path {
-    color: #fff
+    color: #fff;
   }
 }
 
 .grecaptcha-badge {
-  display: none
+  display: none;
 }
 
 .Layout_layoutOverlay {
@@ -487,7 +487,7 @@ code {
   display: flex;
   flex-direction: column;
   height: 100%;
-  position: relative
+  position: relative;
 }
 
 .Layout_layoutChildOverlay {
@@ -554,7 +554,7 @@ code {
   z-index: 50
 }
 
-.Header_headerTitle__tIzdj {
+.Header_headerTitle {
   color: #fff;
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -696,7 +696,7 @@ code {
     max-width: 18px
   }
 
-  .Header_headerTitle__tIzdj {
+  .Header_headerTitle {
     color: var(--sv368Color);
     font-size: .7rem
   }
@@ -1630,7 +1630,7 @@ code {
   margin: 10px 0
 }
 
-.PointsConverter_convertionWrapper__gjOwA {
+.PointsConverter_convertionWrapper {
   background: #3f519f 0 0 no-repeat padding-box;
   border-radius: 10px;
   box-sizing: border-box;
@@ -1643,11 +1643,11 @@ code {
   width: 100%
 }
 
-.PointsConverter_depositConvertionWrapper__9Js2A {
+.PointsConverter_depositConvertionWrapper {
   border-color: var(--lightColor)
 }
 
-.PointsConverter_convertionWrapper__gjOwA strong {
+.PointsConverter_convertionWrapper strong {
   align-items: center;
   color: #fff;
   display: flex;
@@ -1655,7 +1655,7 @@ code {
   font-weight: 600
 }
 
-.PointsConverter_convertionContent__HrR2u {
+.PointsConverter_convertionContent {
   align-items: center;
   color: #fff;
   display: flex;
@@ -1663,26 +1663,26 @@ code {
   gap: 7px
 }
 
-.PointsConverter_convertionContent__HrR2u img {
+.PointsConverter_convertionContent img {
   width: 16px
 }
 
 @media only screen and (max-width:280px) {
-  .PointsConverter_convertionWrapper__gjOwA {
+  .PointsConverter_convertionWrapper {
     margin: 10px 0;
     padding: 8px 5px
   }
 
-  .PointsConverter_convertionWrapper__gjOwA strong {
+  .PointsConverter_convertionWrapper strong {
     font-size: 12px
   }
 
-  .PointsConverter_convertionContent__HrR2u {
+  .PointsConverter_convertionContent {
     font-size: 12px;
     gap: 5px
   }
 
-  .PointsConverter_convertionContent__HrR2u img {
+  .PointsConverter_convertionContent img {
     width: 14px
   }
 }
@@ -2430,22 +2430,29 @@ code {
   color: var(--lightColor)
 }
 
-.LogoutConfirmationModal_modalOverlay__LKv1b {
+.LogoutConfirmationModal_modalOverlay {
   align-items: center;
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   height: 100%;
   justify-content: center;
-  width: 100%
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
 }
 
-.LogoutConfirmationModal_coverWrapper__-NkPf {
+.LogoutConfirmationModal_coverWrapper {
   background: #00c1fe 0 0 no-repeat padding-box;
   border-radius: 32px;
   height: 320px;
   width: 300px
 }
 
-.LogoutConfirmationModal_logoutOverlay__QsLvt {
+.LogoutConfirmationModal_logoutOverlay {
   align-items: center;
   background: transparent linear-gradient(180deg, #1e2134, #2c386e) 0 0 no-repeat padding-box;
   border-radius: 32px;
@@ -2460,44 +2467,44 @@ code {
   width: 99%
 }
 
-.LogoutConfirmationModal_logoutOverlay__QsLvt:focus {
+.LogoutConfirmationModal_logoutOverlay:focus {
   outline: none
 }
 
-.LogoutConfirmationModal_logoutImgwrapper__9zYw0 {
+.LogoutConfirmationModal_logoutImgwrapper {
   align-items: center;
   display: flex;
   flex-direction: column
 }
 
-.LogoutConfirmationModal_logoutImgwrapper__9zYw0 p {
+.LogoutConfirmationModal_logoutImgwrapper p {
   font-size: 20px;
   font-weight: 400;
   margin: 5px 0
 }
 
-.LogoutConfirmationModal_logoutMsg__AxaNE {
+.LogoutConfirmationModal_logoutMsg {
   font-size: 15px;
   font-weight: 400;
   margin-top: 5px;
   text-align: center
 }
 
-.LogoutConfirmationModal_logoutButtons__XN5Dl {
+.LogoutConfirmationModal_logoutButtons {
   display: flex;
   flex-direction: column;
   gap: 8px;
   width: 100%
 }
 
-.LogoutConfirmationModal_logoutButtons__XN5Dl button {
+.LogoutConfirmationModal_logoutButtons button {
   color: #fff;
   cursor: pointer;
   padding: 10px 22px;
   width: 100%
 }
 
-.LogoutConfirmationModal_logoutButtons__XN5Dl button:first-child {
+.LogoutConfirmationModal_logoutButtons button:first-child {
   align-items: center;
   background: linear-gradient(180deg, #06bbf7, #17346c);
   background: var(--Primary-Gradient, linear-gradient(180deg, #06bbf7 0, #17346c 100%));
@@ -2510,7 +2517,7 @@ code {
   justify-content: center
 }
 
-.LogoutConfirmationModal_logoutButtons__XN5Dl button:nth-child(2) {
+.LogoutConfirmationModal_logoutButtons button:nth-child(2) {
   background-color: initial;
   border: 1px solid #00c1fe;
   border-radius: 8px;
@@ -2519,8 +2526,8 @@ code {
   height: 50px
 }
 
-.LogoutConfirmationModal_logoutButtons__XN5Dl button:first-child:hover,
-.LogoutConfirmationModal_logoutButtons__XN5Dl button:nth-child(2):hover {
+.LogoutConfirmationModal_logoutButtons button:first-child:hover,
+.LogoutConfirmationModal_logoutButtons button:nth-child(2):hover {
   background: #163d75
 }
 
@@ -3226,7 +3233,7 @@ code {
   }
 }
 
-.MaxMinLimit_maxMinWrapper__0epvE {
+.MaxMinLimit_maxMinWrapper {
   color: var(--lightColor);
   display: flex;
   flex-wrap: wrap;
@@ -3238,11 +3245,11 @@ code {
   flex-direction: column
 }
 
-.MaxMinLimit_maxMinLabel__Z02hl {
+.MaxMinLimit_maxMinLabel {
   font-size: 12px
 }
 
-.MaxMinLimit_maxMinValue__3B6jd {
+.MaxMinLimit_maxMinValue {
   color: var(--sv368ColorLight);
   font-size: 14px;
   font-weight: 700
@@ -3253,7 +3260,7 @@ code {
 }
 
 @media only screen and (max-width:414px) {
-  .MaxMinLimit_maxMinValue__3B6jd {
+  .MaxMinLimit_maxMinValue {
     font-size: 12px
   }
 }
@@ -4632,49 +4639,60 @@ code {
   font-size: 15px;
   font-weight: 700;
   padding-bottom: 7px;
-  text-align: center
+  text-align: center;
 }
 
 @media only screen and (max-width:414px) {
   .Home_homeContentOverlay {
-    padding: 0
+    padding: 0;
   }
 }
 
 @media only screen and (max-width:280px) {
   .Home_depositButton__w1fMO {
     padding: 9px 11px;
-    width: 32%
+    width: 32%;
   }
 }
 
-.ResetPassword_modalOverlay__VBqZO {
+.ResetPassword_modalOverlay {
   align-items: center;
   display: flex;
   height: 100%;
   justify-content: center;
-  position: absolute;
-  width: 100%
+  width: 100%;
+  position: fixed;
+  z-index: 1300;
+  inset: 0px;
+}
+.ResetPassword_modalbackdrop{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  inset: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
 }
 
-.ResetPassword_coverWrapper__Z0ELT {
+.ResetPassword_coverWrapper {
   background: #00c1fe 0 0 no-repeat padding-box;
   border-radius: 32px;
   max-width: 500px;
-  width: 95%
+  width: 95%;
 }
 
-.ResetPassword_modalWrapper__8rMb1 {
+.ResetPassword_modalWrapper {
   background: transparent linear-gradient(180deg, #1e2134, #2c386e) 0 0 no-repeat padding-box;
   border-radius: 32px;
   color: var(--lightColor);
   max-height: 50%;
   min-height: 400px;
   overflow: auto;
-  padding: 30px 20px
+  padding: 30px 20px;
 }
 
-.ResetPassword_modalMainWrapper__w3ceB {
+.ResetPassword_modalMainWrapper {
   background-color: initial;
   border: none;
   margin: 0 auto;
@@ -4683,11 +4701,11 @@ code {
   width: 99%
 }
 
-.ResetPassword_modalWrapper__8rMb1:focus {
+.ResetPassword_modalWrapper:focus {
   outline: none
 }
 
-.ResetPassword_modalMainWrapper__w3ceB>.ResetPassword_modalWrapper__8rMb1>span {
+.ResetPassword_modalMainWrapper>.ResetPassword_modalWrapper>span {
   align-items: center;
   cursor: pointer;
   display: flex;
@@ -4697,45 +4715,45 @@ code {
   top: 14px
 }
 
-.ResetPassword_titleWrapper__434nB {
+.ResetPassword_titleWrapper {
   border-bottom: 1px solid #dcf6fe
 }
 
-.ResetPassword_titleWrapper__434nB>p {
+.ResetPassword_titleWrapper>p {
   margin: 0;
   padding: 0 0 10px
 }
 
-.ResetPassword_smallContent__GHwNH {
+.ResetPassword_smallContent {
   padding: 10px 0
 }
 
-.ResetPassword_smallContent__GHwNH>span {
+.ResetPassword_smallContent>span {
   color: #00c1fe;
   font-size: 14px;
   letter-spacing: 0
 }
 
-.ResetPassword_inputWrapperDiv__N6-35 {
+.ResetPassword_inputWrapperDiv {
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin-top: 10px
 }
 
-.ResetPassword_requiredLabel__AyB5n {
+.ResetPassword_requiredLabel {
   display: flex;
   font-size: 14px;
   font-weight: 400;
   gap: 5px
 }
 
-.ResetPassword_requiredLabel__AyB5n span {
+.ResetPassword_requiredLabel span {
   color: #c79353;
   font-size: 20px
 }
 
-.ResetPassword_formInput__cXIt8 {
+.ResetPassword_formInput {
   align-items: center;
   background-color: initial;
   border-bottom: 1px solid #707070;
@@ -4744,7 +4762,7 @@ code {
   text-align: left
 }
 
-.ResetPassword_formInput__cXIt8 input {
+.ResetPassword_formInput input {
   background-color: initial;
   border: none;
   color: #fff;
@@ -4753,21 +4771,21 @@ code {
   width: 100%
 }
 
-.ResetPassword_formInput__cXIt8 input:focus {
+.ResetPassword_formInput input:focus {
   outline: none
 }
 
-.ResetPassword_formInput__cXIt8 input::-webkit-input-placeholder {
+.ResetPassword_formInput input::-webkit-input-placeholder {
   color: var(--inputPlaceholder);
   opacity: 50%
 }
 
-.ResetPassword_formInput__cXIt8 input::placeholder {
+.ResetPassword_formInput input::placeholder {
   color: var(--inputPlaceholder);
   opacity: 50%
 }
 
-.ResetPassword_inputPasswordWrapper__7Ya3f {
+.ResetPassword_inputPasswordWrapper {
   align-items: center;
   background: #1e2134 0 0 no-repeat padding-box;
   border: 1px solid #3f519f;
@@ -4778,7 +4796,7 @@ code {
   position: relative
 }
 
-.ResetPassword_lockStyles__740on {
+.ResetPassword_lockStyles {
   align-items: center;
   display: flex;
   height: 100%;
@@ -4787,7 +4805,7 @@ code {
   top: 0
 }
 
-.ResetPassword_inputPasswordWrapper__7Ya3f input {
+.ResetPassword_inputPasswordWrapper input {
   margin-left: 15px;
   width: 88%
 }
@@ -4798,7 +4816,7 @@ code {
   margin: 2px 0
 }
 
-.ResetPassword_passwordEye__fCANc {
+.ResetPassword_passwordEye {
   align-items: center;
   display: flex;
   height: 100%;
@@ -4807,7 +4825,7 @@ code {
   top: 0
 }
 
-.ResetPassword_btn__Jakf4 {
+.ResetPassword_btn {
   background: linear-gradient(180deg, #06bbf7, #17346c);
   background: var(--Primary-Gradient, linear-gradient(180deg, #06bbf7 0, #17346c 100%));
   border: 1px solid #00c1fe;
@@ -4821,8 +4839,8 @@ code {
   width: 100%
 }
 
-.ResetPassword_btn__Jakf4:disabled,
-.ResetPassword_btn__Jakf4[disabled] {
+.ResetPassword_btn:disabled,
+.ResetPassword_btn[disabled] {
   background: #737797;
   border: 0;
   border-radius: 8px;
@@ -4835,23 +4853,23 @@ code {
 
 .ResetPassword_error__dGRyT {
   color: var(--redColor);
-  font-size: .8rem
+  font-size: .8rem;
 }
 
 @media only screen and (max-width:400px) {
-  .ResetPassword_coverWrapper__Z0ELT {
+  .ResetPassword_coverWrapper {
     max-width: 400px;
-    width: 95%
+    width: 95%;
   }
 }
 
-.Promotions_promotionOverlay__rgVUj {
+.Promotions_promotionOverlay {
   display: flex;
   flex-direction: column;
-  height: 100%
+  height: 100%;
 }
 
-.Promotions_headingText__RSmFB {
+.Promotions_headingText {
   color: #fff;
   display: flex;
   font-size: 24px;
@@ -4860,18 +4878,18 @@ code {
   justify-content: center;
   line-height: normal;
   margin-bottom: 12px;
-  text-align: center
+  text-align: center;
 }
 
-.Promotions_promotionWrapper__NN8Ck {
+.Promotions_promotionWrapper {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   gap: 10px;
-  padding: 10px
+  padding: 10px;
 }
 
-.Promotions_card__5P2bU {
+.Promotions_card {
   border: 1px solid var(--sv368ColorLight);
   border-radius: 7px;
   color: var(--lightColor);
@@ -4879,25 +4897,31 @@ code {
   overflow: hidden
 }
 
-.Promotions_card__5P2bU img {
+.Promotions_card img {
   background: var(--modalBkg);
   cursor: pointer
 }
 
-.Promotions_error__NUFoT {
+.Promotions_error {
   color: var(--redColor)
 }
 
-.PromotionPopup_modalOverlay__T6M7R {
+.PromotionPopup_modalOverlay {
   align-items: center;
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   height: 100%;
   justify-content: center;
-  position: absolute;
-  width: 100%
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
 }
 
-.PromotionPopup_modalWrapper__rvgDo {
+.PromotionPopup_modalWrapper {
   background: var(--modalBkg);
   border: 1px solid var(--lightColor);
   border-radius: 7px;
@@ -4907,19 +4931,19 @@ code {
   width: 455px
 }
 
-.PromotionPopup_modalContent__kd2ep {
+.PromotionPopup_modalContent {
   display: flex;
   flex-direction: column;
   gap: 8px;
   height: 100%
 }
 
-.PromotionPopup_closeIcon__p7xuH {
+.PromotionPopup_closeIcon {
   padding-right: 10px;
   text-align: right
 }
 
-.PromotionPopup_icon__DzbVO {
+.PromotionPopup_icon {
   background: var(--lightBtn);
   border-radius: 50%;
   color: var(--darkColor);
@@ -4928,12 +4952,12 @@ code {
   padding: 2px
 }
 
-.PromotionPopup_icon__DzbVO:hover {
+.PromotionPopup_icon:hover {
   background: var(--activeBtn);
   color: var(--lightColor)
 }
 
-.PromotionPopup_innerContent__6OlA7 {
+.PromotionPopup_innerContent {
   color: var(--lightColor);
   display: flex;
   flex-direction: column;
@@ -4942,82 +4966,82 @@ code {
   padding: 0 15px
 }
 
-.PromotionPopup_innerContent__6OlA7 img {
+.PromotionPopup_innerContent img {
   border: 1px solid var(--lightColor);
   border-radius: 7px
 }
 
-.PromotionPopup_innerContent__6OlA7 span {
+.PromotionPopup_innerContent span {
   color: var(--lightColor) !important
 }
 
-.PromotionPopup_title__EXsak {
+.PromotionPopup_title {
   font-size: 1.3rem
 }
 
-.PromotionPopup_dates__taEaI {
+.PromotionPopup_dates {
   font-size: .8rem
 }
 
-.PromotionPopup_dates__taEaI table tbody tr td {
+.PromotionPopup_dates table tbody tr td {
   border: 1px solid var(--lightColor) !important
 }
 
-.PromotionPopup_dates__taEaI p {
+.PromotionPopup_dates p {
   background: transparent !important
 }
 
 @media only screen and (max-width:414px) {
-  .PromotionPopup_modalWrapper__rvgDo {
+  .PromotionPopup_modalWrapper {
     padding: 5px 0;
     width: 95%
   }
 
-  .PromotionPopup_icon__DzbVO {
+  .PromotionPopup_icon {
     font-size: 18px
   }
 
-  .PromotionPopup_modalContent__kd2ep {
+  .PromotionPopup_modalContent {
     gap: 5px
   }
 
-  .PromotionPopup_innerContent__6OlA7 {
+  .PromotionPopup_innerContent {
     padding: 0 7px
   }
 
-  .PromotionPopup_innerContent__6OlA7 span {
+  .PromotionPopup_innerContent span {
     font-size: 14px
   }
 
-  .PromotionPopup_title__EXsak {
+  .PromotionPopup_title {
     font-size: 1.1rem !important
   }
 }
 
-.LinksPage_linkstOverlay__IswvG {
+.LinksPage_linkstOverlay {
   display: flex;
   flex-direction: column;
   height: 100%
 }
 
-.LinksPage_linksContentWrapper__EWYjf {
+.LinksPage_linksContentWrapper {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   padding: 18px 0
 }
 
-.LinksPage_logoWrapper__AKj4a {
+.LinksPage_logoWrapper {
   display: flex;
   justify-content: center;
   padding-bottom: 5px
 }
 
-.LinksPage_logoWrapper__AKj4a img {
+.LinksPage_logoWrapper img {
   cursor: pointer
 }
 
-.LinksPage_linksWrapper__dDEVX {
+.LinksPage_linksWrapper {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -5026,22 +5050,22 @@ code {
   margin: 0 2%
 }
 
-.LinksPage_userBox__1cnPf {
+.LinksPage_userBox {
   border: 1px solid var(--sv368Color);
   border-radius: var(--borderRadius);
   gap: 5px;
   padding: 10px
 }
 
-.LinksPage_messageBox__sjK4x,
-.LinksPage_userBox__1cnPf {
+.LinksPage_messageBox,
+.LinksPage_userBox {
   background: var(--modalBkg);
   display: flex;
   flex-direction: column;
   font-size: .8rem
 }
 
-.LinksPage_messageBox__sjK4x {
+.LinksPage_messageBox {
   border: 1px solid var(--lightColor);
   border-radius: var(--borderRadius);
   color: var(--lightColor);
@@ -5049,22 +5073,22 @@ code {
   padding: 20px
 }
 
-.LinksPage_titleText__yr3ka {
+.LinksPage_titleText {
   font-size: 18px;
   font-weight: bolder
 }
 
-.LinksPage_descriptionText__K9g-x {
+.LinksPage_descriptionText {
   font-size: 14px
 }
 
-.LinksPage_sectionContentWrapper__MYNiV {
+.LinksPage_sectionContentWrapper {
   align-items: center;
   display: flex;
   flex-direction: column
 }
 
-.LinksPage_section__CPOzw {
+.LinksPage_section {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -5072,7 +5096,7 @@ code {
   width: 80%
 }
 
-.LinksPage_linkContent__8bqJP {
+.LinksPage_linkContent {
   align-items: center;
   border: 1px solid var(--sv368Color);
   border-radius: 50px;
@@ -5084,22 +5108,22 @@ code {
   padding: 8px
 }
 
-.LinksPage_linkContent__8bqJP:hover {
+.LinksPage_linkContent:hover {
   background: var(--lightColor);
   color: var(--darkColor)
 }
 
-.LinksPage_linkContent__8bqJP:hover .LinksPage_linkNameGrp__rKFE- span {
+.LinksPage_linkContent:hover .LinksPage_linkNameGrp span {
   border-color: var(--darkColor)
 }
 
-.LinksPage_linkNameGrp__rKFE- {
+.LinksPage_linkNameGrp {
   align-items: center;
   display: flex;
   gap: 15px
 }
 
-.LinksPage_linkNameGrp__rKFE- span {
+.LinksPage_linkNameGrp span {
   border: 2px solid var(--lightColor);
   border-radius: 50%;
   font-size: 20px;
@@ -5107,7 +5131,7 @@ code {
   padding: 10px 17px
 }
 
-.LinksPage_noAccountWrapper__3QDb\+ {
+.LinksPage_noAccountWrapper {
   color: var(--lightColor);
   display: flex;
   flex-wrap: wrap;
@@ -5116,16 +5140,16 @@ code {
   padding-top: 15px
 }
 
-.LinksPage_noAccountWrapper__3QDb\+ div:nth-child(2) {
+.LinksPage_noAccountWrapper div:nth-child(2) {
   cursor: pointer;
   text-decoration: underline
 }
 
-.LinksPage_customerMessageWrapper__-J6PS p {
+.LinksPage_customerMessageWrapper p {
   color: var(--lightColor)
 }
 
-.CustomerSupportAnimatedItem_buttonWrapper__\+jBRG {
+.CustomerSupportAnimatedItem_buttonWrapper {
   align-items: center;
   background: var(--activeBtn);
   border: 2px solid var(--darkColor);
@@ -5140,12 +5164,12 @@ code {
   padding: 8px 10px
 }
 
-.CustomerSupportAnimatedItem_buttonWrapper__\+jBRG span {
+.CustomerSupportAnimatedItem_buttonWrapper span {
   display: flex;
   gap: 5px
 }
 
-.CustomerSupportAnimatedItem_buttonWrapper__\+jBRG:hover {
+.CustomerSupportAnimatedItem_buttonWrapper:hover {
   background: var(--activeBtnHover)
 }
 
@@ -5166,13 +5190,13 @@ code {
   width: 250px
 }
 
-.Login_registerImg__3yemC {
+.Login_registerImg {
   display: flex;
   justify-content: center;
   margin-top: 15px;
 }
 
-.Login_registerImg__3yemC img {
+.Login_registerImg img {
   width: 60%;
 }
 
@@ -5274,24 +5298,24 @@ code {
   position: relative
 }
 
-.Login_passwordEye__Vp68t {
+.Login_passwordEye {
   position: absolute;
   right: 10px
 }
 
-.Login_forgotPassword__np6dt {
+.Login_forgotPassword {
   display: flex;
   justify-content: flex-end
 }
 
-.Login_forgotPassword__np6dt div {
+.Login_forgotPassword div {
   cursor: pointer;
   font-weight: 500;
   padding: 10px 0;
   text-decoration: underline
 }
 
-.Login_apiResponseLoader__pfblb {
+.Login_apiResponseLoader {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -5299,7 +5323,7 @@ code {
   padding-top: 15px
 }
 
-.Login_apiResponseLoader__pfblb div:nth-child(2) {
+.Login_apiResponseLoader div:nth-child(2) {
   font-weight: 700;
   padding: 0 15px;
   text-align: center
@@ -5322,8 +5346,8 @@ code {
   background: var(--activeBtnHover)
 }
 
-.Login_loading__ANddr,
-.Login_loading__ANddr:hover {
+.Login_loading,
+.Login_loading:hover {
   background: var(--disableBkg);
   border-color: var(--disableBkg);
   color: var(--disableColor);
@@ -5343,7 +5367,7 @@ code {
   text-decoration: underline
 }
 
-.Login_resetPasswordLink__hVRJ7 {
+.Login_resetPasswordLink {
   color: #00c1fe;
   cursor: pointer;
   float: right;
@@ -5355,7 +5379,7 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none
 }
 
-.Login_error__vPeDc {
+.Login_error {
   color: var(--redColor);
   font-size: .8rem;
   margin-top: 10px;
@@ -5363,12 +5387,12 @@ input::-webkit-inner-spin-button {
 }
 
 @media only screen and (max-width:280px) {
-  .Login_passwordEye__Vp68t {
+  .Login_passwordEye {
     right: -1px
   }
 }
 
-.LoginPopupModal_modalOverlay__O7AGd {
+.LoginPopupModal_modalOverlay {
   align-items: center;
   display: flex;
   height: 100%;
@@ -5377,7 +5401,7 @@ input::-webkit-inner-spin-button {
   width: 100%
 }
 
-.LoginPopupModal_errorContainer__CK1yH {
+.LoginPopupModal_errorContainer {
   background: linear-gradient(#ff4a4a, #d40505);
   border: 1px solid #a50e0e;
   border-radius: 13px;
@@ -5387,19 +5411,19 @@ input::-webkit-inner-spin-button {
   width: 350px
 }
 
-.LoginPopupModal_modalContentWrapper__MlrAs {
+.LoginPopupModal_modalContentWrapper {
   display: flex;
   flex-direction: column;
   gap: 15px;
   padding: 20px 30px
 }
 
-.CoolAnimatedButton_buttonOverlay__-MQ5B {
+.CoolAnimatedButton_buttonOverlay {
   margin: auto;
   width: 170px
 }
 
-.CoolAnimatedButton_ButtonWrapper__333zQ {
+.CoolAnimatedButton_ButtonWrapper {
   align-items: center;
   background: var(--activeBtn);
   border-radius: var(--btnRadius);
@@ -5413,7 +5437,7 @@ input::-webkit-inner-spin-button {
   justify-content: center
 }
 
-.CoolAnimatedButton_ButtonWrapper__333zQ:hover {
+.CoolAnimatedButton_ButtonWrapper:hover {
   background: var(--activeBtnHover)
 }
 
@@ -5440,13 +5464,13 @@ input::-webkit-inner-spin-button {
   width: 250px
 }
 
-.Register_registerImg__h6dB2 {
+.Register_registerImg {
   display: flex;
   justify-content: center;
   margin-top: 15px
 }
 
-.Register_registerImg__h6dB2 img {
+.Register_registerImg img {
   width: 60%
 }
 
@@ -5482,17 +5506,17 @@ input::-webkit-inner-spin-button {
   padding: 30px 15px
 }
 
-.Register_agentIdWrapper__buD2F {
+.Register_agentIdWrapper {
   align-items: center;
   display: flex;
   gap: 5px
 }
 
-.Register_agentIdWrapper__buD2F span:first-child {
+.Register_agentIdWrapper span:first-child {
   font-size: 12px
 }
 
-.Register_agentIdWrapper__buD2F span:nth-child(2) {
+.Register_agentIdWrapper span:nth-child(2) {
   font-weight: 700
 }
 
@@ -5524,11 +5548,11 @@ input::-webkit-inner-spin-button {
   z-index: 10
 }
 
-.Register_mantine-Input-wrapper__wLKXT {
+.Register_mantine-Input-wrapper {
   width: 100%
 }
 
-.Register_mantine-Input-input__rLiFl {
+.Register_mantine-Input-input {
   border-radius: 28px;
   width: 100%
 }
@@ -5576,7 +5600,7 @@ input::-webkit-inner-spin-button {
   position: relative
 }
 
-.Register_error__j5sMX {
+.Register_error {
   color: var(--redColor);
   font-size: .8rem
 }
@@ -5587,30 +5611,30 @@ input::-webkit-inner-spin-button {
   right: 10px
 }
 
-.Register_passwordChecksMsg__eRu2Y {
+.Register_passwordChecksMsg {
   font-size: 12px;
   font-style: italic;
   margin: 5px 0;
   text-align: left
 }
 
-.Register_passwordChecksMsg__eRu2Y span {
+.Register_passwordChecksMsg span {
   color: #c79353;
   font-weight: 900
 }
 
-.Register_passwordValidation__dNI91 {
+.Register_passwordValidation {
   display: flex;
   gap: 3px;
   padding-bottom: 3px
 }
 
-.Register_success__vSL\+Z {
+.Register_success {
   color: #4caf50;
   font-size: .8rem
 }
 
-.Register_inputPhone__MhWZe {
+.Register_inputPhone {
   background-color: #62666a !important
 }
 
@@ -5631,12 +5655,12 @@ input::-webkit-inner-spin-button {
   background: var(--activeBtnHover)
 }
 
-.Register_loading__wzU4z,
-.Register_loading__wzU4z:hover {
+.Register_loading,
+.Register_loading:hover {
   background: var(--disableBkg);
   border-color: var(--disableBkg);
   color: var(--disableColor);
-  cursor: not-allowed
+  cursor: not-allowed;
 }
 
 .Register_loginSection {
@@ -5652,7 +5676,7 @@ input::-webkit-inner-spin-button {
   text-decoration: underline
 }
 
-.RegisterPopupModal_modalOverlay__bUkwK {
+.RegisterPopupModal_modalOverlay {
   align-items: center;
   display: flex;
   height: 100%;
@@ -5661,7 +5685,7 @@ input::-webkit-inner-spin-button {
   width: 100%
 }
 
-.RegisterPopupModal_successContainer__YpfvO {
+.RegisterPopupModal_successContainer {
   background: linear-gradient(#76d012, #1fa40f);
   border: 1px solid #138807;
   border-radius: 13px;
@@ -5671,7 +5695,7 @@ input::-webkit-inner-spin-button {
   width: 350px
 }
 
-.RegisterPopupModal_errorContainer__JOgCI {
+.RegisterPopupModal_errorContainer {
   background: linear-gradient(#ff4a4a, #d40505);
   border: 1px solid #a50e0e;
   border-radius: 13px;
@@ -5681,34 +5705,34 @@ input::-webkit-inner-spin-button {
   width: 350px
 }
 
-.RegisterPopupModal_imageWrapper__DUncV {
+.RegisterPopupModal_imageWrapper {
   background-color: #f7f8fc;
   border-radius: 13px;
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px
 }
 
-.RegisterPopupModal_image__uGkIC {
+.RegisterPopupModal_image {
   margin-bottom: 15px;
   padding: 30px 0;
   width: 100px
 }
 
-.RegisterPopupModal_modalContentWrapper__PjxO7 {
+.RegisterPopupModal_modalContentWrapper {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding: 25px 30px
+  padding: 25px 30px;
 }
 
-.RegisterPopupModal_depositButton__lnY51 {
+.RegisterPopupModal_depositButton {
   background: var(--lightBtn);
   border: none;
   border-radius: 7px;
   color: var(--darkColor);
   cursor: pointer;
   font-size: 1.2em;
-  padding: 10px 0
+  padding: 10px 0;
 }
 
 .CaptchaInput_requiredLabel {
@@ -5769,7 +5793,7 @@ input::-webkit-inner-spin-button {
   left: 8px;
   position: absolute;
   top: 4px;
-  z-index: 10
+  z-index: 10;
 }
 
 .CaptchaInput_myInput {
@@ -5780,7 +5804,7 @@ input::-webkit-inner-spin-button {
   font-size: 16px;
   height: 100%;
   padding-left: 35px;
-  width: 90%
+  width: 90%;
 }
 
 .CaptchaInput_myInput:-webkit-autofill,
@@ -5790,10 +5814,10 @@ input::-webkit-inner-spin-button {
   background-color: #4b4f5d !important;
   color: var(--sv368ModalTextLightColor) !important;
   -webkit-transition: background-color 5000s ease-in-out 0s;
-  transition: background-color 5000s ease-in-out 0s
+  transition: background-color 5000s ease-in-out 0s;
 }
 
-.Deposit_headingText__cTT\+C {
+.Deposit_headingText {
   color: #fff;
   display: flex;
   font-size: 24px;
@@ -5804,42 +5828,42 @@ input::-webkit-inner-spin-button {
   text-align: center
 }
 
-.Deposit_deposit1Wrapper__CSuYw {
+.Deposit_deposit1Wrapper {
   display: flex;
   height: calc(100vh - 172px);
   justify-content: center;
-  overflow: auto
+  overflow: auto;
 }
 
-.Deposit_section__HzV0T {
+.Deposit_section {
   display: flex;
   flex-direction: column;
   justify-content: end;
   margin: auto;
-  width: 90%
+  width: 90%;
 }
 
-.Deposit_depositCard__mv3vK {
+.Deposit_depositCard {
   color: var(--lightColor);
   margin: 20px 0;
-  text-align: center
+  text-align: center;
 }
 
-.Deposit_detailContainer__c-znj {
+.Deposit_detailContainer {
   align-items: center;
   border-bottom: 3px dashed #707070;
   display: flex;
   justify-content: space-between;
   padding: 4px 1px;
-  width: 100%
+  width: 100%;
 }
 
-.Deposit_detailWrapper__PImoT {
+.Deposit_detailWrapper {
   display: flex;
   flex-direction: column
 }
 
-.Deposit_detailWrapper__PImoT .Deposit_label__LG8WJ {
+.Deposit_detailWrapper .Deposit_label {
   -webkit-font-feature-settings: normal;
   font-feature-settings: normal;
   color: #e2f8ff;
@@ -5852,19 +5876,19 @@ input::-webkit-inner-spin-button {
   line-height: 10px;
   line-height: 1;
   opacity: 1;
-  text-align: left
+  text-align: left;
 }
 
-.Deposit_detailWrapper__PImoT .Deposit_labelDetail__CgIYV {
+.Deposit_detailWrapper .Deposit_labelDetail {
   font: normal normal 700 15px/10px Roboto;
   letter-spacing: 0;
   line-height: 1;
   opacity: 1;
   text-align: left;
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 
-.Deposit_adjornment__JXv6l {
+.Deposit_adjornment {
   color: #00c1fe;
   display: inline-block;
   flex: 0 0 0.5rem;
@@ -5872,31 +5896,86 @@ input::-webkit-inner-spin-button {
   font-style: normal;
   font-weight: 700;
   text-align: center;
-  width: auto
+  width: auto;
+}
+.InputTooltip_tooltipWrapperamount{
+  position: absolute;
+  top: -42px;
+  left: 21px;
+  z-index: 1500;
+  pointer-events: auto;
+}
+.InputTooltip_amount{
+  transform: none;
+  font-size: 14px;
+  color: rgb(255, 87, 87);
+  border: 1px solid rgb(255, 87, 87);
+  background-color: rgb(77, 0, 10);
+  border-radius: 4px;
+  padding: 4px 8px;
+  max-width: 300px;
+  margin: 0px;
+  overflow-wrap: break-word;
+  font-weight: 600;
+  position: relative;
+}
+.InputTooltip_amountarrow{
+  bottom: 0px;
+  margin-bottom: -0.71em;
+  overflow: hidden;
+  width: 1em;
+  height: 0.71em;
+  box-sizing: border-box;
+  color: rgba(97, 97, 97, 0.9);
+  position: absolute;
+  transform: translate3d(107px, 0px, 0px);
+}
+.InputTooltip_amountarrow::before{
+  transform-origin: 100% 0px;
+  background-color: rgb(77, 0, 10);
+  border: 1px solid rgb(255, 87, 87);
+  content: "";
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+.Deposit_whiteInputclose{
+  display: inline-flex;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1.125rem;
+  border: none;
+}
+.Deposit_whiteInputclose img{
+  width: 18px;
+  height: auto;
 }
 
-.Deposit_methodOverlay__Fvtlz {
+.Deposit_methodOverlay {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
-.Deposit_methodCardSection__VlNPR {
+.Deposit_methodCardSection {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   height: 120px;
   justify-content: space-evenly;
   margin: 10px 0;
-  overflow-y: auto
+  overflow-y: auto;
 }
 
-.Deposit_bottomSection__yGrGx p {
+.Deposit_bottomSection p {
   font-size: 12px;
-  line-height: 14px
+  line-height: 14px;
 }
 
-.Deposit_methodCard__yJLnl {
+.Deposit_methodCard {
   align-items: center;
   background: transparent linear-gradient(180deg, #212a42, #2d3970) 0 0 no-repeat padding-box;
   border-radius: 10px;
@@ -5909,39 +5988,39 @@ input::-webkit-inner-spin-button {
   height: 90px;
   justify-content: center;
   padding: 5px;
-  width: 140px
+  width: 140px;
 }
 
-.Deposit_imageContainer__-9FY9 {
+.Deposit_imageContainer {
   height: 55px;
-  width: 60px
+  width: 60px;
 }
 
-.Deposit_imageContainer__-9FY9>img {
+.Deposit_imageContainer>img {
   height: 100%;
   object-fit: contain;
-  width: 100%
+  width: 100%;
 }
 
-.Deposit_activeMethod__46vm\+ {
+.Deposit_activeMethod {
   background: transparent linear-gradient(180deg, #212a42, #2d3970) 0 0 no-repeat padding-box;
   border: 3px solid #00c1fe;
   border-radius: 10px;
-  color: #00c1fe
+  color: #00c1fe;
 }
 
 .Deposit_whiteNotice__6oYms {
   color: var(--lightColor);
   font-size: 1em;
   margin-bottom: 10px;
-  text-align: center
+  text-align: center;
 }
 
 .Deposit_whiteNotice__6oYms.Deposit_small__TaZp5 {
-  font-size: .8em
+  font-size: .8em;
 }
 
-.Deposit_label__LG8WJ {
+.Deposit_label {
   color: #fff;
   display: block;
   font-size: .85rem;
@@ -5949,46 +6028,172 @@ input::-webkit-inner-spin-button {
   margin-bottom: 10px;
   text-align: center;
   text-align: left;
-  width: 100%
+  width: 100%;
+}
+.Deposit_Depositwaydropdown{
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+  cursor: text;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+}
+.Deposit_dropdownroot{
+  appearance: none;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentcolor;
+  border: 0px;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0px;
+  width: 100%;
+  animation-name: mui-auto-fill-cancel;
+  animation-duration: 10ms;
+  padding: 16.5px 14px;
+}
+.Deposit_dropdownInput{
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+.Deposit_dropdownInputarrow{
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentcolor;
+  flex-shrink: 0;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 7px;
+  top: calc(50% - 0.5em);
+  pointer-events: none;
+  color: rgba(0, 0, 0, 0.54);
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.Deposit_dropdownInputnotchedOutline{
+  text-align: left;
+  position: absolute;
+  inset: -5px 0px 0px;
+  margin: 0px;
+  padding: 0px 8px;
+  pointer-events: none;
+  border-radius: inherit;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  min-width: 0%;
+  border-color: rgba(0, 0, 0, 0.23);
+}
+.Deposit_dropdownPopover{
+  position: absolute;
+  z-index: 1300;
+  right: 0px;
+  bottom: 0px;
+  top: 56px;
+  left: 0px;
+}
+.Deposit_dropdownList{
+  background-color: #fff;
+  list-style: none;
+  margin: 0px;
+  padding: 8px 0px;
+  position: relative;
+  outline: 0px;
+  color: #000;
+  border-radius: 5px;
+}
+.Deposit_dropdownListoption{
+  background-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  color: inherit;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  min-height: 48px;
+  padding: 6px 16px;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.Deposit_dropdownListoptionSelected{
+  background-color: rgba(25, 118, 210, 0.2);
+}
+.Deposit_dropdownListTouchRipple{
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  inset: 0px;
+  border-radius: inherit;
 }
 
-.Deposit_companyBankSection__0\+Iex {
+.Deposit_companyBankSection {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
-.Deposit_singleBankItem__pnG9H {
+.Deposit_singleBankItem {
   align-items: center;
   cursor: pointer;
   display: flex;
-  gap: 10px
+  gap: 10px;
 }
 
-.Deposit_singleBankItem__pnG9H img {
+.Deposit_singleBankItem img {
   border: 1px solid var(--lightColor);
   border-radius: 5px;
   padding: 5px;
-  width: 90px
+  width: 90px;
 }
 
 .Deposit_selectedBank__RCNCw img {
-  border-color: var(--sv368Color)
+  border-color: var(--sv368Color);
 }
 
-.Deposit_singleBankItem__pnG9H input[type=radio] {
-  accent-color: var(--sv368Color)
+.Deposit_singleBankItem input[type=radio] {
+  accent-color: var(--sv368Color);
 }
 
-.Deposit_depositInput__cBNbU {
+.Deposit_depositInput {
   align-items: center;
   border-bottom: 1px solid var(--lightColor);
   display: flex;
-  gap: 5px
+  gap: 5px;
 }
 
-.Deposit_inputItem__4TCoE {
+.Deposit_inputItem {
   align-items: center;
   background: #192547 0 0 no-repeat padding-box;
   border: 1px solid #3f519f;
@@ -5996,22 +6201,23 @@ input::-webkit-inner-spin-button {
   display: flex;
   height: 54px;
   margin-bottom: 5px;
-  padding: 0 10px
+  padding: 0 10px;
+  position: relative;
 }
 
-select.Deposit_inputItem__4TCoE {
+select.Deposit_inputItem {
   border: 1px solid #3f519f;
-  border-radius: 8px
+  border-radius: 8px;
 }
 
-select.Deposit_inputItem__4TCoE,
-select.Deposit_inputItem__4TCoE option {
+select.Deposit_inputItem,
+select.Deposit_inputItem option {
   background-color: #192547;
   color: #fff;
-  font-size: .85rem
+  font-size: .85rem;
 }
 
-.Deposit_inputItem__4TCoE .Deposit_whiteInput__g1IsQ {
+.Deposit_inputItem .Deposit_whiteInput {
   background-color: initial;
   border: none;
   color: #fff;
@@ -6019,32 +6225,32 @@ select.Deposit_inputItem__4TCoE option {
   font-weight: 600;
   height: 100%;
   padding-left: 10px;
-  width: 100%
+  width: 100%;
 }
 
-.Deposit_inputItem__4TCoE .Deposit_whiteInput__g1IsQ:active,
-.Deposit_inputItem__4TCoE .Deposit_whiteInput__g1IsQ:focus,
-.Deposit_inputItem__4TCoE .Deposit_whiteInput__g1IsQ:focus-visible,
-.Deposit_inputItem__4TCoE .Deposit_whiteInput__g1IsQ:hover {
+.Deposit_inputItem .Deposit_whiteInput:active,
+.Deposit_inputItem .Deposit_whiteInput:focus,
+.Deposit_inputItem .Deposit_whiteInput:focus-visible,
+.Deposit_inputItem .Deposit_whiteInput:hover {
   border: none;
-  outline: none
+  outline: none;
 }
 
-.Deposit_requiredLabel__VAgW9 {
+.Deposit_requiredLabel {
   align-items: center;
   display: flex;
   font-size: 14px;
   font-weight: 600;
   gap: 5px;
-  min-width: 102px
+  min-width: 102px;
 }
 
-.Deposit_requiredLabel__VAgW9 span {
+.Deposit_requiredLabel span {
   color: #c79353;
-  font-size: 20px
+  font-size: 20px;
 }
 
-.Deposit_depositInput__cBNbU input {
+.Deposit_depositInput input {
   background-color: initial;
   border: none;
   color: var(--lightColor);
@@ -6052,36 +6258,36 @@ select.Deposit_inputItem__4TCoE option {
   font-size: 20px;
   font-weight: 600;
   overflow: auto;
-  padding-bottom: 3px
+  padding-bottom: 3px;
 }
 
-.Deposit_depositInput__cBNbU input:active,
-.Deposit_depositInput__cBNbU input:focus,
-.Deposit_depositInput__cBNbU input:focus-visible,
-.Deposit_depositInput__cBNbU input:hover {
+.Deposit_depositInput input:active,
+.Deposit_depositInput input:focus,
+.Deposit_depositInput input:focus-visible,
+.Deposit_depositInput input:hover {
   border: none;
   outline: none
 }
 
-.Deposit_errorMsg__xAQik {
+.Deposit_errorMsg {
   color: var(--redColor);
   font-size: .85rem;
   font-weight: 500;
-  text-align: left
+  text-align: left;
 }
 
-.Deposit_cancelIcon__oMJcC {
+.Deposit_cancelIcon {
   cursor: pointer;
   display: flex;
   font-size: 20px;
-  padding-bottom: 4px
+  padding-bottom: 4px;
 }
 
-.Deposit_loaderWrapper__GFwUi {
-  margin: 0 auto
+.Deposit_loaderWrapper {
+  margin: 0 auto;
 }
 
-.Deposit_depositButtonSection__IME0C {
+.Deposit_depositButtonSection {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
@@ -6089,7 +6295,7 @@ select.Deposit_inputItem__4TCoE option {
   margin: 20px 0
 }
 
-.Deposit_depositButton__xPyi8 {
+.Deposit_depositButton {
   align-items: center;
   background: transparent linear-gradient(180deg, #212a42, #2d3970) 0 0 no-repeat padding-box;
   border: 1px solid #3f519f;
@@ -6100,29 +6306,29 @@ select.Deposit_inputItem__4TCoE option {
   font-weight: 400;
   height: 40px;
   justify-content: center;
-  width: 78px
+  width: 78px;
 }
 
-.Deposit_depositButton__xPyi8:hover {
+.Deposit_depositButton:hover {
   background: transparent;
   border-color: var(--lightColor);
-  color: var(--lightColor)
+  color: var(--lightColor);
 }
 
 .Deposit_maxMin__8uiH1 {
   font-size: 12px;
-  padding: 0
+  padding: 0;
 }
 
 .Deposit_circleTextOverlay__xvAhS {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .Deposit_pointCircle__Ppybi,
 .Deposit_pointsCircleWraper__05wUx {
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 
 .Deposit_pointCircle__Ppybi {
@@ -6133,10 +6339,10 @@ select.Deposit_inputItem__4TCoE option {
   flex-direction: column;
   height: 90px;
   padding: 2px;
-  width: 90px
+  width: 90px;
 }
 
-.Deposit_submitButton__uw53z {
+.Deposit_submitButton {
   align-items: center;
   background: linear-gradient(180deg, #06bbf7, #17346c);
   background: var(--Primary-Gradient, linear-gradient(180deg, #06bbf7 0, #17346c 100%));
@@ -6151,20 +6357,20 @@ select.Deposit_inputItem__4TCoE option {
   height: 54px;
   justify-content: center;
   padding: 15px 0;
-  width: 100%
+  width: 100%;
 }
 
-.Deposit_submitButton__uw53z:hover {
-  background: var(--activeBtnHover)
+.Deposit_submitButton:hover {
+  background: var(--activeBtnHover);
 }
 
-.Deposit_loader__f7IXX {
+.Deposit_loader {
   display: flex;
   justify-content: center;
-  margin-top: 10px
+  margin-top: 10px;
 }
 
-.Deposit_submitButton__uw53z.Deposit_disabled__yJbMk {
+.Deposit_submitButton.Deposit_disabled {
   align-items: center;
   background: #737797;
   border: none;
@@ -6175,103 +6381,103 @@ select.Deposit_inputItem__4TCoE option {
   font-size: 16px;
   font-weight: 700;
   gap: 8px;
-  justify-content: center
+  justify-content: center;
 }
 
-.Deposit_submitButton__uw53z.Deposit_disabled__yJbMk svg path {
-  fill: #000
+.Deposit_submitButton.Deposit_disabled svg path {
+  fill: #000;
 }
 
-.Deposit_submitButton__uw53z svg path {
-  fill: #fff
+.Deposit_submitButton svg path {
+  fill: #fff;
 }
 
-.Deposit_smallValue__ySU51 {
-  font-size: 12px
+.Deposit_smallValue {
+  font-size: 12px;
 }
 
-.Deposit_invoiceFileInputWrapper__j4ujg {
+.Deposit_invoiceFileInputWrapper {
   align-items: center;
   display: flex;
   gap: 5px
 }
 
-.Deposit_invoiceFileInput__IUr49 {
+.Deposit_invoiceFileInput {
   border: 2px solid var(--darkColor);
   border-radius: 5px;
   cursor: pointer;
   font-size: 10px;
   padding: 5px;
-  width: 68px
+  width: 68px;
 }
 
-.Deposit_invoiceImgWrapper__TTII2 {
+.Deposit_invoiceImgWrapper {
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 
-.Deposit_invoiceImgWrapper__TTII2 img {
+.Deposit_invoiceImgWrapper img {
   border-radius: 5px;
   max-height: 290px;
-  max-width: 210px
+  max-width: 210px;
 }
 
 @media only screen and (max-width:375px) {
-  .Deposit_requiredLabel__VAgW9 {
+  .Deposit_requiredLabel {
     font-size: 11.5px;
     gap: 2px;
-    min-width: 85px
+    min-width: 85px;
   }
 }
 
-.Deposit_redTextDiv__xyEDT {
+.Deposit_redTextDiv {
   color: var(--redColor);
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
-.Deposit_redTextDiv__xyEDT>p {
-  line-height: 0 !important
+.Deposit_redTextDiv>p {
+  line-height: 0 !important;
 }
 
-.QRCodeComponent_qrImageContainer__zRNLI {
+.QRCodeComponent_qrImageContainer {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center
+  justify-content: center;
 }
 
-.QRCodeComponent_logoContainer__ffYc5 {
+.QRCodeComponent_logoContainer {
   height: 60px;
-  width: 100px
+  width: 100px;
 }
 
-.QRCodeComponent_logoContainer__ffYc5 img {
+.QRCodeComponent_logoContainer img {
   height: 100%;
   object-fit: contain;
-  width: 100%
+  width: 100%;
 }
 
-.QRCodeComponent_QRWrapper__t25-7 {
+.QRCodeComponent_QRWrapper {
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 3px
+  gap: 3px;
 }
 
-.QRCodeComponent_qrCodeImg__wb3c- {
+.QRCodeComponent_qrCodeImg {
   height: 175px;
-  width: 175px
+  width: 175px;
 }
 
-.QRCodeComponent_redText__axudI {
+.QRCodeComponent_redText {
   color: #f93b3b;
   font-weight: 600;
   overflow: hidden;
-  text-align: center
+  text-align: center;
 }
 
-.QRCodeComponent_download_button__V5K9j {
+.QRCodeComponent_download_button {
   background-color: #1f2738;
   border-radius: 10px;
   color: #fff;
@@ -6279,32 +6485,32 @@ select.Deposit_inputItem__4TCoE option {
   font-size: 14px;
   margin-top: 5px;
   padding: 5px 14px;
-  text-decoration: none
+  text-decoration: none;
 }
 
 @media only screen and (max-width:430px) {
-  .QRCodeComponent_qrCodeImg__wb3c- {
+  .QRCodeComponent_qrCodeImg {
     height: 150px;
-    width: 150px
+    width: 150px;
   }
 }
 
 @media only screen and (max-width:360px) {
-  .QRCodeComponent_qrCodeImg__wb3c- {
+  .QRCodeComponent_qrCodeImg {
     height: 125px;
-    width: 125px
+    width: 125px;
   }
 }
 
-.QRPage_iframeContainer__Eg\+If {
+.QRPage_iframeContainer {
   border: none;
   height: 100%;
   overflow: hidden;
   position: relative;
-  width: 100%
+  width: 100%;
 }
 
-.QRPage_CloseBtn__KJenK {
+.QRPage_CloseBtn {
   background-color: #6665fd;
   border: none;
   color: #fff;
@@ -6317,72 +6523,72 @@ select.Deposit_inputItem__4TCoE option {
   top: 5px
 }
 
-.QRPage_responsiveIframe__pbtu1 {
+.QRPage_responsiveIframe {
   border: none;
   height: 100%;
-  width: 100%
+  width: 100%;
 }
 
-.AddAccount_innerContentWrapper__DlJZd,
-.AddAccount_pageOverlay__w5eSJ {
+.AddAccount_innerContentWrapper,
+.AddAccount_pageOverlay {
   display: flex;
   flex-direction: column;
   height: 100%;
-  justify-content: end
+  justify-content: end;
 }
 
-.AddAccount_innerContentWrapper__DlJZd {
+.AddAccount_innerContentWrapper {
   align-items: center;
   flex-grow: 1;
   gap: 10px;
   overflow: auto;
-  padding: 10px 0
+  padding: 10px 0;
 }
 
-.AddAccount_loginHeader__FXCHT {
+.AddAccount_loginHeader {
   color: #fff;
   display: flex;
   font-size: 1.2em;
   font-weight: 500;
   gap: 5px;
   padding: 0 10px;
-  text-align: left
+  text-align: left;
 }
 
-.AddAccount_helptext__wVmI5 {
+.AddAccount_helptext {
   color: var(--lightColor);
-  font-size: 12px
+  font-size: 12px;
 }
 
-.AddAccount_helptext__wVmI5.AddAccount_danger__descQ {
-  color: var(--redColor)
+.AddAccount_helptext.AddAccount_danger {
+  color: var(--redColor);
 }
 
-.AddAccount_formOverlay__zohjp {
-  width: 100%
+.AddAccount_formOverlay {
+  width: 100%;
 }
 
-.AddAccount_addAccountFormWrapper__jWexu {
+.AddAccount_addAccountFormWrapper {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding: 32px 20px 24px
+  padding: 32px 20px 24px;
 }
 
-.AddAccount_requiredLabel__vQRFB {
+.AddAccount_requiredLabel {
   color: var(--lightColor);
   display: flex;
   font-size: 14px;
   font-weight: 600;
-  gap: 5px
+  gap: 5px;
 }
 
-.AddAccount_requiredLabel__vQRFB span {
+.AddAccount_requiredLabel span {
   color: #c79353;
   font-size: 20px
 }
 
-.AddAccount_inputItem__1miVD {
+.AddAccount_inputItem {
   align-items: center;
   background: #192547 0 0 no-repeat padding-box;
   border: 1px solid #3f519f;
@@ -6391,17 +6597,17 @@ select.Deposit_inputItem__4TCoE option {
   height: 48px
 }
 
-.AddAccount_whiteInput__z4jmP::-webkit-input-placeholder {
+.AddAccount_whiteInput::-webkit-input-placeholder {
   color: var(--inputPlaceholder);
   opacity: 50%
 }
 
-.AddAccount_whiteInput__z4jmP::placeholder {
+.AddAccount_whiteInput::placeholder {
   color: var(--inputPlaceholder);
   opacity: 50%
 }
 
-.AddAccount_inputItem__1miVD .AddAccount_whiteInput__z4jmP {
+.AddAccount_inputItem .AddAccount_whiteInput {
   background-color: initial;
   color: var(--lightColor);
   font-family: Be Vietnam Pro, sans-serif;
@@ -6411,15 +6617,15 @@ select.Deposit_inputItem__4TCoE option {
   width: 100%
 }
 
-.AddAccount_inputItem__1miVD .AddAccount_whiteInput__z4jmP:active,
-.AddAccount_inputItem__1miVD .AddAccount_whiteInput__z4jmP:focus,
-.AddAccount_inputItem__1miVD .AddAccount_whiteInput__z4jmP:focus-visible,
-.AddAccount_inputItem__1miVD .AddAccount_whiteInput__z4jmP:hover {
+.AddAccount_inputItem .AddAccount_whiteInput:active,
+.AddAccount_inputItem .AddAccount_whiteInput:focus,
+.AddAccount_inputItem .AddAccount_whiteInput:focus-visible,
+.AddAccount_inputItem .AddAccount_whiteInput:hover {
   border: none;
   outline: none
 }
 
-.AddAccount_addBankSelectWrapper__9\+K3z {
+.AddAccount_addBankSelectWrapper {
   background: #192547 0 0 no-repeat padding-box;
   border: 1px solid #3f519f;
   border-radius: 10px;
@@ -6427,7 +6633,7 @@ select.Deposit_inputItem__4TCoE option {
   width: 100%
 }
 
-.AddAccount_addBankSelectWrapper__9\+K3z select {
+.AddAccount_addBankSelectWrapper select {
   -webkit-appearance: none;
   appearance: none;
   background-color: initial;
@@ -6440,7 +6646,7 @@ select.Deposit_inputItem__4TCoE option {
   width: 100%
 }
 
-.AddAccount_addBankSelectWrapper__9\+K3z span {
+.AddAccount_addBankSelectWrapper span {
   color: var(--lightColor);
   cursor: pointer;
   font-size: 24px;
@@ -6449,34 +6655,34 @@ select.Deposit_inputItem__4TCoE option {
   top: 10px
 }
 
-.AddAccount_addBankSelectWrapper__9\+K3z select:focus {
+.AddAccount_addBankSelectWrapper select:focus {
   outline: none
 }
 
-.AddAccount_addBankSelectWrapper__9\+K3z select option {
+.AddAccount_addBankSelectWrapper select option {
   background: #192547 0 0 no-repeat padding-box;
   border: 1px solid #3f519f
 }
 
-.AddAccount_errorMsg__POC-u {
+.AddAccount_errorMsg {
   color: var(--redColor);
   padding-top: 8px;
   text-align: center
 }
 
-.AddAccount_accActionButtons__iNH-D {
+.AddAccount_accActionButtons {
   display: flex;
   gap: 15px
 }
 
-.AddAccount_accActionButtons__iNH-D button {
+.AddAccount_accActionButtons button {
   cursor: pointer;
   font-size: 16px;
   padding: 12px 10px;
   width: 100%
 }
 
-.AddAccount_submitButton__aErjX {
+.AddAccount_submitButton {
   background: transparent linear-gradient(180deg, #06bbf7, #163d75) 0 0 no-repeat padding-box;
   border: 3px solid #06b9f3;
   border-radius: 10px;
@@ -6484,11 +6690,11 @@ select.Deposit_inputItem__4TCoE option {
   font-weight: 400
 }
 
-.AddAccount_submitButton__aErjX:hover {
+.AddAccount_submitButton:hover {
   background: #163d75
 }
 
-.AddAccount_submitButton__aErjX.AddAccount_disabled__1VWwv {
+.AddAccount_submitButton.AddAccount_disabled {
   background: #4f5268 0 0 no-repeat padding-box;
   border: none;
   border-radius: 10px;
@@ -6497,13 +6703,13 @@ select.Deposit_inputItem__4TCoE option {
   font-weight: lighter
 }
 
-.AddAccount_accActionCancel__psC4u {
+.AddAccount_accActionCancel {
   display: flex;
   margin-bottom: 30px;
   padding: 0 20px
 }
 
-.AddAccount_cancelButton__kYrx9 {
+.AddAccount_cancelButton {
   background: #040c23 0 0 no-repeat padding-box;
   border: 1px solid #fff;
   border-radius: 10px;
@@ -6515,22 +6721,22 @@ select.Deposit_inputItem__4TCoE option {
   width: 100%
 }
 
-.AddAccount_cancelButton__kYrx9:hover {
+.AddAccount_cancelButton:hover {
   background: var(--disableColor)
 }
 
 .AddAccount_error__LmGnp {
   color: var(--redColor);
-  font-size: .8rem
+  font-size: .8rem;
 }
 
-.Withdraw_withdrawOverlay__eiefB {
+.Withdraw_withdrawOverlay {
   display: flex;
   flex-direction: column;
-  height: 100%
+  height: 100%;
 }
 
-.Withdraw_headingText__EvwUT {
+.Withdraw_headingText {
   color: #fff;
   display: flex;
   font-size: 24px;
@@ -6538,30 +6744,105 @@ select.Deposit_inputItem__4TCoE option {
   font-weight: 500;
   justify-content: center;
   line-height: normal;
-  text-align: center
+  text-align: center;
 }
 
-.Withdraw_stepperOverlay__-9Ikv {
-  padding: 5px 0
+.Withdraw_stepperOverlay {
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
-.Withdraw_stepperOverlay__-9Ikv span {
-  color: var(--lightColor) !important
+.Withdraw_stepperOverlay span {
+  color: var(--lightColor) !important;
+}
+.Withdraw_StepalternativeLabel{
+  padding-left: 8px;
+  padding-right: 8px;
+  flex: 1 1 0%;
+  position: relative;
+}
+.Withdraw_StepLabel{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--lightColor) !important;
+}
+.Withdraw_StepLabelNumber{
+  flex-shrink: 0;
+  display: flex;
+  padding-right: 0px;
+  color: var(--lightColor) !important;
+}
+.Withdraw_StepLabelNumberactive{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: transparent;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.Withdraw_StepLabelNumberdisabled{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 700;
+  background-color: transparent;
+  color: white;
+}
+.Withdraw_StepNumbertextWrapper{
+  text-align: center;
+  width: 100%;
+  color: var(--lightColor) !important;
+}
+.Withdraw_StepNumbertext{
+  margin-top: 16px;
+  color: var(--lightColor) !important;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  display: block;
+  transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.Withdraw_SteplineWrapper{
+  position: absolute;
+  top: 12px;
+  left: calc(-50% + 20px);
+  right: calc(50% + 20px);
+}
+.Withdraw_Stepline{
+  color: var(--lightColor) !important;
+  display: block;
+  border-color: rgb(189, 189, 189);
+  border-top-style: solid;
+  border-top-width: 1px;
 }
 
-.Withdraw_withdrawInnerWrapper__TrFHW {
+.Withdraw_withdrawInnerWrapper {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  justify-content: end
+  justify-content: end;
 }
 
-.Withdraw_withdrawInnerOverlay__Rdh2k {
+.Withdraw_withdrawInnerOverlay {
   align-items: center;
   display: flex
 }
 
-.Withdraw_stepperButtons__Rk52O {
+.Withdraw_stepperButtons {
   display: flex;
   flex-direction: column-reverse;
   gap: 8px;
@@ -6570,7 +6851,7 @@ select.Deposit_inputItem__4TCoE option {
   padding: 15px 20px
 }
 
-.Withdraw_stepperButtons__Rk52O button {
+.Withdraw_stepperButtons button {
   align-items: center;
   cursor: pointer;
   display: flex;
@@ -6589,7 +6870,7 @@ select.Deposit_inputItem__4TCoE option {
   width: 100%
 }
 
-.Withdraw_nextBtn__j0X1q {
+.Withdraw_nextBtn {
   background: transparent linear-gradient(180deg, #06bbf7, #163d75) 0 0 no-repeat padding-box;
   border: 3px solid #06b9f3;
   border-radius: 10px;
@@ -6600,7 +6881,7 @@ select.Deposit_inputItem__4TCoE option {
   width: 100%
 }
 
-.Withdraw_withdrawBtn__pf9JJ {
+.Withdraw_withdrawBtn {
   background: linear-gradient(180deg, #06bbf7, #17346c);
   background: var(--Primary-Gradient, linear-gradient(180deg, #06bbf7 0, #17346c 100%));
   border: 1px solid #00c1fe;
@@ -6617,13 +6898,13 @@ select.Deposit_inputItem__4TCoE option {
   background: var(--modalBkg)
 }
 
-.Withdraw_nextBtn__j0X1q:hover,
-.Withdraw_withdrawBtn__pf9JJ:hover {
+.Withdraw_nextBtn:hover,
+.Withdraw_withdrawBtn:hover {
   background: var(--activeBtnHover)
 }
 
-.Withdraw_nextBtn__j0X1q.Withdraw_disabled__\+Ydkx,
-.Withdraw_withdrawBtn__pf9JJ.Withdraw_disabled__\+Ydkx {
+.Withdraw_nextBtn.Withdraw_disabled,
+.Withdraw_withdrawBtn.Withdraw_disabled {
   background: #737797;
   border: none;
   border-radius: 8px;
@@ -6635,12 +6916,12 @@ select.Deposit_inputItem__4TCoE option {
   width: 100%
 }
 
-.WithdrawStep2_withdraw2__hK1HU {
+.WithdrawStep2_withdraw2 {
   margin: 0 auto;
   width: 90%
 }
 
-.WithdrawStep2_withdrawCard__EoUof {
+.WithdrawStep2_withdrawCard {
   margin-top: 58px
 }
 
@@ -6650,7 +6931,7 @@ select.Deposit_inputItem__4TCoE option {
   font-weight: 700
 }
 
-.WithdrawStep2_label__O-bXP {
+.WithdrawStep2_label {
   align-items: center;
   color: var(--lightColor);
   display: flex;
@@ -6661,7 +6942,7 @@ select.Deposit_inputItem__4TCoE option {
   text-align: left
 }
 
-.WithdrawStep2_adjornment__0Nj6m {
+.WithdrawStep2_adjornment {
   color: var(--lightColor);
   display: inline-block;
   flex: 0 0 0.5rem;
@@ -6669,40 +6950,40 @@ select.Deposit_inputItem__4TCoE option {
   font-style: normal;
   font-weight: 700;
   text-align: center;
-  width: auto
+  width: auto;
 }
 
-.WithdrawStep2_inputItem__Htwg4 {
+.WithdrawStep2_inputItem {
   align-items: center;
   background: #192547 0 0 no-repeat padding-box;
   border: 1px solid #3f519f;
   border-radius: 10px;
   display: flex;
   height: 54px;
-  padding: 0 10px
+  padding: 0 10px;
 }
 
-.WithdrawStep2_chestImageStyles__IVwPo {
-  width: 30px
+.WithdrawStep2_chestImageStyles {
+  width: 30px;
 }
 
-.WithdrawStep2_balanceSection__wTgIe {
+.WithdrawStep2_balanceSection {
   align-items: center;
   display: flex;
-  gap: 4px
+  gap: 4px;
 }
 
-.WithdrawStep2_balanceStyles__4tSNY {
+.WithdrawStep2_balanceStyles {
   color: #00c1fe;
-  font-size: 20px
+  font-size: 20px;
 }
 
-.WithdrawStep2_balanceHeaderStyles__NpauE {
+.WithdrawStep2_balanceHeaderStyles {
   color: #fff;
-  font-size: 20px
+  font-size: 20px;
 }
 
-.WithdrawStep2_gameSectionStyles__IqDpu {
+.WithdrawStep2_gameSectionStyles {
   -webkit-backdrop-filter: blur(12.5px);
   backdrop-filter: blur(12.5px);
   background: rgba(33, 42, 67, .5);
@@ -6714,7 +6995,7 @@ select.Deposit_inputItem__4TCoE option {
   padding: 10px
 }
 
-.WithdrawStep2_gameSection__Yjv-0 {
+.WithdrawStep2_gameSection {
   color: #fff;
   font-weight: 400 !important;
   text-transform: uppercase;
@@ -6725,14 +7006,14 @@ select.Deposit_inputItem__4TCoE option {
   width: 30px
 }
 
-.WithdrawStep2_games__Svxxo {
+.WithdrawStep2_games {
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin-top: 10px
 }
 
-.WithdrawStep2_singleGameSection__VGRuq {
+.WithdrawStep2_singleGameSection {
   align-items: center;
   display: flex;
   font-size: 10px;
@@ -6741,7 +7022,7 @@ select.Deposit_inputItem__4TCoE option {
   max-height: 60px
 }
 
-.WithdrawStep2_inputItem__Htwg4 .WithdrawStep2_whiteInput__8qeGF {
+.WithdrawStep2_inputItem .WithdrawStep2_whiteInput {
   background-color: initial;
   border: none;
   color: var(--lightColor);
@@ -6752,10 +7033,10 @@ select.Deposit_inputItem__4TCoE option {
   width: 100%
 }
 
-.WithdrawStep2_inputItem__Htwg4 .WithdrawStep2_whiteInput__8qeGF:active,
-.WithdrawStep2_inputItem__Htwg4 .WithdrawStep2_whiteInput__8qeGF:focus,
-.WithdrawStep2_inputItem__Htwg4 .WithdrawStep2_whiteInput__8qeGF:focus-visible,
-.WithdrawStep2_inputItem__Htwg4 .WithdrawStep2_whiteInput__8qeGF:hover {
+.WithdrawStep2_inputItem .WithdrawStep2_whiteInput:active,
+.WithdrawStep2_inputItem .WithdrawStep2_whiteInput:focus,
+.WithdrawStep2_inputItem .WithdrawStep2_whiteInput:focus-visible,
+.WithdrawStep2_inputItem .WithdrawStep2_whiteInput:hover {
   border: none;
   outline: none
 }
@@ -6778,7 +7059,7 @@ select.Deposit_inputItem__4TCoE option {
   width: 100%
 }
 
-.WithdrawStep2_errorMsg__sxQmP {
+.WithdrawStep2_errorMsg {
   color: #ff9a21;
   font-size: .85rem;
   font-weight: 500;
@@ -6786,11 +7067,11 @@ select.Deposit_inputItem__4TCoE option {
 }
 
 @media only screen and (max-width:414px) {
-  .WithdrawStep2_withdrawCard__EoUof {
+  .WithdrawStep2_withdrawCard {
     padding: 25px 10px
   }
 
-  .WithdrawStep2_adjornment__0Nj6m {
+  .WithdrawStep2_adjornment {
     font-size: 16px
   }
 
@@ -6799,7 +7080,7 @@ select.Deposit_inputItem__4TCoE option {
     padding: 10px 0
   }
 
-  .WithdrawStep2_label__O-bXP {
+  .WithdrawStep2_label {
     font-size: 12px
   }
 }
@@ -6822,22 +7103,22 @@ select.Deposit_inputItem__4TCoE option {
   width: 100%
 }
 
-.WithdrawStep2_dagaCenter__cYW2B {
+.WithdrawStep2_dagaCenter {
   align-items: center;
   display: flex;
   justify-content: space-between
 }
 
-.WithdrawStep2_gridCols__eGWHU {
+.WithdrawStep2_gridCols {
   display: grid;
   grid-template-columns: repeat(2, 1fr)
 }
 
-.WithdrawStep2_gameSection__Yjv-0:nth-child(3) {
+.WithdrawStep2_gameSection:nth-child(3) {
   grid-row: 1/3
 }
 
-.WithdrawStep2_gameSection__Yjv-0:first-child {
+.WithdrawStep2_gameSection:first-child {
   grid-row: 1/2
 }
 
@@ -7013,17 +7294,17 @@ select.Deposit_inputItem__4TCoE option {
   }
 }
 
-.Transection_transactionWrapper__y9gYg {
+.Transection_transactionWrapper {
   color: var(--lightColor);
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   gap: 10px;
   overflow: hidden;
-  padding: 3% 2.5%
+  padding: 3% 2.5%;
 }
 
-.Transection_headingText__dm85p {
+.Transection_headingText {
   color: #fff;
   display: flex;
   font-size: 24px;
@@ -7032,24 +7313,88 @@ select.Deposit_inputItem__4TCoE option {
   justify-content: center;
   line-height: normal;
   margin-bottom: 14px;
-  text-align: center
+  text-align: center;
 }
 
-.Transection_tabsWrapper__2cSta {
+.Transection_tabsWrapper {
   background: #1f2133 0 0 no-repeat padding-box;
   border: 1.5px solid #737797;
-  border-radius: 10px
+  border-radius: 10px;
+}
+.Transection_tabsbtnWrapper{
+  overflow: hidden;
+  min-height: 48px;
+  display: flex;
+}
+.Transection_tabsbtnOption{
+  position: relative;
+  display: inline-block;
+  flex: 1 1 auto;
+  white-space: nowrap;
+  overflow-x: hidden;
+  width: 100%;
+}
+.Transection_tablistbtn{
+  display: flex;
+}
+.Transection_tabbutton{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  max-width: none;
+  min-width: 90px;
+  position: relative;
+  min-height: 48px;
+  flex: 1 1 0px;
+  padding: 12px 16px;
+  overflow: hidden;
+  white-space: normal;
+  text-align: center;
+  flex-direction: column;
+  color: #c4c0c0;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0px;
+}
+.Transection_tabbutton.tabbutton-selected{
+  color: rgb(0, 0, 0);
+  background: 0% 0% no-repeat padding-box padding-box rgb(0, 193, 254);
+  border-radius: 9px;
+}
+.Transection_TouchRipple{
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  inset: 0px;
+  border-radius: inherit;
 }
 
-.Transection_transactionWrapper__y9gYg h3 {
+.Transection_transactionWrapper h3 {
   margin: 0;
-  text-align: center
+  text-align: center;
 }
 
 .Transection_coverStyles__HrHde {
   background: #00c1fe 0 0 no-repeat padding-box;
   border-radius: 32px;
-  margin: 20px 0
+  margin: 20px 0;
 }
 
 .Transection_transactionTable__Krr6i {
@@ -8109,14 +8454,14 @@ button.NotFound_animbutton__GMcXK:after {
   width: 180px
 }
 
-.Profile_profileOverlay__cFgid {
+.Profile_profileOverlay {
   display: flex;
   flex-direction: column;
   height: 100%;
   position: relative
 }
 
-.Profile_profileSection__BIUVd {
+.Profile_profileSection {
   background: transparent linear-gradient(180deg, #212a44, #2c386e) 0 0 no-repeat padding-box;
   border-radius: 16px;
   box-shadow: 0 2px 5px #00000033;
@@ -8125,7 +8470,7 @@ button.NotFound_animbutton__GMcXK:after {
   width: 100%
 }
 
-.Profile_headerStyles__ibj96 {
+.Profile_headerStyles {
   align-items: center;
   background: transparent;
   box-sizing: border-box;
@@ -8138,7 +8483,7 @@ button.NotFound_animbutton__GMcXK:after {
   z-index: 20
 }
 
-.Profile_headerTitle__-i9vL {
+.Profile_headerTitle {
   color: #fff;
   font-size: 24px;
   font-style: normal;
@@ -8148,46 +8493,47 @@ button.NotFound_animbutton__GMcXK:after {
   text-align: center
 }
 
-.Profile_headerWrapper__yxW0V {
+.Profile_headerWrapper {
   align-items: center;
   background: #1f2133 0 0 no-repeat padding-box;
   border: 1px solid #737797;
   border-radius: 8px;
-  color: #fff;
   display: flex;
   font-size: 12px;
   gap: 4px;
   height: 30px;
   justify-content: center;
-  padding: 0 6px
+  padding: 0 6px;
+  color: rgb(0, 193, 254); 
+  cursor: pointer;
 }
 
-.Profile_hiddenHelper__NmjQg {
+.Profile_hiddenHelper {
   background: transparent;
   height: 10px;
   width: 86.2px
 }
 
-.Profile_coverStyles__ROKWL {
+.Profile_coverStyles {
   max-width: 533px;
   position: absolute;
   top: 0;
   width: 100%
 }
 
-.Profile_profileImageSection__ddgxx {
+.Profile_profileImageSection {
   align-items: center;
   display: flex;
   justify-content: center;
   width: 30%
 }
 
-.Profile_profileRightSection__tm-wE {
+.Profile_profileRightSection {
   display: flex;
   flex-direction: column;
   gap: 4px;
   justify-content: center;
-  width: 70%
+  width: 70%;
 }
 
 .Profile_avatarStyles__k8BTV {
@@ -8195,17 +8541,17 @@ button.NotFound_animbutton__GMcXK:after {
   width: 84px !important
 }
 
-.Profile_profileNameSection__NhplZ {
+.Profile_profileNameSection {
   color: #fff;
-  font-size: 20px
+  font-size: 20px;
 }
 
-.Profile_profileWalletSection__Z\+HG4 {
+.Profile_profileWalletSection {
   color: #00c1fe;
-  font-size: 28px
+  font-size: 28px;
 }
 
-.Profile_profileBody__iRRJI {
+.Profile_profileBody {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -8216,7 +8562,7 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 2.5%;
   position: absolute;
   top: 0;
-  z-index: 10
+  z-index: 10;
 }
 
 .Profile_profileHeader__kqTOq {
@@ -8261,18 +8607,18 @@ button.NotFound_animbutton__GMcXK:after {
   flex-direction: column;
   height: 55px;
   justify-content: center;
-  width: 55px
+  width: 55px;
 }
 
 .Profile_peofileMenuButton__1wYTV img {
-  width: 25px
+  width: 25px;
 }
 
 .Profile_peofileMenuButtonWrapper__ln9Ev span {
-  font-size: 12px
+  font-size: 12px;
 }
 
-.Profile_profileLinks__\+AvQ1 {
+.Profile_profileLinks {
   color: #fff;
   display: flex;
   flex-wrap: wrap;
@@ -8280,7 +8626,7 @@ button.NotFound_animbutton__GMcXK:after {
   gap: 14px;
   justify-content: space-evenly;
   padding: 30px 10px 10px;
-  text-align: center
+  text-align: center;
 }
 
 .Profile_profileLinkSection__7rgIr {
@@ -8290,7 +8636,7 @@ button.NotFound_animbutton__GMcXK:after {
   cursor: pointer;
   display: flex;
   gap: 10px;
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 
 .Profile_menuStyles__BuUx0 {
@@ -8300,16 +8646,16 @@ button.NotFound_animbutton__GMcXK:after {
   margin-top: 10px
 }
 
-.Profile_linkWrapper__3WFAo {
+.Profile_linkWrapper {
   align-items: center;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: calc(25% - 20px)
+  width: calc(25% - 20px);
 }
 
-.Profile_linkImgWrapper__c4TnQ {
+.Profile_linkImgWrapper {
   align-items: center;
   background: transparent linear-gradient(180deg, #212a42, #2d3970) 0 0 no-repeat padding-box;
   border: 1px solid #3f519f;
@@ -8321,58 +8667,58 @@ button.NotFound_animbutton__GMcXK:after {
   gap: 5px;
   height: 68px;
   justify-content: center;
-  width: 68px
+  width: 68px;
 }
 
-.Profile_imgWrapper__GIaUx {
+.Profile_imgWrapper {
   height: 34px;
-  width: 34px
+  width: 34px;
 }
 
 @media only screen and (max-width:375px) {
   .Profile_peofileMenuButton__1wYTV {
     height: 45px;
-    width: 45px
+    width: 45px;
   }
 
   .Profile_headerOverlay__hz7G3 {
-    padding: 12px 4px
+    padding: 12px 4px;
   }
 
-  .Profile_profileSection__BIUVd {
-    height: 120px
+  .Profile_profileSection {
+    height: 120px;
   }
 
-  .Profile_profileNameSection__NhplZ {
-    font-size: 16px
+  .Profile_profileNameSection {
+    font-size: 16px;
   }
 
-  .Profile_profileWalletSection__Z\+HG4 {
-    font-size: 24px
+  .Profile_profileWalletSection {
+    font-size: 24px;
   }
 
   .Profile_avatarStyles__k8BTV {
     height: 70px !important;
-    width: 70px !important
+    width: 70px !important;
   }
 
-  .Profile_linkImgWrapper__c4TnQ {
+  .Profile_linkImgWrapper {
     height: 60px;
-    width: 60px
+    width: 60px;
   }
 
-  .Profile_imgWrapper__GIaUx {
+  .Profile_imgWrapper {
     height: 28px;
-    width: 28px
+    width: 28px;
   }
 
-  .Profile_profileLinks__\+AvQ1 {
+  .Profile_profileLinks {
     font-size: 11px;
-    gap: 8px
+    gap: 8px;
   }
 
-  .Profile_profileBody__iRRJI {
-    margin-top: 30px
+  .Profile_profileBody {
+    margin-top: 30px;
   }
 }
 
@@ -8453,7 +8799,7 @@ button.NotFound_animbutton__GMcXK:after {
   width: inherit
 }
 
-.AllWallet_allWalletOverlay__HZHcK {
+.AllWallet_allWalletOverlay {
   grid-gap: 8px;
   background: linear-gradient(180deg, #1e2134, #2c386e);
   border-radius: 16px;
@@ -8468,7 +8814,7 @@ button.NotFound_animbutton__GMcXK:after {
   width: -webkit-fill-available
 }
 
-.AllWallet_allWalletOverlay__HZHcK::-webkit-scrollbar {
+.AllWallet_allWalletOverlay::-webkit-scrollbar {
   width: 0
 }
 
@@ -8480,13 +8826,13 @@ button.NotFound_animbutton__GMcXK:after {
   width: 32px
 }
 
-.AllWallet_walletContainer__9kX0e {
+.AllWallet_walletContainer {
   grid-gap: 16px;
   display: grid;
   gap: 16px
 }
 
-.AllWallet_dagaContainer__g6guL {
+.AllWallet_dagaContainer {
   align-items: center;
   display: flex;
   gap: 8px;
@@ -8495,20 +8841,27 @@ button.NotFound_animbutton__GMcXK:after {
   height: fit-content;
   width: 100%
 }
+.AllWallet_dagaSectionline{
+  margin: 0px;
+  flex-shrink: 0;
+  border-width: 0px 0px thin;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.12);
+}
 
-.AllWallet_dagaDivider__bAexE {
+.AllWallet_dagaDivider {
   background: #feeaa2;
   flex: 1 1;
-  height: 1px
+  height: 1px;
 }
 
-.AllWallet_otherDivider__3jfmU {
+.AllWallet_otherDivider {
   background: #bebebe;
   flex: 1 1;
-  height: 1px
+  height: 1px;
 }
 
-.AllWallet_dagaBalanceContainer__VCzgE {
+.AllWallet_dagaBalanceContainer {
   grid-gap: 8px;
   background: #1e2134;
   border-radius: 16px;
@@ -8518,7 +8871,7 @@ button.NotFound_animbutton__GMcXK:after {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding: 8px
+  padding: 8px;
 }
 
 .AllWallet_dagaRefresh__Hcin4 {
@@ -8526,28 +8879,28 @@ button.NotFound_animbutton__GMcXK:after {
   cursor: pointer;
   display: flex;
   font-size: 14px;
-  margin-left: 8px
+  margin-left: 8px;
 }
 
-.AllWallet_balance__-w4ii {
+.AllWallet_balance {
   color: #00c1fe;
   font-size: 14px;
-  font-weight: 700
+  font-weight: 700;
 }
 
-.AllWallet_otherGamesContainer__Qg-4Z {
+.AllWallet_otherGamesContainer {
   display: flex;
-  gap: 8px
+  gap: 8px;
 }
 
-.AllWallet_otherGamesColumn__s3Mt\+ {
+.AllWallet_otherGamesColumn {
   background: #1e2134;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
   gap: 16px;
   padding: 8px;
-  width: 50%
+  width: 50%;
 }
 
 .AllWallet_otherGame__yzDj- {
@@ -8563,45 +8916,45 @@ button.NotFound_animbutton__GMcXK:after {
   justify-content: space-between
 }
 
-.AllWallet_allWalletWrapper__zmnfF {
+.AllWallet_allWalletWrapper {
   background: transparent linear-gradient(180deg, #1e2134, #2c386e) 0 0 no-repeat padding-box;
   border-radius: 32px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 99%
+  width: 99%;
 }
 
-.AllWallet_walletSection__MKqQp {
+.AllWallet_walletSection {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 20px 10px
+  padding: 20px 10px;
 }
 
 .AllWallet_allWalletHeader__BLlYO {
-  padding: 3%
+  padding: 3%;
 }
 
-.AllWallet_chestImageStyles__SgcFD {
-  width: 30px
+.AllWallet_chestImageStyles {
+  width: 30px;
 }
 
-.AllWallet_balanceSection__JeM2\+ {
+.AllWallet_balanceSection {
   align-items: center;
   display: flex;
   gap: 4px;
-  justify-content: center
+  justify-content: center;
 }
 
-.AllWallet_balanceStyles__9tnb1 {
+.AllWallet_balanceStyles {
   color: #00c1fe;
-  font-size: 20px
+  font-size: 20px;
 }
 
-.AllWallet_balanceHeaderStyles__Atx3f {
+.AllWallet_balanceHeaderStyles {
   color: #fff;
-  font-size: 20px
+  font-size: 20px;
 }
 
 .AllWallet_gameSectionStyles__BTkvQ {
@@ -8692,7 +9045,7 @@ button.NotFound_animbutton__GMcXK:after {
   }
 }
 
-.BankAccountManagement_headingText__ZDpIQ {
+.BankAccountManagement_headingText {
   color: #fff;
   display: flex;
   font-size: 24px;
@@ -8703,7 +9056,7 @@ button.NotFound_animbutton__GMcXK:after {
   text-align: center
 }
 
-.BankAccountManagement_bankManagementOverlay__dv7e- {
+.BankAccountManagement_bankManagementOverlay {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -8711,27 +9064,27 @@ button.NotFound_animbutton__GMcXK:after {
   position: relative
 }
 
-.BankAccountManagement_bankManagementWrapper__Dmchp {
+.BankAccountManagement_bankManagementWrapper {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   justify-content: center
 }
 
-.BankAccountManagement_allBanksOverlay__ju2Tz {
+.BankAccountManagement_allBanksOverlay {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 20px
 }
 
-.BankAccountManagement_errorMsg__blIEx {
+.BankAccountManagement_errorMsg {
   color: var(--lightColor);
   font-weight: 400;
   text-align: center
 }
 
-.BankAccountManagement_circleFilled__UVJwK {
+.BankAccountManagement_circleFilled {
   align-items: center;
   background: #00c1fe;
   border-radius: 50%;
@@ -8741,7 +9094,7 @@ button.NotFound_animbutton__GMcXK:after {
   width: 20px
 }
 
-.BankAccountManagement_supportStyles__glV5k {
+.BankAccountManagement_supportStyles {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -8749,14 +9102,14 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 20px
 }
 
-.BankAccountManagement_textStyles__XV-1o {
+.BankAccountManagement_textStyles {
   color: #fff;
   font-size: 14px;
   font-weight: 400;
   text-align: center
 }
 
-.BankAccountManagement_supportBtn__K-HMo {
+.BankAccountManagement_supportBtn {
   align-items: center;
   background-color: initial;
   border: 1px solid #fff;
@@ -8816,7 +9169,7 @@ button.NotFound_animbutton__GMcXK:after {
   background: transparent linear-gradient(90deg, #33405b, #4d576e)
 }
 
-.BankAccountManagement_addBnksBtn__1SO5b {
+.BankAccountManagement_addBnksBtn {
   align-items: center;
   color: #fff;
   cursor: pointer;
@@ -8829,11 +9182,11 @@ button.NotFound_animbutton__GMcXK:after {
   width: 220px
 }
 
-.BankAccountManagement_addBnksBtn__1SO5b:hover:enabled {
+.BankAccountManagement_addBnksBtn:hover:enabled {
   opacity: .7
 }
 
-.BankAccountManagement_addBnksBtn__1SO5b.BankAccountManagement_disabled__s8qBD {
+.BankAccountManagement_addBnksBtn.BankAccountManagement_disabled__s8qBD {
   border-color: var(--disableBkg);
   color: var(--disableBkg);
   cursor: not-allowed
