@@ -505,7 +505,7 @@ code {
   width: 100%
 }
 
-@-webkit-keyframes Header_animatedBackground__tRjnQ {
+@-webkit-keyframes Header_animatedBackground {
   0% {
     background-position: 0 0
   }
@@ -515,7 +515,7 @@ code {
   }
 }
 
-@keyframes Header_animatedBackground__tRjnQ {
+@keyframes Header_animatedBackground {
   0% {
     background-position: 0 0
   }
@@ -540,7 +540,7 @@ code {
   position: relative
 }
 
-.Header_countStyles__Hi0te {
+.Header_countStyles {
   background-color: #00c1fe;
   border-radius: 100%;
   display: grid;
@@ -563,7 +563,7 @@ code {
   text-align: center
 }
 
-.Header_BsChevronLeft__OWINN {
+.Header_BsChevronLeft {
   color: var(--lightColor);
   cursor: pointer;
   width: 12px
@@ -579,19 +579,19 @@ code {
 }
 
 .Header_loginButtonsOverlay div,
-.Header_loginButtons__Vttng {
+.Header_loginButtons {
   align-items: center;
   display: flex
 }
 
-.Header_loginButtons__Vttng {
+.Header_loginButtons {
   color: var(--lightColor);
   cursor: pointer;
   font-size: 12px;
   gap: 5px
 }
 
-.Header_loginButtons__Vttng img {
+.Header_loginButtons img {
   max-width: 28px
 }
 
@@ -646,11 +646,11 @@ code {
     padding: 12px 4px
   }
 
-  .Header_logoWrapper__Y4d3F span {
+  .Header_logoWrapper span {
     font-size: 24px
   }
 
-  .Header_logoWrapper__Y4d3F img {
+  .Header_logoWrapper img {
     width: 80px
   }
 
@@ -658,11 +658,11 @@ code {
     gap: 3px
   }
 
-  .Header_loginButtons__Vttng img {
+  .Header_loginButtons img {
     max-width: 22px
   }
 
-  .Header_BsChevronLeft__OWINN {
+  .Header_BsChevronLeft {
     width: 8px
   }
 }
@@ -680,11 +680,11 @@ code {
     padding: 8px 2px
   }
 
-  .Header_logoWrapper__Y4d3F span {
+  .Header_logoWrapper span {
     font-size: 24px
   }
 
-  .Header_logoWrapper__Y4d3F img {
+  .Header_logoWrapper img {
     width: 80px
   }
 
@@ -692,7 +692,7 @@ code {
     gap: 3px
   }
 
-  .Header_loginButtons__Vttng img {
+  .Header_loginButtons img {
     max-width: 18px
   }
 
@@ -702,7 +702,7 @@ code {
   }
 }
 
-.MenuLogo_logoWrapper__2KNHq {
+.MenuLogo_logoWrapper {
   align-items: center;
   display: flex;
   gap: 5px
@@ -719,24 +719,24 @@ code {
   width: 120px
 }
 
-.MenuLogo_leftIcon__JifIM {
+.MenuLogo_leftIcon {
   width: 22px
 }
 
-.MenuLogo_logoWrapper__2KNHq span {
+.MenuLogo_logoWrapper span {
   font-size: 34px
 }
 
-.MenuLogo_logoWrapper__2KNHq img:first-child {
+.MenuLogo_logoWrapper img:first-child {
   width: 20px
 }
 
-.MenuLogo_logoWrapper__2KNHq img {
+.MenuLogo_logoWrapper img {
   cursor: pointer
 }
 
 @media only screen and (max-width:414px) {
-  .MenuLogo_logoWrapper__2KNHq img:first-child {
+  .MenuLogo_logoWrapper img:first-child {
     width: 20px
   }
 
@@ -744,17 +744,17 @@ code {
     width: 100px
   }
 
-  .MenuLogo_leftIcon__JifIM {
+  .MenuLogo_leftIcon {
     width: 18px
   }
 
-  .MenuLogo_logoWrapper__2KNHq img {
+  .MenuLogo_logoWrapper img {
     cursor: pointer;
     width: 80px
   }
 }
 
-.DrawerContent_drawerOverlay__VI1cl {
+.DrawerContent_drawerOverlay {
   background-color: #1f2133;
   display: flex;
   flex-direction: column;
@@ -762,7 +762,7 @@ code {
   height: 100%
 }
 
-.DrawerContent_closeBtn__GN6Os {
+.DrawerContent_closeBtn {
   background: var(--lightBtn);
   border-radius: 7px;
   color: var(--darkColor);
@@ -771,7 +771,7 @@ code {
   padding: 0
 }
 
-.DrawerContent_drawerWrapper__156i5 {
+.DrawerContent_drawerWrapper {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -779,18 +779,18 @@ code {
   gap: 15px
 }
 
-.DrawerContent_drawerWrapper__156i5 img {
+.DrawerContent_drawerWrapper img {
   cursor: pointer
 }
 
-.DrawerContent_actionButtons__Vsrca {
+.DrawerContent_actionButtons {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center
 }
 
-.DrawerContent_actionButtons__Vsrca button {
+.DrawerContent_actionButtons button {
   background: var(--activeBtn);
   border: none;
   border-radius: 7px;
@@ -802,17 +802,17 @@ code {
   width: 120px
 }
 
-.DrawerContent_actionButtons__Vsrca button:hover,
-.DrawerContent_closeBtn__GN6Os:hover {
+.DrawerContent_actionButtons button:hover,
+.DrawerContent_closeBtn:hover {
   background: var(--activeBtnHover);
   color: var(--darkColor)
 }
 
-.DrawerContent_menuSection__9w\+ow {
+.DrawerContent_menuSection {
   width: 100%
 }
 
-.DrawerContent_menuSection__9w\+ow span {
+.DrawerContent_menuSection span {
   border-bottom: .2px solid var(--lightColor);
   color: var(--lightColor);
   display: block;
@@ -821,7 +821,7 @@ code {
   text-align: center
 }
 
-.DrawerContent_menuSection__9w\+ow span a {
+.DrawerContent_menuSection span a {
   color: var(--lightColor);
   text-decoration: none
 }
@@ -840,7 +840,7 @@ code {
   width: 100%
 }
 
-@-webkit-keyframes Footer_animatedBackground__GQhJy {
+@-webkit-keyframes Footer_animatedBackground {
   0% {
     background-position: 0 0
   }
@@ -850,7 +850,7 @@ code {
   }
 }
 
-@keyframes Footer_animatedBackground__GQhJy {
+@keyframes Footer_animatedBackground {
   0% {
     background-position: 0 0
   }
@@ -914,7 +914,7 @@ code {
   z-index: 10
 }
 
-.Footer_modalOverlay__B8DUN {
+.Footer_modalOverlay {
   display: flex;
   height: 100%;
   justify-content: center;
@@ -945,7 +945,7 @@ code {
 }
 
 .Footer_loadingSection:focus {
-  outline: none
+  outline: none;
 }
 
 .Footer_floatingBtn {
@@ -981,7 +981,7 @@ code {
   }
 }
 
-.Footer_modalTopOverlay__JR4r0 {
+.Footer_modalTopOverlay {
   align-items: center;
   display: flex;
   height: 100%;
@@ -990,7 +990,7 @@ code {
   width: 100%
 }
 
-.Footer_modalWrapper__WLhX3 {
+.Footer_modalWrapper {
   background: var(--appBkgColor);
   border: 1px solid var(--lightColor);
   border-radius: 13px;
@@ -1000,11 +1000,11 @@ code {
   width: 370px
 }
 
-.Footer_modalWrapper__WLhX3:focus {
+.Footer_modalWrapper:focus {
   outline: none
 }
 
-.Footer_playGameheader__2akL5 {
+.Footer_playGameheader {
   align-items: center;
   border-bottom: 1px dotted var(--lightColor);
   color: var(--lightColor);
@@ -1014,18 +1014,18 @@ code {
   padding-bottom: 8px
 }
 
-.Footer_balanceSectionWrapper__85L5h {
+.Footer_balanceSectionWrapper {
   align-items: center;
   display: flex;
   gap: 3px
 }
 
-.Footer_dbIconWrapper__x6HBJ img {
+.Footer_dbIconWrapper img {
   height: 26px;
   width: 26px
 }
 
-.Footer_playGameBody__aCYGG {
+.Footer_playGameBody {
   color: var(--lightColor);
   display: flex;
   gap: 10px;
@@ -1033,7 +1033,7 @@ code {
   padding: 20px 0 0
 }
 
-.Footer_playGameBodyDataHeading__VrWGg {
+.Footer_playGameBodyDataHeading {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -1041,7 +1041,7 @@ code {
   width: 100%
 }
 
-.Footer_playGameBodyDataValue__56UyD {
+.Footer_playGameBodyDataValue {
   display: flex;
   flex-direction: column;
   font-size: 16px;
@@ -1050,25 +1050,25 @@ code {
   width: 28%
 }
 
-.Footer_gameBalanceWrapper__lqUol {
+.Footer_gameBalanceWrapper {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 5px
 }
 
-.Footer_gameBalanceWrapper__lqUol img {
+.Footer_gameBalanceWrapper img {
   height: 13px;
   width: 15px
 }
 
-.Footer_balanceError__73ryS {
+.Footer_balanceError {
   color: var(--redColor);
   font-size: 13px;
   font-weight: 700
 }
 
-.Footer_pointsContent__1\+YFT {
+.Footer_pointsContent {
   align-items: flex-end;
   align-items: flex-start;
   display: flex;
@@ -1076,7 +1076,7 @@ code {
   gap: 10px
 }
 
-.Footer_pointsContent__1\+YFT input {
+.Footer_pointsContent input {
   background-color: initial;
   border: none;
   border-bottom: 1px solid var(--lightColor);
@@ -1086,18 +1086,18 @@ code {
   width: 100%
 }
 
-.Footer_pointsContent__1\+YFT input:focus {
+.Footer_pointsContent input:focus {
   outline: none
 }
 
-.Footer_transferAllBtnWrapper__NYlVo {
+.Footer_transferAllBtnWrapper {
   align-items: flex-end;
   display: flex;
   justify-content: center;
   width: 25%
 }
 
-.Footer_transferAllBtn__KzKS5 {
+.Footer_transferAllBtn {
   background: var(--lightBtn);
   border: 1px solid var(--darkColor);
   border-radius: 5px;
@@ -1108,28 +1108,28 @@ code {
   text-align: center
 }
 
-.Footer_transferAllBtn__KzKS5:hover {
+.Footer_transferAllBtn:hover {
   background: var(--lightBtnHover)
 }
 
-.Footer_loadingErrorWrapper__EcNrI {
+.Footer_loadingErrorWrapper {
   text-align: center
 }
 
-.Footer_loadingErrorWrapper__EcNrI strong {
+.Footer_loadingErrorWrapper strong {
   color: var(--redColor);
   display: flex;
   justify-content: center;
   margin-top: 15px
 }
 
-.Footer_playGameFooterDisable__aglua,
-.Footer_playGameFooter__cJ9jf {
+.Footer_playGameFooterDisable,
+.Footer_playGameFooter {
   display: flex;
   flex-direction: column
 }
 
-.Footer_playGameFooter__cJ9jf button {
+.Footer_playGameFooter button {
   background: var(--activeBtn);
   border: 1px solid var(--lightColor);
   border-radius: var(--borderRadius);
@@ -1140,11 +1140,11 @@ code {
   padding: 12px 0
 }
 
-.Footer_playGameFooter__cJ9jf button:hover {
+.Footer_playGameFooter button:hover {
   background: var(--activeBtnHover)
 }
 
-.Footer_playGameFooterDisable__aglua button {
+.Footer_playGameFooterDisable button {
   border: 1px solid transparent;
   border-radius: var(--borderRadius);
   cursor: not-allowed;
@@ -1153,80 +1153,80 @@ code {
   padding: 12px 0
 }
 
-.Footer_pointsInfo__KDPfd {
+.Footer_pointsInfo {
   color: var(--lightColor);
   line-height: 10px;
   text-align: center
 }
 
 @media only screen and (max-width:280px) {
-  .Footer_playGameheader__2akL5 span:first-child {
+  .Footer_playGameheader span:first-child {
     font-size: 16px
   }
 
-  .Footer_dbIconWrapper__x6HBJ img {
+  .Footer_dbIconWrapper img {
     height: 23px;
     width: 23px
   }
 
-  .Footer_playGameBody__aCYGG {
+  .Footer_playGameBody {
     padding: 10px 0 0
   }
 
-  .Footer_playGameBodyDataHeading__VrWGg {
+  .Footer_playGameBodyDataHeading {
     font-size: 12px
   }
 
-  .Footer_transferAllBtn__KzKS5 {
+  .Footer_transferAllBtn {
     font-size: 10px;
     padding: 3px
   }
 
-  .Footer_playGameFooterDisable__aglua button,
-  .Footer_playGameFooter__cJ9jf button {
+  .Footer_playGameFooterDisable button,
+  .Footer_playGameFooter button {
     font-size: 14px;
     padding: 7px 0
   }
 }
 
-.Footer_formInput__zqY4j {
+.Footer_formInput {
   align-items: flex-end;
   border-bottom: 1px solid #fff;
   display: flex
 }
 
-.Footer_formInput__zqY4j input {
+.Footer_formInput input {
   background-color: initial;
   border: none;
   color: #fff;
   font-size: 16px;
   padding: 15px 0 5px 5px;
-  width: 100%
+  width: 100%;
 }
 
-.Footer_formInput__zqY4j input:active,
-.Footer_formInput__zqY4j input:focus,
-.Footer_formInput__zqY4j input:focus-within {
+.Footer_formInput input:active,
+.Footer_formInput input:focus,
+.Footer_formInput input:focus-within {
   border: none;
-  outline: none
+  outline: none;
 }
 
-.Footer_formInput__zqY4j input::-webkit-input-placeholder {
+.Footer_formInput input::-webkit-input-placeholder {
+  color: var(--inputPlaceholder);
+  opacity: 50%;
+}
+
+.Footer_formInput input::placeholder {
   color: var(--inputPlaceholder);
   opacity: 50%
 }
 
-.Footer_formInput__zqY4j input::placeholder {
-  color: var(--inputPlaceholder);
-  opacity: 50%
-}
-
-.Footer_error__Hdnt5 {
+.Footer_error {
   color: var(--redColor);
   font-size: .8rem
 }
 
-.Footer_section__NxzGD {
+.Footer_section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1234,7 +1234,7 @@ code {
   width: 90%
 }
 
-.Footer_depositCard__tv8H6 {
+.Footer_depositCard {
   background: var(--modalBkg);
   border: 1px solid var(--lightColor);
   border-radius: var(--borderRadius);
@@ -1244,59 +1244,59 @@ code {
   text-align: center
 }
 
-.Footer_whiteNotice__it\+Rb {
+.Footer_whiteNotice {
   color: var(--lightColor);
   font-size: 1em;
   margin-bottom: 10px;
   text-align: center
 }
 
-.Footer_whiteNotice__it\+Rb.Footer_small__ZWdm1 {
+.Footer_whiteNotice.Footer_small {
   font-size: .8em
 }
 
-.Footer_label__j2cMo {
+.Footer_label {
   display: block;
   text-align: center
 }
 
-.Footer_companyBankSection__AVC3h {
+.Footer_companyBankSection {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 20px
 }
 
-.Footer_singleBankItem__uemJH {
+.Footer_singleBankItem {
   align-items: center;
   cursor: pointer;
   display: flex;
   gap: 10px
 }
 
-.Footer_singleBankItem__uemJH img {
+.Footer_singleBankItem img {
   border: 1px solid var(--lightColor);
   border-radius: 5px;
   padding: 5px;
   width: 90px
 }
 
-.Footer_selectedBank__\+Nn0A img {
+.Footer_selectedBank img {
   border-color: #fed100
 }
 
-.Footer_singleBankItem__uemJH input[type=radio] {
+.Footer_singleBankItem input[type=radio] {
   accent-color: #fed100
 }
 
-.Footer_depositInput__00kCX {
+.Footer_depositInput {
   align-items: center;
   border-bottom: 1px solid var(--lightColor);
   display: flex;
   gap: 5px
 }
 
-.Footer_requiredLabel__iG7wQ {
+.Footer_requiredLabel {
   align-items: center;
   display: flex;
   font-size: 14px;
@@ -1305,12 +1305,12 @@ code {
   min-width: 102px
 }
 
-.Footer_requiredLabel__iG7wQ span {
+.Footer_requiredLabel span {
   color: #c79353;
   font-size: 20px
 }
 
-.Footer_depositInput__00kCX input {
+.Footer_depositInput input {
   background-color: initial;
   border: none;
   color: var(--lightColor);
@@ -1321,26 +1321,26 @@ code {
   padding-bottom: 3px
 }
 
-.Footer_depositInput__00kCX input:active,
-.Footer_depositInput__00kCX input:focus,
-.Footer_depositInput__00kCX input:focus-visible,
-.Footer_depositInput__00kCX input:hover {
+.Footer_depositInput input:active,
+.Footer_depositInput input:focus,
+.Footer_depositInput input:focus-visible,
+.Footer_depositInput input:hover {
   border: none;
   outline: none
 }
 
-.Footer_cancelIcon__NByVE {
+.Footer_cancelIcon {
   cursor: pointer;
   display: flex;
   font-size: 20px;
   padding-bottom: 4px
 }
 
-.Footer_loaderWrapper__-W1Or {
+.Footer_loaderWrapper {
   margin: 0 auto
 }
 
-.Footer_depositButtonSection__LV2VK {
+.Footer_depositButtonSection {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
@@ -1348,7 +1348,7 @@ code {
   margin-bottom: 20px
 }
 
-.Footer_depositButton__zZ-f3 {
+.Footer_depositButton {
   background: var(--lightBtn);
   border: 1px solid var(--darkColor);
   border-radius: 50px;
@@ -1491,7 +1491,7 @@ code {
   padding: 20px 15px
 }
 
-.Footer_label__j2cMo {
+.Footer_label {
   align-items: center;
   color: var(--lightColor);
   display: flex;
@@ -1502,7 +1502,7 @@ code {
   text-align: left
 }
 
-.Footer_adjornment__SExJE {
+.Footer_adjornment {
   color: var(--lightColor);
   display: inline-block;
   flex: 0 0 0.5rem;
@@ -1513,14 +1513,14 @@ code {
   width: auto
 }
 
-.Footer_inputItem__XXvw\+ {
+.Footer_inputItem {
   align-items: center;
   border-bottom: 1px solid var(--lightColor);
   display: flex;
   padding-left: 3px
 }
 
-.Footer_inputItem__XXvw\+ .Footer_whiteInput__Hc-Hu {
+.Footer_inputItem .Footer_whiteInput {
   background-color: initial;
   border: none;
   color: var(--lightColor);
@@ -1531,52 +1531,52 @@ code {
   width: 100%
 }
 
-.Footer_inputItem__XXvw\+ .Footer_whiteInput__Hc-Hu:active,
-.Footer_inputItem__XXvw\+ .Footer_whiteInput__Hc-Hu:focus,
-.Footer_inputItem__XXvw\+ .Footer_whiteInput__Hc-Hu:focus-visible,
-.Footer_inputItem__XXvw\+ .Footer_whiteInput__Hc-Hu:hover {
+.Footer_inputItem .Footer_whiteInput:active,
+.Footer_inputItem .Footer_whiteInput:focus,
+.Footer_inputItem .Footer_whiteInput:focus-visible,
+.Footer_inputItem .Footer_whiteInput:hover {
   border: none;
   outline: none
 }
 
 @media only screen and (max-width:414px) {
-  .Footer_withdrawCard__QEMrk {
+  .Footer_withdrawCard {
     padding: 25px 10px
   }
 
-  .Footer_adjornment__SExJE {
+  .Footer_adjornment {
     font-size: 16px
   }
 
-  .Footer_submitButton__qMRXy {
+  .Footer_submitButton {
     font-size: 1rem;
     padding: 10px 0
   }
 
-  .Footer_label__j2cMo {
+  .Footer_label {
     font-size: 12px
   }
 }
 
-.Footer_publicModal__\+ViLH .Footer_formInput__zqY4j {
-  border-bottom: none
+.Footer_publicModal .Footer_formInput {
+  border-bottom: none;
 }
 
-.Footer_depositLabel__6CTD- {
-  margin-top: 12px
+.Footer_depositLabel {
+  margin-top: 12px;
 }
 
-.Footer_redTextDiv__GJzVp {
+.Footer_redTextDiv {
   color: var(--redColor);
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
-.Footer_redTextDiv__GJzVp>p {
-  line-height: 0 !important
+.Footer_redTextDiv>p {
+  line-height: 0 !important;
 }
 
-.Footer_methodCard__l4-7A {
+.Footer_methodCard {
   align-items: center;
   background: #192c38;
   border: 2px solid #192c38;
@@ -1589,40 +1589,40 @@ code {
   gap: 10px;
   height: 90px;
   justify-content: center;
-  width: 140px
+  width: 140px;
 }
 
-.Footer_activeMethod__H6HFr {
+.Footer_activeMethod {
   border-color: #f6e4a4;
   color: #f6e4a4
 }
 
-.Footer_imageContainer__Pkjma {
+.Footer_imageContainer {
   height: 55px;
   width: 60px
 }
 
-.Footer_imageContainer__Pkjma>img {
+.Footer_imageContainer>img {
   height: 100%;
   object-fit: contain;
   width: 100%
 }
 
-.Footer_errorMsg__hNz9E {
+.Footer_errorMsg {
   color: var(--redColor);
   font-size: .85rem;
   font-weight: 500;
   text-align: left
 }
 
-.Footer_providerWapper__bZ\+Kq {
+.Footer_providerWapper {
   display: flex;
   gap: 5px;
   justify-content: center;
   margin: 10px 0
 }
 
-.Footer_methodCardSection__Zd7FN {
+.Footer_methodCardSection {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -1687,7 +1687,7 @@ code {
   }
 }
 
-.PopupErrorModal_modalOverlay__yCmAf {
+.PopupErrorModal_modalOverlay {
   align-items: center;
   display: flex;
   height: 100%;
@@ -1696,7 +1696,7 @@ code {
   width: 100%
 }
 
-.PopupErrorModal_loadingSection__Xrnel {
+.PopupErrorModal_loadingSection {
   background: var(--modalBkg);
   border: 1px solid #fff;
   border-radius: 13px;
@@ -1706,18 +1706,18 @@ code {
   width: 300px
 }
 
-.PopupErrorModal_errorImg__7wTLa {
+.PopupErrorModal_errorImg {
   margin-bottom: 15px;
   width: 60px
 }
 
-.PopupErrorModal_rejectButtons__sMczA {
+.PopupErrorModal_rejectButtons {
   align-items: center;
   display: flex;
   flex-direction: column
 }
 
-.PopupErrorModal_rejectButtons__sMczA button {
+.PopupErrorModal_rejectButtons button {
   background-color: #e2f8ff;
   color: #19253f;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1726,8 +1726,8 @@ code {
   width: fit-content
 }
 
-.PopupErrorModal_okButton__0kf4Z,
-.PopupErrorModal_rejectButtons__sMczA button {
+.PopupErrorModal_okButton,
+.PopupErrorModal_rejectButtons button {
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -1736,7 +1736,7 @@ code {
   padding: 10px
 }
 
-.PopupErrorModal_okButton__0kf4Z {
+.PopupErrorModal_okButton {
   background: var(--activeBtn);
   color: var(--modalBkg);
   width: auto;
@@ -1745,17 +1745,17 @@ code {
   width: fit-content
 }
 
-.PopupErrorModal_okButton__0kf4Z:hover {
+.PopupErrorModal_okButton:hover {
   background: var(--activeBtn);
   border: 1px solid var(--lightColor);
   color: var(--lightColor)
 }
 
-.PopupErrorModal_whiteText__ovexv {
+.PopupErrorModal_whiteText {
   color: #fff !important
 }
 
-.Notification_notificationWrapper__xXH2y {
+.Notification_notificationWrapper {
   align-items: center;
   display: flex;
   gap: 10px;
@@ -1764,7 +1764,7 @@ code {
   top: 10px
 }
 
-.Notification_notificationContainer__ehnHn {
+.Notification_notificationContainer {
   cursor: pointer;
   height: 100%;
   max-height: 26px;
@@ -1772,7 +1772,7 @@ code {
   width: 100%
 }
 
-.Notification_notificationGifContainer__d4ubb {
+.Notification_notificationGifContainer {
   cursor: pointer;
   height: 100%;
   max-height: 32px;
@@ -1780,14 +1780,14 @@ code {
   width: 100%
 }
 
-.Notification_notificationContainer__ehnHn>img,
-.Notification_notificationGifContainer__d4ubb>img {
+.Notification_notificationContainer>img,
+.Notification_notificationGifContainer>img {
   height: 100%;
   width: 100%
 }
 
 @media only screen and (max-width:414px) {
-  .Notification_notificationContainer__ehnHn {
+  .Notification_notificationContainer {
     max-height: 20px;
     max-width: 20px
   }
@@ -1809,38 +1809,38 @@ code {
 }
 
 .BalanceSection_balanceSectionOverlay,
-.BalanceSection_balanceSection__5\+MLU {
+.BalanceSection_balanceSection {
   align-items: center;
   color: var(--lightColor);
   display: flex;
   gap: 7px
 }
 
-.BalanceSection_balanceSection__5\+MLU {
+.BalanceSection_balanceSection {
   height: 26px;
   justify-content: center
 }
 
-.BalanceSection_balanceSectionWrapper__lNewv {
+.BalanceSection_balanceSectionWrapper {
   align-items: center;
   display: flex;
   gap: 7px
 }
 
-.BalanceSection_dbIconWrapper__9eZ4Q {
+.BalanceSection_dbIconWrapper {
   display: flex
 }
 
-.BalanceSection_dbIconWrapper__9eZ4Q img {
+.BalanceSection_dbIconWrapper img {
   height: 26px;
   width: 26px
 }
 
-.BalanceSection_balanceSectionWrapper__lNewv span {
+.BalanceSection_balanceSectionWrapper span {
   color: var(--sv368ColorLight)
 }
 
-.BalanceSection_modalArrow__3s4ZV {
+.BalanceSection_modalArrow {
   display: flex;
   height: 7px;
   width: 12px
@@ -1851,7 +1851,7 @@ code {
   width: 24px
 }
 
-.BalanceSection_dagaInfo__uhNs9 {
+.BalanceSection_dagaInfo {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -1859,17 +1859,17 @@ code {
   justify-content: flex-end
 }
 
-.BalanceSection_balance__YdCRP {
+.BalanceSection_balance {
   color: var(--lightColor)
 }
 
-.BalanceSection_balanceError__YD5DU {
+.BalanceSection_balanceError {
   color: var(--redColor);
   font-size: 13px;
   font-weight: 700
 }
 
-.BalanceSection_dagaInfo__uhNs9 button {
+.BalanceSection_dagaInfo button {
   background: var(--dagaBtnBkg);
   border: none;
   border-radius: 19px;
@@ -1877,137 +1877,137 @@ code {
   cursor: pointer;
   font-size: 11px;
   font-weight: 600;
-  padding: 5px 8px
+  padding: 5px 8px;
 }
 
-.BalanceSection_dagaInfo__uhNs9 button:hover {
-  background: var(--dagaBtnBkgHover)
+.BalanceSection_dagaInfo button:hover {
+  background: var(--dagaBtnBkgHover);
 }
 
-.BalanceSection_border__xF-y8 {
+.BalanceSection_border {
   border: 1px solid var(--sv368ColorLight);
-  height: 100%
+  height: 100%;
 }
 
-.BalanceSection_textStyle__OyUXB {
-  color: var(--sv368ColorLight)
+.BalanceSection_textStyle {
+  color: var(--sv368ColorLight);
 }
 
 @media only screen and (max-width:414px) {
-  .BalanceSection_dbIconWrapper__9eZ4Q img {
+  .BalanceSection_dbIconWrapper img {
     height: 20px;
-    width: 20px
+    width: 20px;
   }
 
   .BalanceSection_balanceSectionOverlay {
-    gap: 10px
+    gap: 10px;
   }
 
-  .BalanceSection_balanceSectionWrapper__lNewv {
-    gap: 5px
+  .BalanceSection_balanceSectionWrapper {
+    gap: 5px;
   }
 
-  .BalanceSection_balanceSectionWrapper__lNewv span {
-    font-size: 15px
+  .BalanceSection_balanceSectionWrapper span {
+    font-size: 15px;
   }
 }
 
 @media only screen and (max-width:280px) {
-  .BalanceSection_dbIconWrapper__9eZ4Q img {
+  .BalanceSection_dbIconWrapper img {
     height: 16px;
-    width: 16px
+    width: 16px;
   }
 
-  .BalanceSection_balanceSectionWrapper__lNewv span {
-    font-size: 12px
+  .BalanceSection_balanceSectionWrapper span {
+    font-size: 12px;
   }
 
-  .BalanceSection_modalArrow__3s4ZV {
-    height: 6px
+  .BalanceSection_modalArrow {
+    height: 6px;
   }
 
   .BalanceSection_userLogout {
-    width: 14px
+    width: 14px;
   }
 
-  .BalanceSection_textStyle__OyUXB {
-    display: none
+  .BalanceSection_textStyle {
+    display: none;
   }
 
-  .BalanceSection_balance__YdCRP {
-    font-size: 12px
+  .BalanceSection_balance {
+    font-size: 12px;
   }
 
-  .BalanceSection_dagaInfo__uhNs9 button {
-    font-size: 8px
+  .BalanceSection_dagaInfo button {
+    font-size: 8px;
   }
 }
 
-.AllGameStatusModal_allWalletGames__L-g8- {
+.AllGameStatusModal_allWalletGames {
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 
-.AllGameStatusModal_allGamesOverlay__IJNFE {
+.AllGameStatusModal_allGamesOverlay {
   position: absolute;
   right: 4px;
   top: 28px;
   z-index: 1
 }
 
-.AllGameStatusModal_allGamesWrapper__WMAnG {
+.AllGameStatusModal_allGamesWrapper {
   background: var(--appBkgColor);
   display: flex;
   flex-direction: column;
   gap: 5px;
   max-height: 450px;
   overflow: hidden;
-  width: 440px
+  width: 440px;
 }
 
-.AllGameStatusModal_allWalletGamesWrapper__Rnxe3 {
-  width: 95%
+.AllGameStatusModal_allWalletGamesWrapper {
+  width: 95%;
 }
 
-.AllGameStatusModal_allGameHeader__vlY2i {
+.AllGameStatusModal_allGameHeader {
   background-image: url(data:image/png;base64,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);
   background-size: 100% 100%;
-  position: relative
+  position: relative;
 }
 
-.AllGameStatusModal_headerLeftStatus__Ne24C {
+.AllGameStatusModal_headerLeftStatus {
   align-items: center;
   background: var(--dagaColor);
   -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
   display: flex;
   position: absolute;
-  width: 90px
+  width: 90px;
 }
 
-.AllGameStatusModal_headerLeftStatus__Ne24C span {
+.AllGameStatusModal_headerLeftStatus span {
   color: var(--darkColor);
   display: flex;
   font-size: 13px;
   font-weight: 600;
-  padding: 1px 0 1px 25px
+  padding: 1px 0 1px 25px;
 }
 
-.AllGameStatusModal_allGameInnerHeader__ceS6M {
+.AllGameStatusModal_allGameInnerHeader {
   align-items: center;
   display: flex;
   height: 45px;
   justify-content: flex-end
 }
 
-.AllGameStatusModal_dagaInfoOverlay__5n1LP {
+.AllGameStatusModal_dagaInfoOverlay {
   align-items: center;
   display: flex;
   font-family: Roboto;
   padding-right: 2%
 }
 
-.AllGameStatusModal_dagaInfo__T\+cTk {
+.AllGameStatusModal_dagaInfo {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -2015,17 +2015,17 @@ code {
   justify-content: flex-end
 }
 
-.AllGameStatusModal_balance__fXjPk {
+.AllGameStatusModal_balance {
   color: var(--lightColor)
 }
 
-.AllGameStatusModal_balanceError__jTt8X {
+.AllGameStatusModal_balanceError {
   color: var(--redColor);
   font-size: 13px;
   font-weight: 700
 }
 
-.AllGameStatusModal_dagaInfo__T\+cTk button {
+.AllGameStatusModal_dagaInfo button {
   background: var(--dagaBtnBkg);
   border: none;
   border-radius: 19px;
@@ -2036,15 +2036,15 @@ code {
   padding: 5px 8px
 }
 
-.AllGameStatusModal_dagaInfo__T\+cTk button:hover {
+.AllGameStatusModal_dagaInfo button:hover {
   background: var(--dagaBtnBkgHover)
 }
 
-.AllGameStatusModal_transferGrp__a8vop button:hover {
+.AllGameStatusModal_transferGrp button:hover {
   background: transparent
 }
 
-.AllGameStatusModal_allGamesBody__OKUkj {
+.AllGameStatusModal_allGamesBody {
   border: 1px solid var(--lightColor);
   border-top: 2px solid var(--lightColor);
   display: flex;
@@ -2053,22 +2053,22 @@ code {
   position: relative
 }
 
-.AllGameStatusModal_allGamesBodyContent__W63af {
+.AllGameStatusModal_allGamesBodyContent {
   display: flex;
   flex-wrap: wrap;
   overflow: auto
 }
 
-.AllGameStatusModal_allGamesBody__OKUkj::-webkit-scrollbar {
+.AllGameStatusModal_allGamesBody::-webkit-scrollbar {
   width: .15rem
 }
 
-.AllGameStatusModal_allGamesBody__OKUkj::-webkit-scrollbar-thumb {
+.AllGameStatusModal_allGamesBody::-webkit-scrollbar-thumb {
   background-color: var(--lightColor);
   border-radius: 50px
 }
 
-.AllGameStatusModal_allGamesBodyRightStatus__OOy\+8 {
+.AllGameStatusModal_allGamesBodyRightStatus {
   background: var(--lightColor);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%);
@@ -2077,41 +2077,41 @@ code {
   width: 90px
 }
 
-.AllGameStatusModal_allGamesBodyRightStatus__OOy\+8 span {
+.AllGameStatusModal_allGamesBodyRightStatus span {
   color: var(--darkColor);
   display: flex;
   font-size: 13px;
   font-weight: 600;
-  padding-left: 50px
+  padding-left: 50px;
 }
 
-.AllGameStatusModal_loaderOverlay__0kyW9 {
+.AllGameStatusModal_loaderOverlay {
   display: flex;
   justify-content: center;
   margin: 20px;
-  width: 100%
+  width: 100%;
 }
 
-.AllGameStatusModal_error__DsneL {
+.AllGameStatusModal_error {
   color: var(--redColor);
   font-size: 14px;
   font-weight: 700;
   padding: 10px 5px 0;
   text-align: center;
-  width: 98%
+  width: 98%;
 }
 
-.AllGameStatusModal_withdrawrError__gFIWP {
-  font-size: 10px
+.AllGameStatusModal_withdrawrError {
+  font-size: 10px;
 }
 
-.AllGameStatusModal_allGamesFooterWraper__ab3yX {
+.AllGameStatusModal_allGamesFooterWraper {
   background-color: var(--lightBtn);
   border-top: 1px solid var(--disableBkg);
-  padding: 10px
+  padding: 10px;
 }
 
-.AllGameStatusModal_allGamesFooter__mae-F {
+.AllGameStatusModal_allGamesFooter {
   align-items: center;
   background: var(--lightBtn);
   border: none;
@@ -2124,14 +2124,14 @@ code {
   height: 35px;
   justify-content: center;
   padding: 8px 0;
-  width: 100%
+  width: 100%;
 }
 
-.AllGameStatusModal_allGamesFooter__mae-F:hover {
-  background: var(--lightBtnHover)
+.AllGameStatusModal_allGamesFooter:hover {
+  background: var(--lightBtnHover);
 }
 
-.AllGameStatusModal_disabled__-4BuT {
+.AllGameStatusModal_disabled {
   align-items: center;
   background: var(--disableBkg);
   border-radius: 7px;
@@ -2141,152 +2141,152 @@ code {
   font-size: 16px;
   font-weight: 700;
   justify-content: center;
-  text-align: center
+  text-align: center;
 }
 
-.AllGameStatusModal_disabled__-4BuT:hover {
-  background: var(--disableBkg)
+.AllGameStatusModal_disabled:hover {
+  background: var(--disableBkg);
 }
 
 @media only screen and (max-width:1145px) {
-  .AllGameStatusModal_allGamesOverlay__IJNFE {
-    top: 30px
+  .AllGameStatusModal_allGamesOverlay {
+    top: 30px;
   }
 
-  .AllGameStatusModal_allGamesWrapper__WMAnG {
-    width: 350px
+  .AllGameStatusModal_allGamesWrapper {
+    width: 350px;
   }
 }
 
 @media only screen and (max-width:414px) {
-  .AllGameStatusModal_allGamesOverlay__IJNFE {
-    top: 20px
+  .AllGameStatusModal_allGamesOverlay {
+    top: 20px;
   }
 
-  .AllGameStatusModal_allWalletGamesWrapper__Rnxe3 {
-    width: 95%
+  .AllGameStatusModal_allWalletGamesWrapper {
+    width: 95%;
   }
 
-  .AllGameStatusModal_allGameInnerHeader__ceS6M {
-    height: 35px
+  .AllGameStatusModal_allGameInnerHeader {
+    height: 35px;
   }
 
-  .AllGameStatusModal_dagaInfo__T\+cTk button {
-    padding: 4px 6px
+  .AllGameStatusModal_dagaInfo button {
+    padding: 4px 6px;
   }
 
-  .AllGameStatusModal_allGamesBodyRightStatus__OOy\+8,
-  .AllGameStatusModal_headerLeftStatus__Ne24C {
-    width: 70px
+  .AllGameStatusModal_allGamesBodyRightStatus,
+  .AllGameStatusModal_headerLeftStatus {
+    width: 70px;
   }
 
-  .AllGameStatusModal_headerLeftStatus__Ne24C span {
-    padding-left: 18px
+  .AllGameStatusModal_headerLeftStatus span {
+    padding-left: 18px;
   }
 
-  .AllGameStatusModal_allGamesBodyRightStatus__OOy\+8 span {
-    padding-left: 35px
+  .AllGameStatusModal_allGamesBodyRightStatus span {
+    padding-left: 35px;
   }
 
-  .AllGameStatusModal_allGamesFooterWraper__ab3yX {
-    padding: 5px
+  .AllGameStatusModal_allGamesFooterWraper {
+    padding: 5px;
   }
 
-  .AllGameStatusModal_allGamesFooter__mae-F {
-    font-size: 14px
+  .AllGameStatusModal_allGamesFooter {
+    font-size: 14px;
   }
 }
 
 @media only screen and (max-width:390px) {
-  .AllGameStatusModal_allGamesWrapper__WMAnG {
-    width: 330px
+  .AllGameStatusModal_allGamesWrapper {
+    width: 330px;
   }
 }
 
 @media only screen and (max-width:340px) {
-  .AllGameStatusModal_allGamesWrapper__WMAnG {
-    width: 280px
+  .AllGameStatusModal_allGamesWrapper {
+    width: 280px;
   }
 }
 
 @media only screen and (max-width:290px) {
-  .AllGameStatusModal_allGamesWrapper__WMAnG {
-    width: 270px
+  .AllGameStatusModal_allGamesWrapper {
+    width: 270px;
   }
 
-  .AllGameStatusModal_allGameInnerHeader__ceS6M {
-    height: 30px
+  .AllGameStatusModal_allGameInnerHeader {
+    height: 30px;
   }
 
-  .AllGameStatusModal_headerLeftStatus__Ne24C {
-    width: 60px
+  .AllGameStatusModal_headerLeftStatus {
+    width: 60px;
   }
 
-  .AllGameStatusModal_dagaInfo__T\+cTk button {
+  .AllGameStatusModal_dagaInfo button {
     font-size: 9px;
-    padding: 3px 6px
+    padding: 3px 6px;
   }
 
-  .AllGameStatusModal_allGamesBodyRightStatus__OOy\+8,
-  .AllGameStatusModal_headerLeftStatus__Ne24C {
-    width: 50px
+  .AllGameStatusModal_allGamesBodyRightStatus,
+  .AllGameStatusModal_headerLeftStatus {
+    width: 50px;
   }
 
-  .AllGameStatusModal_headerLeftStatus__Ne24C span {
+  .AllGameStatusModal_headerLeftStatus span {
     font-size: 10px;
-    padding-left: 10px
+    padding-left: 10px;
   }
 
-  .AllGameStatusModal_allGamesBodyRightStatus__OOy\+8 span {
+  .AllGameStatusModal_allGamesBodyRightStatus span {
     font-size: 10px;
-    padding-left: 25px
+    padding-left: 25px;
   }
 
-  .AllGameStatusModal_allGamesOverlay__IJNFE {
-    right: 0
+  .AllGameStatusModal_allGamesOverlay {
+    right: 0;
   }
 
-  .AllGameStatusModal_allGamesFooter__mae-F {
-    font-size: 12px
+  .AllGameStatusModal_allGamesFooter {
+    font-size: 12px;
   }
 }
 
-.GameModalContent_innerOverlay__CS8S9,
-.GameModalContent_walletInner__IZBss {
+.GameModalContent_innerOverlay,
+.GameModalContent_walletInner {
   background-color: var(--appBkgColor);
   border-bottom: 1px solid grey;
   color: var(--lightColor);
   overflow: auto;
-  width: 49.75%
+  width: 49.75%;
 }
 
-.GameModalContent_innerOverlay__CS8S9:nth-child(2n),
-.GameModalContent_walletInner__IZBss:nth-child(2n-1) {
-  border-right: 1px solid grey
+.GameModalContent_innerOverlay:nth-child(2n),
+.GameModalContent_walletInner:nth-child(2n-1) {
+  border-right: 1px solid grey;
 }
 
-.GameModalContent_innerContent__4JiOx {
-  padding: 5px 12px
+.GameModalContent_innerContent {
+  padding: 5px 12px;
 }
 
-.GameModalContent_innerContent__4JiOx:first-child {
-  padding-top: 22px
+.GameModalContent_innerContent:first-child {
+  padding-top: 22px;
 }
 
-.GameModalContent_innerContent__4JiOx h5 {
+.GameModalContent_innerContent h5 {
   font-weight: 500;
   margin: 2px 0 5px;
-  text-align: center
+  text-align: center;
 }
 
-.GameModalContent_noGames__a3Mfy {
+.GameModalContent_noGames {
   color: #c79353;
   font-size: 13px;
   padding: 10px 0;
   text-align: center
 }
 
-.GameModalContent_rowData__jG3sa {
+.GameModalContent_rowData {
   align-items: center;
   display: flex;
   gap: 10px;
@@ -2294,32 +2294,32 @@ code {
   margin: 4px 0
 }
 
-.GameModalContent_rowData__jG3sa h6 {
+.GameModalContent_rowData h6 {
   font-size: 11px;
   font-weight: 400;
   margin: 5px 0
 }
 
-.GameModalContent_transferGrp__8xQfF {
+.GameModalContent_transferGrp {
   align-items: flex-end;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 3px;
-  justify-content: flex-end
+  justify-content: flex-end;
 }
 
-.GameModalContent_balance__ZFkMH {
+.GameModalContent_balance {
   color: var(--lightColor);
-  font-size: 12px
+  font-size: 12px;
 }
 
-.GameModalContent_orangeTxt__Vp6qm {
+.GameModalContent_orangeTxt {
   color: #c79353;
-  font-size: 12px
+  font-size: 12px;
 }
 
-.GameModalContent_transferGrp__8xQfF button {
+.GameModalContent_transferGrp button {
   background: var(--lightBtn);
   border: none;
   border-radius: 19px;
@@ -2328,56 +2328,56 @@ code {
   cursor: pointer;
   font-size: 10px;
   font-weight: 600;
-  padding: 2px 4px
+  padding: 2px 4px;
 }
 
-.GameModalContent_transferGrp__8xQfF button:hover {
-  background: var(--lightBtnHover)
+.GameModalContent_transferGrp button:hover {
+  background: var(--lightBtnHover);
 }
 
 @media only screen and (max-width:414px) {
-  .GameModalContent_innerContent__4JiOx {
-    padding: 5px
+  .GameModalContent_innerContent {
+    padding: 5px;
   }
 
-  .GameModalContent_innerContent__4JiOx:first-child {
-    padding-top: 15px
+  .GameModalContent_innerContent:first-child {
+    padding-top: 15px;
   }
 
-  .GameModalContent_innerContent__4JiOx h5 {
-    font-size: 12px
+  .GameModalContent_innerContent h5 {
+    font-size: 12px;
   }
 
-  .GameModalContent_rowData__jG3sa h6 {
-    font-size: 10px
+  .GameModalContent_rowData h6 {
+    font-size: 10px;
   }
 
-  .GameModalContent_balance__ZFkMH {
-    font-size: 12px
+  .GameModalContent_balance {
+    font-size: 12px;
   }
 
-  .GameModalContent_transferGrp__8xQfF button {
-    font-size: 10px
+  .GameModalContent_transferGrp button {
+    font-size: 10px;
   }
 }
 
 @media only screen and (max-width:280px) {
-  .GameModalContent_innerContent__4JiOx {
+  .GameModalContent_innerContent {
     padding: 3px
   }
 
-  .GameModalContent_balance__ZFkMH,
-  .GameModalContent_innerContent__4JiOx h5 {
+  .GameModalContent_balance,
+  .GameModalContent_innerContent h5 {
     font-size: 10px
   }
 
-  .GameModalContent_transferGrp__8xQfF button {
+  .GameModalContent_transferGrp button {
     font-size: 8px;
     width: 65px
   }
 }
 
-.PendingTransactionModal_modalOverlay__mcYO6 {
+.PendingTransactionModal_modalOverlay {
   align-items: center;
   display: flex;
   height: 100%;
@@ -2386,33 +2386,33 @@ code {
   width: 100%
 }
 
-.PendingTransactionModal_loadingSection__wP--6 {
+.PendingTransactionModal_loadingSection {
   background: var(--modalBkg);
   border: 1px solid var(--lightColor);
   border-radius: 13px;
   margin: 10px;
   padding: 30px 15px;
   text-align: center;
-  width: 350px
+  width: 350px;
 }
 
-.PendingTransactionModal_loadingSection__wP--6:focus {
-  outline: none
+.PendingTransactionModal_loadingSection:focus {
+  outline: none;
 }
 
-.PendingTransactionModal_errorImg__O7YeX {
+.PendingTransactionModal_errorImg {
   margin-bottom: 15px;
-  width: 60px
+  width: 60px;
 }
 
-.PendingTransactionModal_rejectButtons__SlAIz {
+.PendingTransactionModal_rejectButtons {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center
+  justify-content: center;
 }
 
-.PendingTransactionModal_rejectButtons__SlAIz button {
+.PendingTransactionModal_rejectButtons button {
   background: var(--lightBtn);
   border: none;
   border-radius: 7px;
@@ -2422,12 +2422,12 @@ code {
   font-weight: 700;
   margin-top: 10px;
   min-width: 50px;
-  padding: 10px
+  padding: 10px;
 }
 
-.PendingTransactionModal_rejectButtons__SlAIz button:hover {
+.PendingTransactionModal_rejectButtons button:hover {
   background: var(--activeBtn);
-  color: var(--lightColor)
+  color: var(--lightColor);
 }
 
 .LogoutConfirmationModal_modalOverlay {
@@ -2449,7 +2449,7 @@ code {
   background: #00c1fe 0 0 no-repeat padding-box;
   border-radius: 32px;
   height: 320px;
-  width: 300px
+  width: 300px;
 }
 
 .LogoutConfirmationModal_logoutOverlay {
@@ -2464,44 +2464,44 @@ code {
   justify-content: center;
   margin: 0 auto;
   padding: 0 16px;
-  width: 99%
+  width: 99%;
 }
 
 .LogoutConfirmationModal_logoutOverlay:focus {
-  outline: none
+  outline: none;
 }
 
 .LogoutConfirmationModal_logoutImgwrapper {
   align-items: center;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .LogoutConfirmationModal_logoutImgwrapper p {
   font-size: 20px;
   font-weight: 400;
-  margin: 5px 0
+  margin: 5px 0;
 }
 
 .LogoutConfirmationModal_logoutMsg {
   font-size: 15px;
   font-weight: 400;
   margin-top: 5px;
-  text-align: center
+  text-align: center;
 }
 
 .LogoutConfirmationModal_logoutButtons {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  width: 100%
+  width: 100%;
 }
 
 .LogoutConfirmationModal_logoutButtons button {
   color: #fff;
   cursor: pointer;
   padding: 10px 22px;
-  width: 100%
+  width: 100%;
 }
 
 .LogoutConfirmationModal_logoutButtons button:first-child {
@@ -2514,7 +2514,7 @@ code {
   display: flex;
   font-size: 16px;
   height: 50px;
-  justify-content: center
+  justify-content: center;
 }
 
 .LogoutConfirmationModal_logoutButtons button:nth-child(2) {
@@ -2523,26 +2523,25 @@ code {
   border-radius: 8px;
   color: #00c1fe;
   font-size: 16px;
-  height: 50px
+  height: 50px;
 }
 
 .LogoutConfirmationModal_logoutButtons button:first-child:hover,
 .LogoutConfirmationModal_logoutButtons button:nth-child(2):hover {
-  background: #163d75
+  background: #163d75;
 }
 
-.FloatingSection_floatingSectionOverlay__KbSIi {
+.FloatingSection_floatingSectionOverlay {
   align-items: center;
-  -webkit-animation: FloatingSection_aqm__JxITZ 1.8s ease infinite;
-  animation: FloatingSection_aqm__JxITZ 1.8s ease infinite;
+  animation: FloatingSection_aqm 1.8s ease infinite;
   bottom: 100px;
   display: flex;
   height: 100px;
   position: absolute;
-  transition: .4s ease
+  transition: .4s ease;
 }
 
-.FloatingSection_leftSection__8GJiC {
+.FloatingSection_leftSection {
   align-items: center;
   background: rgba(0, 0, 0, .8);
   border: 1px solid var(--lightColor);
@@ -2554,41 +2553,41 @@ code {
   gap: 15px;
   height: 150px;
   justify-content: center;
-  width: 70px
+  width: 70px;
 }
 
-.FloatingSection_leftSection__8GJiC img {
-  cursor: pointer
+.FloatingSection_leftSection img {
+  cursor: pointer;
 }
 
-.FloatingSection_leftSection__8GJiC img:hover {
-  width: 30px
+.FloatingSection_leftSection img:hover {
+  width: 30px;
 }
 
-.FloatingSection_closeSection__v-ktq {
+.FloatingSection_closeSection {
   -webkit-transform: translateX(-72px);
-  transform: translateX(-72px)
+  transform: translateX(-72px);
 }
 
-.FloatingSection_rightSection__rvPrC {
+.FloatingSection_rightSection {
   background: var(--lightBtn);
   border-radius: 0 100px 100px 0;
   cursor: pointer;
-  padding: 15px 7px 15px 5px
+  padding: 15px 7px 15px 5px;
 }
 
-.FloatingSection_rightSection__rvPrC img {
+.FloatingSection_rightSection img {
   display: flex;
-  width: 10px
+  width: 10px;
 }
 
-.ResultedModal_resultedModal__9Hgso {
+.ResultedModal_resultedModal {
   align-items: center;
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 
-.ResultedModal_resultedModal__9Hgso .ResultedModal_closeIcon__IGVkU {
+.ResultedModal_resultedModal .ResultedModal_closeIcon {
   color: #fff;
   cursor: pointer;
   height: 20px;
@@ -2598,7 +2597,7 @@ code {
   width: 20px
 }
 
-.ResultedModal_resultedModal__9Hgso .ResultedModal_modalContent__1zB45 {
+.ResultedModal_resultedModal .ResultedModal_modalContent {
   align-items: center;
   background-color: var(--appBkgColor);
   border: 1px solid var(--lightColor);
@@ -2611,26 +2610,26 @@ code {
   padding: 20px;
   position: relative;
   text-align: center;
-  width: 300px
+  width: 300px;
 }
 
-.ResultedModal_resultedModal__9Hgso .ResultedModal_successIcon__0IutA {
+.ResultedModal_resultedModal .ResultedModal_successIcon {
   color: #95c295;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
-.ResultedModal_resultedModal__9Hgso .ResultedModal_errorIcon__2CMfI {
+.ResultedModal_resultedModal .ResultedModal_errorIcon {
   color: #c99292;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
-.ResultedModal_resultedModal__9Hgso .ResultedModal_successMessage__ptmfy {
+.ResultedModal_resultedModal .ResultedModal_successMessage {
   color: #fff;
   font-size: 16px;
-  margin-top: 10px
+  margin-top: 10px;
 }
 
-@-webkit-keyframes Loading_fadeIn__kmUQp {
+@-webkit-keyframes Loading_fadeIn {
   0% {
     opacity: 0
   }
@@ -2640,7 +2639,7 @@ code {
   }
 }
 
-@keyframes Loading_fadeIn__kmUQp {
+@keyframes Loading_fadeIn {
   0% {
     opacity: 0
   }
@@ -2650,7 +2649,7 @@ code {
   }
 }
 
-@-webkit-keyframes Loading_fadeOut__zs1aj {
+@-webkit-keyframes Loading_fadeOut {
   0% {
     opacity: 1
   }
@@ -2660,7 +2659,7 @@ code {
   }
 }
 
-@keyframes Loading_fadeOut__zs1aj {
+@keyframes Loading_fadeOut {
   0% {
     opacity: 1
   }
@@ -2670,11 +2669,11 @@ code {
   }
 }
 
-.Loading_overlayStyles__FQiRa {
+.Loading_overlayStyles {
   align-items: center;
-  -webkit-animation: Loading_fadeIn__kmUQp .5s ease-in-out;
-  animation: Loading_fadeIn__kmUQp .5s ease-in-out;
-  background: url(/static/media/LoadingBG.e5adbab24f46f0a6ba5d.png) no-repeat top;
+  -webkit-animation: Loading_fadeIn .5s ease-in-out;
+  animation: Loading_fadeIn .5s ease-in-out;
+  background: url(/static/media/LoadingBG.png) no-repeat top;
   background-size: cover;
   display: flex;
   height: 100vh;
@@ -2682,20 +2681,20 @@ code {
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 2000
+  z-index: 2000;
 }
 
-.Loading_overlayStyles__FQiRa.Loading_fadeOut__zs1aj {
-  -webkit-animation: Loading_fadeOut__zs1aj .5s ease-in-out;
-  animation: Loading_fadeOut__zs1aj .5s ease-in-out
+.Loading_overlayStyles.Loading_fadeOut {
+  -webkit-animation: Loading_fadeOut .5s ease-in-out;
+  animation: Loading_fadeOut .5s ease-in-out;
 }
 
-.Loading_loadingStyles__T8BFd {
+.Loading_loadingStyles {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
-.Loading_textStyles__RTvXF {
+.Loading_textStyles {
   align-items: center;
   color: #fff;
   display: flex;
@@ -2703,40 +2702,40 @@ code {
   font-weight: 600;
   gap: 10px;
   justify-content: center;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
-.Loading_imageStyles__BAvma {
-  width: 250px
+.Loading_imageStyles {
+  width: 250px;
 }
 
-@-webkit-keyframes Loading_spin__gU-PD {
+@-webkit-keyframes Loading_spin {
   0% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg)
+    transform: rotate(0deg);
   }
 
   to {
     -webkit-transform: rotate(1turn);
-    transform: rotate(1turn)
+    transform: rotate(1turn);
   }
 }
 
-@keyframes Loading_spin__gU-PD {
+@keyframes Loading_spin {
   0% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg)
+    transform: rotate(0deg);
   }
 
   to {
     -webkit-transform: rotate(1turn);
-    transform: rotate(1turn)
+    transform: rotate(1turn);
   }
 }
 
-.Loading_spinner__vQI91 {
-  -webkit-animation: Loading_spin__gU-PD 1s linear infinite;
-  animation: Loading_spin__gU-PD 1s linear infinite
+.Loading_spinner {
+  -webkit-animation: Loading_spin 1s linear infinite;
+  animation: Loading_spin 1s linear infinite;
 }
 
 .CopyItem_bankDetailItem {
@@ -2744,30 +2743,30 @@ code {
   display: flex;
   font-weight: 600;
   justify-content: space-between;
-  padding: 5px 10px
+  padding: 5px 10px;
 }
 
 .CopyItem_copyLabel {
   color: var(--sv368ColorLight);
   font-size: 12px;
-  font-weight: 600
+  font-weight: 600;
 }
 
 .CopyItem_copyValue {
   color: var(--lightColor);
   font-size: 13px;
-  font-weight: 600
+  font-weight: 600;
 }
 
-.CopyItem_smallValue__gRzbv {
+.CopyItem_smallValue {
   font-size: 12px
 }
 
-.CopyItem_redText__vdAyQ {
+.CopyItem_redText {
   color: var(--redColor)
 }
 
-.CopyItem_copyButton__CF-p8 {
+.CopyItem_copyButton {
   align-items: center;
   color: var(--lightColor);
   cursor: pointer;
@@ -2775,11 +2774,11 @@ code {
   gap: 2px
 }
 
-.CopyItem_copyButton__CF-p8 span {
+.CopyItem_copyButton span {
   font-size: 14px
 }
 
-.CopyItem_copyButton__CF-p8:active {
+.CopyItem_copyButton:active {
   padding: 2px 5px
 }
 
@@ -2789,12 +2788,12 @@ code {
     font-weight: 600
   }
 
-  .CopyItem_copyButton__CF-p8 span {
+  .CopyItem_copyButton span {
     font-size: 13px
   }
 }
 
-.AnnouncementPopup_modalOverlay__3gsHH {
+.AnnouncementPopup_modalOverlay {
   align-items: center;
   -webkit-backdrop-filter: blur(.5rem);
   backdrop-filter: blur(.5rem);
@@ -2807,7 +2806,7 @@ code {
   width: 100%
 }
 
-.AnnouncementPopup_modalContainer__ul8hq {
+.AnnouncementPopup_modalContainer {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
@@ -2817,11 +2816,11 @@ code {
   width: 350px
 }
 
-.AnnouncementPopup_modalContainer__ul8hq:focus-visible {
+.AnnouncementPopup_modalContainer:focus-visible {
   outline: none
 }
 
-.AnnouncementPopup_header__wmPUP {
+.AnnouncementPopup_header {
   background: var(--modalBkg);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -2833,7 +2832,7 @@ code {
   padding: 10px
 }
 
-.AnnouncementPopup_closeIcon__v-0-W {
+.AnnouncementPopup_closeIcon {
   background: #fff;
   border-radius: 100%;
   box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
@@ -2847,24 +2846,24 @@ code {
   width: 14px
 }
 
-.AnnouncementPopup_modalBody__6Qjyl {
+.AnnouncementPopup_modalBody {
   overflow: hidden;
   position: relative
 }
 
-.AnnouncementPopup_modalBody__6Qjyl img {
+.AnnouncementPopup_modalBody img {
   max-width: 100%;
   width: 100%
 }
 
-.AnnouncementPopup_modalContent__LtIIG {
+.AnnouncementPopup_modalContent {
   height: 200px;
   margin: 10px 20px;
   overflow-x: hidden;
   overflow-y: auto
 }
 
-.AnnouncementPopup_modalBody__6Qjyl.AnnouncementPopup_overflowing__sVmSL:after {
+.AnnouncementPopup_modalBody.AnnouncementPopup_overflowing:after {
   background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff);
   bottom: 0;
   content: "";
@@ -2875,11 +2874,11 @@ code {
   width: 100%
 }
 
-.AnnouncementPopup_modalContent__LtIIG h3 {
+.AnnouncementPopup_modalContent h3 {
   text-transform: uppercase
 }
 
-.AnnouncementPopup_modalContent__LtIIG p {
+.AnnouncementPopup_modalContent p {
   font-size: 14px;
   margin-top: 0;
   padding: 0 2px 0 0;
@@ -2930,30 +2929,30 @@ code {
   }
 }
 
-.DagaSection_dagaSection__GEgD8 {
+.DagaSection_dagaSection {
   display: flex;
   flex-direction: column
 }
 
-.DagaSection_dagaImageDiv__0\+QT2 {
+.DagaSection_dagaImageDiv {
   align-items: center;
   width: 100%
 }
 
-.DagaSection_dagaImageDiv__0\+QT2,
-.DagaSection_dagaImgWrapper__H2Rbx {
+.DagaSection_dagaImageDiv,
+.DagaSection_dagaImgWrapper {
   display: flex;
   justify-content: center
 }
 
-.DagaSection_dagaImgWrapper__H2Rbx img {
+.DagaSection_dagaImgWrapper img {
   cursor: pointer;
   height: 100%;
   object-fit: contain;
   width: 100%
 }
 
-.DagaSection_customerSupportWrapper__nAmTb {
+.DagaSection_customerSupportWrapper {
   align-items: center;
   color: var(--sv368ColorLight);
   display: flex;
@@ -2963,7 +2962,7 @@ code {
   padding-bottom: 10px
 }
 
-.DagaSection_customerSupportWrapper__nAmTb span {
+.DagaSection_customerSupportWrapper span {
   -webkit-font-feature-settings: normal;
   font-feature-settings: normal;
   color: var(--sv368ColorLight);
@@ -2977,7 +2976,7 @@ code {
   text-transform: uppercase
 }
 
-.DagaSection_customerSupportWrapper__nAmTb button {
+.DagaSection_customerSupportWrapper button {
   background: var(--dagaColor);
   border: none;
   border-radius: 22px;
@@ -2987,7 +2986,7 @@ code {
   padding: 5px 10px
 }
 
-.DagaSection_customerSupportWrapper__nAmTb .DagaSection_btnStyle__ZIA\+g {
+.DagaSection_customerSupportWrapper .DagaSection_btnStyle {
   background: var(--activeBtn);
   border-radius: 22px;
   color: #202234;
@@ -2996,46 +2995,46 @@ code {
   text-align: center
 }
 
-.DagaSection_customerSupportWrapper__nAmTb .DagaSection_btnStyle__ZIA\+g:hover {
+.DagaSection_customerSupportWrapper .DagaSection_btnStyle:hover {
   background: var(--activeBtnHover)
 }
 
 @media only screen and (max-width:414px) {
-  .DagaSection_dagaImgWrapper__H2Rbx img {
+  .DagaSection_dagaImgWrapper img {
     width: 80%
   }
 }
 
 @media only screen and (max-width:360px) {
-  .DagaSection_dagaImgWrapper__H2Rbx img {
+  .DagaSection_dagaImgWrapper img {
     width: 60%
   }
 
-  .DagaSection_customerSupportWrapper__nAmTb {
+  .DagaSection_customerSupportWrapper {
     gap: 7px
   }
 
-  .DagaSection_customerSupportWrapper__nAmTb span {
+  .DagaSection_customerSupportWrapper span {
     font-size: 14px
   }
 
-  .DagaSection_customerSupportWrapper__nAmTb button {
+  .DagaSection_customerSupportWrapper button {
     padding: 0 8px
   }
 
-  .DagaSection_customerSupportWrapper__nAmTb .DagaSection_btnStyle__ZIA\+g {
+  .DagaSection_customerSupportWrapper .DagaSection_btnStyle {
     font: normal normal 700 12px/23px Roboto
   }
 }
 
-.PlayGameModal_modalTopOverlay__Ls\+N7 {
+.PlayGameModal_modalTopOverlay {
   color: #fff;
   margin: 0 16px;
   place-self: center;
   width: inherit
 }
 
-.PlayGameModal_modalWrapper__tZk96 {
+.PlayGameModal_modalWrapper {
   background: linear-gradient(180deg, #1e2134, #2c386e);
   border-radius: 16px;
   box-shadow: inset -2px 0 0 0 #00c1fe, inset 2px 0 0 0 #00c1fe;
@@ -3046,32 +3045,32 @@ code {
   padding: 16px 16px 24px
 }
 
-.PlayGameModal_closeIcon__NXoGn {
+.PlayGameModal_closeIcon {
   cursor: pointer;
   margin-left: auto
 }
 
-.PlayGameModal_modalWrapper__tZk96:focus {
+.PlayGameModal_modalWrapper:focus {
   outline: none
 }
 
-.PlayGameModal_playGameheader__www1W {
+.PlayGameModal_playGameheader {
   display: flex
 }
 
-.PlayGameModal_balanceSectionWrapper__Hm8V6 {
+.PlayGameModal_balanceSectionWrapper {
   align-items: center;
   display: flex;
   gap: 3px
 }
 
-.PlayGameModal_dbIconWrapper__MQMLd img {
+.PlayGameModal_dbIconWrapper img {
   height: 40px;
   margin-right: 8px;
   width: 40px
 }
 
-.PlayGameModal_playGameBody__kNYCZ {
+.PlayGameModal_playGameBody {
   color: var(--lightColor);
   display: flex;
   flex-direction: column;
@@ -3081,7 +3080,7 @@ code {
   width: 100%
 }
 
-.PlayGameModal_playGameBodyDataHeading__jSvOf {
+.PlayGameModal_playGameBodyDataHeading {
   display: flex;
   font-size: 14px;
   gap: 20px;
@@ -3089,7 +3088,7 @@ code {
   width: 100%
 }
 
-.PlayGameModal_playGameBodyDataValue__RTA\+w {
+.PlayGameModal_playGameBodyDataValue {
   display: flex;
   font-size: 16px;
   gap: 20px;
@@ -3097,25 +3096,25 @@ code {
   width: 100%
 }
 
-.PlayGameModal_gameBalanceWrapper__rfoiJ {
+.PlayGameModal_gameBalanceWrapper {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 5px
 }
 
-.PlayGameModal_gameBalanceWrapper__rfoiJ img {
+.PlayGameModal_gameBalanceWrapper img {
   height: 13px;
   width: 15px
 }
 
-.PlayGameModal_balanceError__2d8\+Z {
+.PlayGameModal_balanceError {
   color: var(--redColor);
   font-size: 13px;
   font-weight: 700
 }
 
-.PlayGameModal_inputWrapper__FaS6z input {
+.PlayGameModal_inputWrapper input {
   background: #1e2134;
   border: 1px solid #3f519f;
   border-radius: 8px;
@@ -3126,24 +3125,24 @@ code {
   width: -webkit-fill-available
 }
 
-.PlayGameModal_inputWrapper__FaS6z input:focus {
+.PlayGameModal_inputWrapper input:focus {
   outline: none
 }
 
-.PlayGameModal_inputWrapper__FaS6z {
+.PlayGameModal_inputWrapper {
   height: 40px;
   position: relative;
   width: 100%
 }
 
-.PlayGameModal_transferAllBtnWrapper__owvbi {
+.PlayGameModal_transferAllBtnWrapper {
   height: 32px;
   position: absolute;
   right: 3px;
   top: 4px
 }
 
-.PlayGameModal_transferAllBtn__KYfHe {
+.PlayGameModal_transferAllBtn {
   background: linear-gradient(180deg, #06bbf7, #17346c);
   border: 1px solid #06b9f3;
   border-radius: 4px;
@@ -3152,28 +3151,28 @@ code {
   padding: 8px 12px
 }
 
-.PlayGameModal_transferAllBtn__KYfHe:hover {
+.PlayGameModal_transferAllBtn:hover {
   background: linear-gradient(180deg, #15c7fe, #e9fef7)
 }
 
-.PlayGameModal_loadingErrorWrapper__a-p\+q {
+.PlayGameModal_loadingErrorWrapper {
   text-align: center
 }
 
-.PlayGameModal_loadingErrorWrapper__a-p\+q strong {
+.PlayGameModal_loadingErrorWrapper strong {
   color: var(--redColor);
   display: flex;
   justify-content: center;
   margin-top: 15px
 }
 
-.PlayGameModal_playGameFooterDisable__be-ko,
-.PlayGameModal_playGameFooter__qLSWt {
+.PlayGameModal_playGameFooterDisable,
+.PlayGameModal_playGameFooter {
   display: flex;
   flex-direction: column
 }
 
-.PlayGameModal_playGameFooter__qLSWt button {
+.PlayGameModal_playGameFooter button {
   background: linear-gradient(180deg, #06bbf7, #17346c);
   border: 1px solid #06b9f3;
   border-radius: 4px;
@@ -3184,11 +3183,11 @@ code {
   padding: 12px 0
 }
 
-.PlayGameModal_playGameFooter__qLSWt button:hover {
+.PlayGameModal_playGameFooter button:hover {
   background: linear-gradient(180deg, #202234, #30334e)
 }
 
-.PlayGameModal_playGameFooterDisable__be-ko button {
+.PlayGameModal_playGameFooterDisable button {
   border: 1px solid transparent;
   border-radius: var(--borderRadius);
   cursor: not-allowed;
@@ -3197,37 +3196,37 @@ code {
   padding: 12px 0
 }
 
-.PlayGameModal_pointsInfo__mY05R {
+.PlayGameModal_pointsInfo {
   color: var(--lightColor);
   line-height: 10px;
   text-align: center
 }
 
 @media only screen and (max-width:280px) {
-  .PlayGameModal_playGameheader__www1W span:first-child {
+  .PlayGameModal_playGameheader span:first-child {
     font-size: 16px
   }
 
-  .PlayGameModal_dbIconWrapper__MQMLd img {
+  .PlayGameModal_dbIconWrapper img {
     height: 23px;
     width: 23px
   }
 
-  .PlayGameModal_playGameBody__kNYCZ {
+  .PlayGameModal_playGameBody {
     padding: 10px 0 0
   }
 
-  .PlayGameModal_playGameBodyDataHeading__jSvOf {
+  .PlayGameModal_playGameBodyDataHeading {
     font-size: 12px
   }
 
-  .PlayGameModal_transferAllBtn__KYfHe {
+  .PlayGameModal_transferAllBtn {
     font-size: 10px;
     padding: 3px
   }
 
-  .PlayGameModal_playGameFooterDisable__be-ko button,
-  .PlayGameModal_playGameFooter__qLSWt button {
+  .PlayGameModal_playGameFooterDisable button,
+  .PlayGameModal_playGameFooter button {
     font-size: 14px;
     padding: 7px 0
   }
@@ -3241,7 +3240,7 @@ code {
   justify-content: space-between
 }
 
-.MaxMinLimit_columnView__LngYB {
+.MaxMinLimit_columnView {
   flex-direction: column
 }
 
@@ -3255,7 +3254,7 @@ code {
   font-weight: 700
 }
 
-.MaxMinLimit_invalidValue__70Oca {
+.MaxMinLimit_invalidValue {
   color: var(--redColor)
 }
 
@@ -3265,7 +3264,7 @@ code {
   }
 }
 
-.DagaErrorModal_modalTopOverlay__AHhTK {
+.DagaErrorModal_modalTopOverlay {
   align-items: center;
   display: flex;
   height: 100%;
@@ -3273,7 +3272,7 @@ code {
   position: absolute
 }
 
-.DagaErrorModal_wrapper__Oas9\+ {
+.DagaErrorModal_wrapper {
   border: none;
   max-width: 400px;
   outline: none;
@@ -3281,13 +3280,13 @@ code {
   width: 80vw
 }
 
-.DagaErrorModal_wrapper__Oas9\+>img {
+.DagaErrorModal_wrapper>img {
   height: 100%;
   object-fit: contain;
   width: 100%
 }
 
-.DagaErrorModal_crossIcon__1poAY {
+.DagaErrorModal_crossIcon {
   cursor: pointer;
   position: absolute;
   right: 10px;
@@ -3295,31 +3294,31 @@ code {
 }
 
 @media only screen and (max-width:414px) {
-  .DagaErrorModal_wrapper__Oas9\+ {
+  .DagaErrorModal_wrapper {
     width: 370px
   }
 }
 
 @media only screen and (max-width:375px) {
-  .DagaErrorModal_wrapper__Oas9\+ {
+  .DagaErrorModal_wrapper {
     width: 330px
   }
 }
 
 @media only screen and (max-width:345px) {
-  .DagaErrorModal_wrapper__Oas9\+ {
+  .DagaErrorModal_wrapper {
     width: 300px
   }
 }
 
 @media only screen and (max-width:300px) {
-  .DagaErrorModal_wrapper__Oas9\+ {
+  .DagaErrorModal_wrapper {
     width: 250px
   }
 }
 
 @media only screen and (max-width:280px) {
-  .DagaErrorModal_wrapper__Oas9\+ {
+  .DagaErrorModal_wrapper {
     width: 220px
   }
 }
@@ -3419,7 +3418,7 @@ code {
   }
 }
 
-.TransferWalletPopup_modalContainer__EBb4e {
+.TransferWalletPopup_modalContainer {
   align-content: center;
   justify-items: center;
   left: 50% !important;
@@ -3428,7 +3427,7 @@ code {
   width: inherit
 }
 
-.TransferWalletPopup_allWalletOverlay__lDIjm {
+.TransferWalletPopup_allWalletOverlay {
   grid-gap: 8px;
   background: linear-gradient(180deg, #1e2134, #2c386e);
   border-radius: 16px;
@@ -3443,11 +3442,11 @@ code {
   width: -webkit-fill-available
 }
 
-.TransferWalletPopup_allWalletOverlay__lDIjm::-webkit-scrollbar {
+.TransferWalletPopup_allWalletOverlay::-webkit-scrollbar {
   width: 0
 }
 
-.TransferWalletPopup_closeStyles__68b72 {
+.TransferWalletPopup_closeStyles {
   color: #06bbf7;
   cursor: pointer;
   height: 32px;
@@ -3455,13 +3454,13 @@ code {
   width: 32px
 }
 
-.TransferWalletPopup_walletContainer__UT1F6 {
+.TransferWalletPopup_walletContainer {
   grid-gap: 16px;
   display: grid;
   gap: 16px
 }
 
-.TransferWalletPopup_dagaContainer__RUCAq {
+.TransferWalletPopup_dagaContainer {
   align-items: center;
   display: flex;
   gap: 8px;
@@ -3471,19 +3470,19 @@ code {
   width: 100%
 }
 
-.TransferWalletPopup_dagaDivider__KTv3Y {
+.TransferWalletPopup_dagaDivider {
   background: #feeaa2;
   flex: 1 1;
   height: 1px
 }
 
-.TransferWalletPopup_otherDivider__TgC9V {
+.TransferWalletPopup_otherDivider {
   background: #bebebe;
   flex: 1 1;
   height: 1px
 }
 
-.TransferWalletPopup_dagaBalanceContainer__fk22M {
+.TransferWalletPopup_dagaBalanceContainer {
   grid-gap: 8px;
   background: #1e2134;
   border-radius: 16px;
@@ -3496,7 +3495,7 @@ code {
   padding: 8px
 }
 
-.TransferWalletPopup_dagaRefresh__GsY7u {
+.TransferWalletPopup_dagaRefresh {
   align-items: center;
   cursor: pointer;
   display: flex;
@@ -3504,18 +3503,18 @@ code {
   margin-left: 8px
 }
 
-.TransferWalletPopup_balance__mKJ\+A {
+.TransferWalletPopup_balance {
   color: #00c1fe;
   font-size: 14px;
   font-weight: 700
 }
 
-.TransferWalletPopup_otherGamesContainer__Rfs1a {
+.TransferWalletPopup_otherGamesContainer {
   display: flex;
   gap: 8px
 }
 
-.TransferWalletPopup_otherGamesColumn__5mCVa {
+.TransferWalletPopup_otherGamesColumn {
   background: #1e2134;
   border-radius: 16px;
   display: flex;
@@ -3525,20 +3524,20 @@ code {
   width: 50%
 }
 
-.TransferWalletPopup_otherGame__B5NE5 {
+.TransferWalletPopup_otherGame {
   color: #fff;
   display: flex;
   flex-direction: column;
   gap: 8px
 }
 
-.TransferWalletPopup_otherGameRow__n4fky {
+.TransferWalletPopup_otherGameRow {
   align-items: center;
   display: flex;
   justify-content: space-between
 }
 
-.TransferWalletPopup_allWalletWrapper__DKpZK {
+.TransferWalletPopup_allWalletWrapper {
   background: transparent linear-gradient(180deg, #1e2134, #2c386e) 0 0 no-repeat padding-box;
   border-radius: 32px;
   display: flex;
@@ -3547,38 +3546,38 @@ code {
   width: 99%
 }
 
-.TransferWalletPopup_walletSection__SWoU1 {
+.TransferWalletPopup_walletSection {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 20px 10px
 }
 
-.TransferWalletPopup_allWalletHeader__5IODb {
+.TransferWalletPopup_allWalletHeader {
   padding: 3%
 }
 
-.TransferWalletPopup_chestImageStyles__YbzDi {
+.TransferWalletPopup_chestImageStyles {
   width: 30px
 }
 
-.TransferWalletPopup_balanceSection__7OK8b {
+.TransferWalletPopup_balanceSection {
   align-items: center;
   display: flex;
   gap: 4px
 }
 
-.TransferWalletPopup_balanceStyles__LUIOP {
+.TransferWalletPopup_balanceStyles {
   color: #00c1fe;
   font-size: 20px
 }
 
-.TransferWalletPopup_balanceHeaderStyles__ihkLb {
+.TransferWalletPopup_balanceHeaderStyles {
   color: #fff;
   font-size: 20px
 }
 
-.TransferWalletPopup_gameSectionStyles__1X99q {
+.TransferWalletPopup_gameSectionStyles {
   background: #1e2134 0 0 no-repeat padding-box;
   border-radius: 14px;
   display: flex;
@@ -3589,7 +3588,7 @@ code {
   padding: 10px
 }
 
-.TransferWalletPopup_gameSection__jvYon {
+.TransferWalletPopup_gameSection {
   border-bottom: 1px solid #3d3f4a;
   color: #fff;
   font-weight: 400 !important;
@@ -3600,20 +3599,20 @@ code {
   width: 100%
 }
 
-.TransferWalletPopup_games__asYl1 {
+.TransferWalletPopup_games {
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin-top: 10px
 }
 
-.TransferWalletPopup_singleGameSection__V7uG\+ {
+.TransferWalletPopup_singleGameSection {
   display: flex;
   font-size: 12px;
   justify-content: space-between
 }
 
-.TransferWalletPopup_buttonStyles__iXLsW {
+.TransferWalletPopup_buttonStyles {
   background: linear-gradient(180deg, #06bbf7, #17346c);
   border: 1px solid #06b9f3;
   border-radius: 8px;
@@ -3624,7 +3623,7 @@ code {
   margin-top: auto
 }
 
-.TransferWalletPopup_disabledButtonStyles__pcrX9 {
+.TransferWalletPopup_disabledButtonStyles {
   background: #4f5268 0 0 no-repeat padding-box;
   border-radius: 10px;
   color: #000;
@@ -3632,17 +3631,17 @@ code {
   width: 100%
 }
 
-.TransferWalletPopup_refreshGameBalance__Fcu61 {
+.TransferWalletPopup_refreshGameBalance {
   cursor: pointer;
   margin-left: 8px
 }
 
-.TransferWalletPopup_rotateIcon__3iXWe {
-  -webkit-animation: TransferWalletPopup_rotate__HKY6l .5s linear infinite;
-  animation: TransferWalletPopup_rotate__HKY6l .5s linear infinite
+.TransferWalletPopup_rotateIcon {
+  -webkit-animation: TransferWalletPopup_rotate .5s linear infinite;
+  animation: TransferWalletPopup_rotate .5s linear infinite
 }
 
-@-webkit-keyframes TransferWalletPopup_rotate__HKY6l {
+@-webkit-keyframes TransferWalletPopup_rotate {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg)
@@ -3654,7 +3653,7 @@ code {
   }
 }
 
-@keyframes TransferWalletPopup_rotate__HKY6l {
+@keyframes TransferWalletPopup_rotate {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg)
@@ -3687,20 +3686,20 @@ code {
   padding-bottom: 5px
 }
 
-.CategorySection_homeMenuButnsContent__6F6Wz {
+.CategorySection_homeMenuButnsContent {
   align-items: center;
   cursor: pointer;
   display: flex;
   flex-direction: column
 }
 
-.CategorySection_singleRowDiv__ZuS7h {
+.CategorySection_singleRowDiv {
   display: flex;
   gap: 10px;
   width: 100%
 }
 
-.CategorySection_categoryClass__ZPZAA,
+.CategorySection_categoryClass,
 .CategorySection_menuImgWrapper {
   align-items: center;
   display: flex;
@@ -3717,7 +3716,7 @@ code {
   width: 96px
 }
 
-.CategorySection_menuImgWrapperActive__JKSA2 {
+.CategorySection_menuImgWrapperActive {
   align-items: center;
   background: transparent linear-gradient(180deg, #06befa, #183068) 0 0 no-repeat padding-box;
   border: 1px solid #05c3ff;
@@ -3737,17 +3736,17 @@ code {
   text-align: center
 }
 
-.CategorySection_imageStyles__aq1wl {
+.CategorySection_imageStyles {
   width: 35px !important
 }
 
-.CategorySection_gameName__x-EzS {
+.CategorySection_gameName {
   color: #737797;
   font-size: 10px;
   font-weight: 400
 }
 
-.CategorySection_gameNameActive__O1vw2 {
+.CategorySection_gameNameActive {
   color: #fff;
   font-size: 10px;
   font-weight: 400
@@ -3769,7 +3768,7 @@ code {
   padding-top: 0
 }
 
-.CategorySection_error__xqcKI {
+.CategorySection_error {
   color: red !important;
   font-weight: 700
 }
@@ -3860,7 +3859,7 @@ code {
     margin: 0 5px
   }
 
-  .CategorySection_menuImgWrapperActive__JKSA2,
+  .CategorySection_menuImgWrapperActive,
   .CategorySection_menuImgWrapper {
     border-radius: 30px 5px;
     gap: 2px;
@@ -3868,35 +3867,35 @@ code {
     width: 76px
   }
 
-  .CategorySection_menuImgWrapperActive__JKSA2 img,
+  .CategorySection_menuImgWrapperActive img,
   .CategorySection_menuImgWrapper img {
     width: 80%
   }
 
-  .CategorySection_gameName__x-EzS {
+  .CategorySection_gameName {
     font-size: 10px !important
   }
 
-  .CategorySection_imageStyles__aq1wl {
+  .CategorySection_imageStyles {
     width: 32px !important
   }
 }
 
 @media only screen and (max-width:375px) {
 
-  .CategorySection_menuImgWrapperActive__JKSA2,
+  .CategorySection_menuImgWrapperActive,
   .CategorySection_menuImgWrapper {
     border-radius: 20px 2px;
     height: 50px;
     width: 66px
   }
 
-  .CategorySection_menuImgWrapperActive__JKSA2 img,
+  .CategorySection_menuImgWrapperActive img,
   .CategorySection_menuImgWrapper img {
     width: 80%
   }
 
-  .CategorySection_gameName__x-EzS {
+  .CategorySection_gameName {
     font-size: 9px;
     margin-top: 3px
   }
@@ -3909,7 +3908,7 @@ code {
     width: auto
   }
 
-  .CategorySection_menuImgWrapperActive__JKSA2,
+  .CategorySection_menuImgWrapperActive,
   .CategorySection_menuImgWrapper {
     border-radius: 15px 0;
     height: 40px;
@@ -3931,21 +3930,21 @@ code {
   justify-content: start
 }
 
-.SingleGameList_gameImageWrapper__d5FiC {
+.SingleGameList_gameImageWrapper {
   cursor: pointer
 }
 
-.SingleGameList_gameImageWrapper__d5FiC img {
+.SingleGameList_gameImageWrapper img {
   width: 100%
 }
 
-.SingleGameList_noImage__Lmd2F {
+.SingleGameList_noImage {
   align-items: center;
   display: flex;
   justify-content: center
 }
 
-.SingleGameList_noImage__Lmd2F>h4 {
+.SingleGameList_noImage>h4 {
   color: var(--lightColor);
   margin: 5px 0
 }
@@ -3979,7 +3978,7 @@ code {
   width: 90%
 }
 
-.DagaGameSection_homeMsgInnerMsg__gDTIv {
+.DagaGameSection_homeMsgInnerMsg {
   color: #f7db89;
   font-size: 12px;
   font-weight: 600;
@@ -4132,7 +4131,7 @@ code {
   text-align: center
 }
 
-.DagaGameSection_depositpendingmsg__fH9QA {
+.DagaGameSection_depositpendingmsg {
   align-items: center;
   color: #f7db89;
   display: flex;
@@ -4140,7 +4139,7 @@ code {
   gap: 10px
 }
 
-.DagaGameSection_rejectrequestmsg__M9Y4R {
+.DagaGameSection_rejectrequestmsg {
   color: red;
   font-size: 15px;
   font-weight: 700;
@@ -4172,7 +4171,7 @@ code {
     text-align: center
   }
 
-  .DagaGameSection_userLoginBg__B1xEk {
+  .DagaGameSection_userLoginBg {
     background-size: 100% 100%;
     border: 1px solid var(--dagaColor)
   }
@@ -4200,7 +4199,7 @@ code {
   text-align: left
 }
 
-.HomeContent_bigText__wHQnO {
+.HomeContent_bigText {
   line-height: 30px;
   margin: 0
 }
@@ -4215,9 +4214,9 @@ code {
   text-align: center
 }
 
-.HomeContent_firstTable__y3bXZ,
-.HomeContent_secondTable__LMkuE,
-.HomeContent_summaryTable__VL3Ng {
+.HomeContent_firstTable,
+.HomeContent_secondTable,
+.HomeContent_summaryTable {
   display: flex;
   justify-content: center
 }
@@ -4248,67 +4247,67 @@ code {
   padding-top: 5px
 }
 
-.HomeContent_imageContentOverlay__V5puV {
+.HomeContent_imageContentOverlay {
   display: flex;
   flex-direction: column;
   justify-content: center
 }
 
-.HomeContent_imageWrapper__EPk-M {
+.HomeContent_imageWrapper {
   display: flex;
   justify-content: center
 }
 
-.HomeContent_imageWrapper__EPk-M img {
+.HomeContent_imageWrapper img {
   max-width: 430px;
   min-width: 200px
 }
 
-.HomeContent_imageContentOverlay__V5puV p,
-.HomeContent_secondTable__LMkuE table {
+.HomeContent_imageContentOverlay p,
+.HomeContent_secondTable table {
   text-align: center
 }
 
-.HomeContent_secondTable__LMkuE table thead {
+.HomeContent_secondTable table thead {
   font-size: 1.1rem
 }
 
-.HomeContent_secondTable__LMkuE td {
+.HomeContent_secondTable td {
   padding: 6px
 }
 
-.HomeContent_secondTable__LMkuE table tbody:nth-child(10),
-.HomeContent_secondTable__LMkuE table tbody:nth-child(11),
-.HomeContent_secondTable__LMkuE table tbody:nth-child(12),
-.HomeContent_secondTable__LMkuE table tbody:nth-child(13),
-.HomeContent_secondTable__LMkuE table tbody:nth-child(15),
-.HomeContent_secondTable__LMkuE table tbody:nth-child(8),
-.HomeContent_secondTable__LMkuE table tbody:nth-child(9) {
+.HomeContent_secondTable table tbody:nth-child(10),
+.HomeContent_secondTable table tbody:nth-child(11),
+.HomeContent_secondTable table tbody:nth-child(12),
+.HomeContent_secondTable table tbody:nth-child(13),
+.HomeContent_secondTable table tbody:nth-child(15),
+.HomeContent_secondTable table tbody:nth-child(8),
+.HomeContent_secondTable table tbody:nth-child(9) {
   font-weight: 700
 }
 
-.HomeContent_center__Mt8J1 {
+.HomeContent_center {
   font-style: italic;
   text-align: center
 }
 
-.HomeContent_myLinksWrapper__ogc05 {
+.HomeContent_myLinksWrapper {
   display: flex;
   flex-direction: column;
   gap: 10px
 }
 
-.HomeContent_myLinks__UyDDY {
+.HomeContent_myLinks {
   cursor: pointer;
   text-decoration: underline
 }
 
-.HomeContent_summaryTable__VL3Ng table thead {
+.HomeContent_summaryTable table thead {
   font-size: 1.1rem;
   text-align: center
 }
 
-.HomeContent_summaryTable__VL3Ng table tr td:nth-child(2) {
+.HomeContent_summaryTable table tr td:nth-child(2) {
   text-align: center;
   width: 30%
 }
@@ -4326,7 +4325,7 @@ code {
 
   .HomeContent_homeContent li,
   .HomeContent_homeContent p,
-  .HomeContent_secondTable__LMkuE table {
+  .HomeContent_secondTable table {
     font-size: 15px
   }
 }
@@ -4346,7 +4345,7 @@ code {
 
   .HomeContent_homeContent li,
   .HomeContent_homeContent p,
-  .HomeContent_myLinks__UyDDY,
+  .HomeContent_myLinks,
   table {
     font-size: 12px
   }
@@ -4407,7 +4406,7 @@ code {
   overflow-x: hidden
 }
 
-.Home_bannerStyle__FiBUW {
+.Home_bannerStyle {
   border-radius: 10px;
   margin: 0 10px 10px
 }
@@ -4438,12 +4437,12 @@ code {
   margin-left: 30px
 }
 
-.Home_marqueeHeader__EL1kO span {
+.Home_marqueeHeader span {
   color: var(--darkColor);
   padding-left: 25%
 }
 
-.Home_homeMsg__gBk0r {
+.Home_homeMsg {
   background: var(--modalBkg);
   border: 1px solid var(--sv368ColorLight);
   border-radius: var(--borderRadius);
@@ -4455,7 +4454,7 @@ code {
   padding: 10px
 }
 
-.Home_depositButton__w1fMO {
+.Home_depositButton {
   -webkit-animation: Home_shake__bTTT- 1.5s ease infinite;
   animation: Home_shake__bTTT- 1.5s ease infinite;
   background: var(--activeBtn);
@@ -4471,7 +4470,7 @@ code {
   width: 30%
 }
 
-.Home_depositButton__w1fMO:hover {
+.Home_depositButton:hover {
   background: var(--activeBtnHover);
   color: var(--lightColor)
 }
@@ -4484,12 +4483,12 @@ code {
   position: relative
 }
 
-.Home_homeContentHeaderWrapper__a\+hi4 {
+.Home_homeContentHeaderWrapper {
   height: 20px;
   position: relative
 }
 
-.Home_homeContentHeader__iiX2V {
+.Home_homeContentHeader {
   background: var(--lightColor);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 24% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 24% 100%);
@@ -4499,7 +4498,7 @@ code {
   width: 100px
 }
 
-.Home_homeContentHeader__iiX2V span {
+.Home_homeContentHeader span {
   color: var(--darkColor);
   font-weight: 700;
   padding-left: 50%
@@ -4619,14 +4618,14 @@ code {
   }
 }
 
-.Home_depositActivationmsg__RGW8r {
+.Home_depositActivationmsg {
   color: var(--redColor);
   font-size: 15px;
   font-weight: 700;
   text-align: center
 }
 
-.Home_depositpendingmsg__tdAA0 {
+.Home_depositpendingmsg {
   align-items: center;
   color: var(--lightColor);
   display: flex;
@@ -4634,7 +4633,7 @@ code {
   gap: 10px
 }
 
-.Home_rejectrequestmsg__kUDaG {
+.Home_rejectrequestmsg {
   color: var(--redColor);
   font-size: 15px;
   font-weight: 700;
@@ -4649,7 +4648,7 @@ code {
 }
 
 @media only screen and (max-width:280px) {
-  .Home_depositButton__w1fMO {
+  .Home_depositButton {
     padding: 9px 11px;
     width: 32%;
   }
@@ -4810,7 +4809,7 @@ code {
   width: 88%
 }
 
-.ResetPassword_passwordValidation__-tbTX {
+.ResetPassword_passwordValidation {
   font-size: 12px;
   font-weight: 400 !important;
   margin: 2px 0
@@ -4851,7 +4850,7 @@ code {
   padding: 12px 0
 }
 
-.ResetPassword_error__dGRyT {
+.ResetPassword_error {
   color: var(--redColor);
   font-size: .8rem;
 }
@@ -6009,14 +6008,14 @@ input::-webkit-inner-spin-button {
   color: #00c1fe;
 }
 
-.Deposit_whiteNotice__6oYms {
+.Deposit_whiteNotice {
   color: var(--lightColor);
   font-size: 1em;
   margin-bottom: 10px;
   text-align: center;
 }
 
-.Deposit_whiteNotice__6oYms.Deposit_small__TaZp5 {
+.Deposit_whiteNotice.Deposit_small {
   font-size: .8em;
 }
 
@@ -6178,7 +6177,7 @@ input::-webkit-inner-spin-button {
   width: 90px;
 }
 
-.Deposit_selectedBank__RCNCw img {
+.Deposit_selectedBank img {
   border-color: var(--sv368Color);
 }
 
@@ -6315,23 +6314,23 @@ select.Deposit_inputItem option {
   color: var(--lightColor);
 }
 
-.Deposit_maxMin__8uiH1 {
+.Deposit_maxMin {
   font-size: 12px;
   padding: 0;
 }
 
-.Deposit_circleTextOverlay__xvAhS {
+.Deposit_circleTextOverlay {
   display: flex;
   flex-direction: column;
 }
 
-.Deposit_pointCircle__Ppybi,
-.Deposit_pointsCircleWraper__05wUx {
+.Deposit_pointCircle,
+.Deposit_pointsCircleWraper {
   display: flex;
   justify-content: center;
 }
 
-.Deposit_pointCircle__Ppybi {
+.Deposit_pointCircle {
   align-items: center;
   background: #d25050 0 0 no-repeat padding-box;
   border-radius: 50%;
@@ -6725,7 +6724,7 @@ select.Deposit_inputItem option {
   background: var(--disableColor)
 }
 
-.AddAccount_error__LmGnp {
+.AddAccount_error {
   color: var(--redColor);
   font-size: .8rem;
 }
@@ -6858,7 +6857,7 @@ select.Deposit_inputItem option {
   justify-content: center
 }
 
-.Withdraw_prevBtn__pNDc4 {
+.Withdraw_prevBtn {
   background: transparent;
   border: 1px solid #00c1fe;
   border-radius: 8px;
@@ -6894,7 +6893,7 @@ select.Deposit_inputItem option {
   width: 100%
 }
 
-.Withdraw_prevBtn__pNDc4:hover {
+.Withdraw_prevBtn:hover {
   background: var(--modalBkg)
 }
 
@@ -6925,7 +6924,7 @@ select.Deposit_inputItem option {
   margin-top: 58px
 }
 
-.WithdrawStep2_blncConverter__TF-Cx {
+.WithdrawStep2_blncConverter {
   color: var(--sv368ColorLight);
   font-size: 16px;
   font-weight: 700
@@ -7002,7 +7001,7 @@ select.Deposit_inputItem option {
   width: 100%
 }
 
-.WithdrawStep2_gameIcon__E6\+NH {
+.WithdrawStep2_gameIcon {
   width: 30px
 }
 
@@ -7041,7 +7040,7 @@ select.Deposit_inputItem option {
   outline: none
 }
 
-.WithdrawStep2_disabledButtonStyles__1tmnM {
+.WithdrawStep2_disabledButtonStyles {
   background: #4f5268 0 0 no-repeat padding-box;
   border-radius: 10px;
   color: #000;
@@ -7049,7 +7048,7 @@ select.Deposit_inputItem option {
   width: 100%
 }
 
-.WithdrawStep2_buttonStyles__BtzjS {
+.WithdrawStep2_buttonStyles {
   background-color: initial;
   background: linear-gradient(180deg, #06bbf7, #17346c);
   border: 1px solid #06b9f3;
@@ -7075,7 +7074,7 @@ select.Deposit_inputItem option {
     font-size: 16px
   }
 
-  .WithdrawStep2_submitButton__PrQKB {
+  .WithdrawStep2_submitButton {
     font-size: 1rem;
     padding: 10px 0
   }
@@ -7085,17 +7084,17 @@ select.Deposit_inputItem option {
   }
 }
 
-.WithdrawStep2_redTextDiv__cDtZn {
+.WithdrawStep2_redTextDiv {
   color: var(--redColor);
   display: flex;
   justify-content: space-between
 }
 
-.WithdrawStep2_redTextDiv__cDtZn>p {
+.WithdrawStep2_redTextDiv>p {
   line-height: 0 !important
 }
 
-.WithdrawStep2_alignCenter__iPdWM {
+.WithdrawStep2_alignCenter {
   align-items: center;
   display: flex;
   gap: 10px;
@@ -7122,12 +7121,12 @@ select.Deposit_inputItem option {
   grid-row: 1/2
 }
 
-.WithdrawStep3_withdraw3Overlay__RAE23 {
+.WithdrawStep3_withdraw3Overlay {
   margin: 0 auto;
   width: 90%
 }
 
-.WithdrawStep3_helperText__fRV4f {
+.WithdrawStep3_helperText {
   align-items: center;
   color: var(--lightColor);
   display: flex;
@@ -7139,7 +7138,7 @@ select.Deposit_inputItem option {
   text-align: center
 }
 
-.WithdrawStep3_supportBtn__fRHbb {
+.WithdrawStep3_supportBtn {
   align-items: center;
   background-color: initial;
   border: 1px solid #fff;
@@ -7153,7 +7152,7 @@ select.Deposit_inputItem option {
   min-width: 110px
 }
 
-.WithdrawStep3_depositbutton__INXcS {
+.WithdrawStep3_depositbutton {
   background: transparent linear-gradient(180deg, #212a43, #2d3970) 0 0 no-repeat padding-box;
   border: 1px solid #fff;
   border-radius: 10px;
@@ -7169,28 +7168,28 @@ select.Deposit_inputItem option {
   width: 50%
 }
 
-.WithdrawStep3_depositbutton__INXcS:hover {
+.WithdrawStep3_depositbutton:hover {
   background: var(--lightBtnHover)
 }
 
-.WithdrawStep3_depositbutton__INXcS {
+.WithdrawStep3_depositbutton {
   margin-bottom: 15px;
   width: 35%
 }
 
-.WithdrawStep3_error__tuoYW {
+.WithdrawStep3_error {
   color: var(--redColor);
   padding: 10px 0;
   text-align: center
 }
 
-.WithdrawStep3_noBanksMsg__WTtY6 {
+.WithdrawStep3_noBanksMsg {
   color: var(--lightColor);
   padding: 10px 0;
   text-align: center
 }
 
-.WithdrawStep3_banksSectionOverlay__FOtop {
+.WithdrawStep3_banksSectionOverlay {
   display: flex;
   flex-direction: column;
   gap: 21px;
@@ -7198,12 +7197,12 @@ select.Deposit_inputItem option {
   overflow: auto
 }
 
-.WithdrawStep3_bankCardOverlay__h8M5w {
+.WithdrawStep3_bankCardOverlay {
   display: flex;
   gap: 8px
 }
 
-.WithdrawStep3_bankCardWrappwr__rOGNQ {
+.WithdrawStep3_bankCardWrappwr {
   cursor: pointer;
   display: flex;
   flex-grow: 1;
@@ -7212,7 +7211,7 @@ select.Deposit_inputItem option {
   position: relative
 }
 
-.WithdrawStep3_radioStyles__GWxgi {
+.WithdrawStep3_radioStyles {
   height: 20px;
   margin: initial;
   position: absolute;
@@ -7222,7 +7221,7 @@ select.Deposit_inputItem option {
   z-index: 10
 }
 
-.WithdrawStep3_bankCard__uQAee {
+.WithdrawStep3_bankCard {
   background: linear-gradient(180deg, #212a43, #2d3970);
   border: 1px solid #00c1fe;
   border-radius: 8px;
@@ -7234,23 +7233,23 @@ select.Deposit_inputItem option {
   width: 100%
 }
 
-.WithdrawStep3_bankCard__uQAee:hover {
+.WithdrawStep3_bankCard:hover {
   background: transparent linear-gradient(90deg, #33405b, #4d576e)
 }
 
-.WithdrawStep3_selectedBank__uM5W7 {
+.WithdrawStep3_selectedBank {
   border-color: var(--sv368Color)
 }
 
-.WithdrawStep3_bankCardWrappwr__rOGNQ input {
+.WithdrawStep3_bankCardWrappwr input {
   cursor: pointer
 }
 
-.WithdrawStep3_bankCardWrappwr__rOGNQ input[type=radio] {
+.WithdrawStep3_bankCardWrappwr input[type=radio] {
   accent-color: var(--sv368Color)
 }
 
-.WithdrawStep3_circleFilled__-B8OD {
+.WithdrawStep3_circleFilled {
   align-items: center;
   background: #00c1fe;
   border-radius: 50%;
@@ -7260,7 +7259,7 @@ select.Deposit_inputItem option {
   width: 20px
 }
 
-.WithdrawStep3_addBnksBtn__byCLi {
+.WithdrawStep3_addBnksBtn {
   align-items: center;
   color: #fff;
   cursor: pointer;
@@ -7273,22 +7272,22 @@ select.Deposit_inputItem option {
   width: 220px
 }
 
-.WithdrawStep3_addBnksBtn__byCLi:hover:enabled {
+.WithdrawStep3_addBnksBtn:hover:enabled {
   opacity: .7
 }
 
-.WithdrawStep3_addBnksBtn__byCLi.WithdrawStep3_disabled__JTxSN {
+.WithdrawStep3_addBnksBtn.WithdrawStep3_disabled {
   border-color: var(--disableBkg);
   color: var(--disableBkg);
   cursor: not-allowed
 }
 
 @media only screen and (max-width:414px) {
-  .WithdrawStep3_helperText__fRV4f {
+  .WithdrawStep3_helperText {
     font-size: 15px
   }
 
-  .WithdrawStep3_addBnksBtn__byCLi {
+  .WithdrawStep3_addBnksBtn {
     font-size: 13px;
     width: 60%
   }
@@ -7391,13 +7390,13 @@ select.Deposit_inputItem option {
   text-align: center;
 }
 
-.Transection_coverStyles__HrHde {
+.Transection_coverStyles {
   background: #00c1fe 0 0 no-repeat padding-box;
   border-radius: 32px;
   margin: 20px 0;
 }
 
-.Transection_transactionTable__Krr6i {
+.Transection_transactionTable {
   background: transparent linear-gradient(180deg, #1e2134, #2c386e) 0 0 no-repeat padding-box !important;
   border-radius: 32px;
   height: auto;
@@ -7408,30 +7407,30 @@ select.Deposit_inputItem option {
   width: 99%
 }
 
-.Transection_transactionTable__Krr6i table {
+.Transection_transactionTable table {
   width: 100%
 }
 
-.Transection_transactionTable__Krr6i table thead tr th {
+.Transection_transactionTable table thead tr th {
   font-size: 14px;
   font-weight: 400;
   padding-bottom: 15px
 }
 
-.Transection_transactionTable__Krr6i table tbody tr {
+.Transection_transactionTable table tbody tr {
   cursor: pointer;
   font-size: 12px;
   padding-top: 10px;
   text-align: center
 }
 
-.Transection_chipWrapper__M2zwL {
+.Transection_chipWrapper {
   display: flex;
   justify-content: center;
   padding: 4px 0
 }
 
-.Transection_chip__yOn8M {
+.Transection_chip {
   background-color: #1a2b44;
   border: 1px solid #94a9c6;
   border-radius: 7px;
@@ -7443,31 +7442,31 @@ select.Deposit_inputItem option {
   width: 72%
 }
 
-.Transection_processingChip__UtQRj {
+.Transection_processingChip {
   background-color: #482b00;
   border-color: #ffc36a;
   color: #ffc36a
 }
 
-.Transection_successChip__pFzrm {
+.Transection_successChip {
   background-color: #004430;
   border-color: #00ffb5;
   color: #00ffb5
 }
 
-.Transection_rejectChip__mtw8v {
+.Transection_rejectChip {
   background-color: #4d000a;
   border-color: #ff5757;
   color: #ff5757
 }
 
-.SingleTransaction_singleTranWrapper__n-XmY {
+.SingleTransaction_singleTranWrapper {
   display: flex;
   flex-direction: column;
   height: 100%
 }
 
-.SingleTransaction_titleWrapper__wkYkP {
+.SingleTransaction_titleWrapper {
   align-items: center;
   color: var(--lightColor);
   display: flex;
@@ -7476,18 +7475,18 @@ select.Deposit_inputItem option {
   padding: 3% 0
 }
 
-.SingleTransaction_titleWrapper__wkYkP h3 {
+.SingleTransaction_titleWrapper h3 {
   margin: 0
 }
 
-.SingleTransaction_singleTranContentOverlay__oBI88 {
+.SingleTransaction_singleTranContentOverlay {
   flex-grow: 1;
   margin: 0 auto;
   overflow: auto;
   width: 95%
 }
 
-.SingleTransaction_singleTranContentWrapper__Qh6if {
+.SingleTransaction_singleTranContentWrapper {
   background: var(--modalBkg);
   border-radius: 13px;
   display: flex;
@@ -7496,7 +7495,7 @@ select.Deposit_inputItem option {
   padding: 10px 5px
 }
 
-.SingleTransaction_bankDetailItem__QNhbe {
+.SingleTransaction_bankDetailItem {
   align-items: center;
   color: #f7db89;
   display: flex;
@@ -7504,30 +7503,30 @@ select.Deposit_inputItem option {
   padding: 5px 10px
 }
 
-.SingleTransaction_copyLabel__aqR6l {
+.SingleTransaction_copyLabel {
   color: #fff;
   font-size: 12px;
   font-weight: 600
 }
 
-.SingleTransaction_copyValue__DQvTu {
+.SingleTransaction_copyValue {
   font-weight: 700
 }
 
-.SingleTransaction_copyBtnValue__h7ep7 {
+.SingleTransaction_copyBtnValue {
   color: #059705;
   font-size: 22px
 }
 
-.SingleTransaction_smallValue__L40L\+ {
+.SingleTransaction_smallValue {
   font-size: 12px
 }
 
-.SingleTransaction_redText__kmryn {
+.SingleTransaction_redText {
   color: #d32f2f
 }
 
-.SingleTransaction_copyButton__U0Cha {
+.SingleTransaction_copyButton {
   align-items: center;
   color: #fff;
   cursor: pointer;
@@ -7535,15 +7534,15 @@ select.Deposit_inputItem option {
   gap: 2px
 }
 
-.SingleTransaction_copyButton__U0Cha span {
+.SingleTransaction_copyButton span {
   font-size: 14px
 }
 
-.SingleTransaction_copyButton__U0Cha:active {
+.SingleTransaction_copyButton:active {
   padding: 3px
 }
 
-.SingleTransaction_deposit1Wrapper__-xlaD {
+.SingleTransaction_deposit1Wrapper {
   display: flex;
   flex-basis: 0;
   flex-grow: 1;
@@ -7554,7 +7553,7 @@ select.Deposit_inputItem option {
   width: 100%
 }
 
-.SingleTransaction_section__Z5mss {
+.SingleTransaction_section {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -7563,7 +7562,7 @@ select.Deposit_inputItem option {
   width: 90%
 }
 
-.SingleTransaction_titleStyle__wQznj {
+.SingleTransaction_titleStyle {
   -webkit-font-feature-settings: normal;
   font-feature-settings: normal;
   color: #e2f8ff;
@@ -7578,7 +7577,7 @@ select.Deposit_inputItem option {
   text-align: center
 }
 
-.SingleTransaction_depositCard__iAi7X {
+.SingleTransaction_depositCard {
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
   background: #32405b 0 0 no-repeat padding-box;
@@ -7593,7 +7592,7 @@ select.Deposit_inputItem option {
   padding: 10px
 }
 
-.SingleTransaction_detailContainer__mm-rB {
+.SingleTransaction_detailContainer {
   align-items: center;
   border-bottom: 3px dashed #707070;
   display: flex;
@@ -7602,13 +7601,13 @@ select.Deposit_inputItem option {
   padding: 4px 1px
 }
 
-.SingleTransaction_detailWrapper__-j43w {
+.SingleTransaction_detailWrapper {
   display: flex;
   flex-direction: column;
   gap: 4px
 }
 
-.SingleTransaction_detailWrapper__-j43w .SingleTransaction_label__r3Gog {
+.SingleTransaction_detailWrapper .SingleTransaction_label {
   -webkit-font-feature-settings: normal;
   font-feature-settings: normal;
   color: #e2f8ff;
@@ -7624,7 +7623,7 @@ select.Deposit_inputItem option {
   text-align: left
 }
 
-.SingleTransaction_detailWrapper__-j43w .SingleTransaction_labelDetail__vGlbe {
+.SingleTransaction_detailWrapper .SingleTransaction_labelDetail {
   font: normal normal 700 15px/10px Roboto;
   letter-spacing: 0;
   line-height: 1;
@@ -7633,7 +7632,7 @@ select.Deposit_inputItem option {
   text-transform: capitalize
 }
 
-.SingleTransaction_noteStyling__ZcjVP {
+.SingleTransaction_noteStyling {
   color: #e2f8ff;
   font: normal normal normal 17px/20px Roboto;
   letter-spacing: 0;
@@ -7641,14 +7640,14 @@ select.Deposit_inputItem option {
   text-align: center
 }
 
-.SingleTransaction_noteStyling__ZcjVP span {
+.SingleTransaction_noteStyling span {
   color: #ff5746;
   font: normal normal 700 17px/20px Roboto;
   letter-spacing: 0;
   text-align: center
 }
 
-.SingleTransaction_submitButton__cx7fx {
+.SingleTransaction_submitButton {
   background: var(--activeBtn) 0 0 no-repeat padding-box;
   border: none;
   border-radius: 28px;
@@ -7660,7 +7659,7 @@ select.Deposit_inputItem option {
   width: 97%
 }
 
-.AgencyRegister_agencyRegisterWrapper__UV\+81 {
+.AgencyRegister_agencyRegisterWrapper {
   align-items: center;
   color: var(--sv368ModalTextLightColor);
   display: flex;
@@ -7671,12 +7670,12 @@ select.Deposit_inputItem option {
   overflow: auto
 }
 
-.AgencyRegister_agencyRegisterWrapper__UV\+81 img {
+.AgencyRegister_agencyRegisterWrapper img {
   padding-top: 150px;
   width: 250px
 }
 
-.AgencyRegister_agencyRegisterFormOverlay__hJJBE {
+.AgencyRegister_agencyRegisterFormOverlay {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -7685,12 +7684,12 @@ select.Deposit_inputItem option {
   width: 90%
 }
 
-.AgencyRegister_agencyRegisterForm__hU\+ZC {
+.AgencyRegister_agencyRegisterForm {
   display: flex;
   flex-direction: column
 }
 
-.AgencyRegister_agencyRegisterFormHeader__poKGt {
+.AgencyRegister_agencyRegisterFormHeader {
   display: flex;
   font-size: 1.2em;
   font-weight: 500;
@@ -7702,36 +7701,36 @@ select.Deposit_inputItem option {
   width: 100%
 }
 
-.AgencyRegister_agencyRegisterFormBody__m\+Ub7 {
+.AgencyRegister_agencyRegisterFormBody {
   display: flex;
   flex-direction: column;
   gap: 15px;
   padding-bottom: 20px
 }
 
-.AgencyRegister_error__QNw-K {
+.AgencyRegister_error {
   color: var(--redColor);
   font-size: .8rem
 }
 
-.AgencyRegister_success__qYBVR {
+.AgencyRegister_success {
   color: #4caf50;
   font-size: .8rem
 }
 
-.AgencyRegister_requiredLabel__QMI2y {
+.AgencyRegister_requiredLabel {
   display: flex;
   font-size: 14px;
   font-weight: 400;
   gap: 5px
 }
 
-.AgencyRegister_requiredLabel__QMI2y span {
+.AgencyRegister_requiredLabel span {
   color: #c79353;
   font-size: 20px
 }
 
-.AgencyRegister_formInput__gDirR {
+.AgencyRegister_formInput {
   align-items: center;
   background: #192547 0 0 no-repeat padding-box;
   border: 1px solid #3f519f;
@@ -7740,12 +7739,12 @@ select.Deposit_inputItem option {
   position: relative
 }
 
-.AgencyRegister_inputWrapper__7kgbv {
+.AgencyRegister_inputWrapper {
   height: 50px;
   width: 100%
 }
 
-.AgencyRegister_iconStyles__WiiuP {
+.AgencyRegister_iconStyles {
   align-items: center;
   display: flex;
   height: 100%;
@@ -7754,7 +7753,7 @@ select.Deposit_inputItem option {
   z-index: 10
 }
 
-.AgencyRegister_myInput__h9cln {
+.AgencyRegister_myInput {
   background-color: initial !important;
   border: none;
   border-radius: 28px;
@@ -7765,58 +7764,58 @@ select.Deposit_inputItem option {
   width: 100%
 }
 
-.AgencyRegister_myInput__h9cln:-webkit-autofill,
-.AgencyRegister_myInput__h9cln:-webkit-autofill:active,
-.AgencyRegister_myInput__h9cln:-webkit-autofill:focus,
-.AgencyRegister_myInput__h9cln:-webkit-autofill:hover {
+.AgencyRegister_myInput:-webkit-autofill,
+.AgencyRegister_myInput:-webkit-autofill:active,
+.AgencyRegister_myInput:-webkit-autofill:focus,
+.AgencyRegister_myInput:-webkit-autofill:hover {
   background-color: #4b4f5d !important;
   color: var(--sv368ModalTextLightColor) !important;
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s
 }
 
-.AgencyRegister_formInput__gDirR input:active,
-.AgencyRegister_formInput__gDirR input:focus,
-.AgencyRegister_formInput__gDirR input:focus-within {
+.AgencyRegister_formInput input:active,
+.AgencyRegister_formInput input:focus,
+.AgencyRegister_formInput input:focus-within {
   border: none;
   outline: none
 }
 
-.AgencyRegister_formInput__gDirR input::-webkit-input-placeholder {
+.AgencyRegister_formInput input::-webkit-input-placeholder {
   color: #737797;
   font-size: 14px
 }
 
-.AgencyRegister_formInput__gDirR input::placeholder {
+.AgencyRegister_formInput input::placeholder {
   color: #737797;
   font-size: 14px
 }
 
-.AgencyRegister_passwordChecksMsg__tQLWk {
+.AgencyRegister_passwordChecksMsg {
   font-size: 12px;
   font-style: italic;
   margin: 5px 0;
   text-align: left
 }
 
-.AgencyRegister_passwordChecksMsg__tQLWk span {
+.AgencyRegister_passwordChecksMsg span {
   color: #c79353;
   font-weight: 900
 }
 
-.AgencyRegister_passwordValidation__9jy1W {
+.AgencyRegister_passwordValidation {
   display: flex;
   gap: 3px;
   padding-bottom: 3px
 }
 
-.AgencyRegister_passwordEye__AMKWk {
+.AgencyRegister_passwordEye {
   cursor: pointer;
   font-size: 22px;
   padding-right: 5px
 }
 
-.AgencyRegister_agencyRegisterSubmitButton__Lgmt- {
+.AgencyRegister_agencyRegisterSubmitButton {
   background: transparent linear-gradient(180deg, #06bbf7, #163d75) 0 0 no-repeat padding-box;
   border: 3px solid #06b9f3;
   border-radius: 10px;
@@ -7829,40 +7828,40 @@ select.Deposit_inputItem option {
   width: 100%
 }
 
-.AgencyRegister_agencyRegisterSubmitButton__Lgmt-:hover {
+.AgencyRegister_agencyRegisterSubmitButton:hover {
   background: var(--activeBtnHover)
 }
 
-.AgencyRegister_loading__CDjUU,
-.AgencyRegister_loading__CDjUU:hover {
+.AgencyRegister_loading,
+.AgencyRegister_loading:hover {
   background: var(--disableBkg);
   border-color: var(--disableBkg);
   color: var(--disableColor);
   cursor: not-allowed
 }
 
-.NotFound_notFoundOverlay__SiKL\+ {
+.NotFound_notFoundOverlay {
   height: 100%;
   margin: auto;
   text-align: center;
   width: 85%
 }
 
-.NotFound_notFoundOverlay__SiKL\+ img {
+.NotFound_notFoundOverlay img {
   border-bottom: 2px solid var(--sv368ColorLight);
   border-radius: 5%;
   padding-right: 20px;
   width: 100px
 }
 
-.NotFound_wrap__yaHpL {
+.NotFound_wrap {
   align-items: center;
   display: flex;
   justify-content: center;
   margin-top: 20px
 }
 
-.NotFound_animbutton__GMcXK.NotFound_animbutton__GMcXK {
+.NotFound_animbutton.NotFound_animbutton {
   background: #ffc9a0;
   background: linear-gradient(90deg, #ffc9a0, #e94c00);
   border: none;
@@ -7881,7 +7880,7 @@ select.Deposit_inputItem option {
   transition: all .3s ease-in-out 0s
 }
 
-button.NotFound_animbutton__GMcXK:before {
+button.NotFound_animbutton:before {
   border: 6px solid #ffc9a0;
   border-radius: 1000px;
   box-shadow: 0 0 60px #ffc9a0;
@@ -7895,15 +7894,15 @@ button.NotFound_animbutton__GMcXK:before {
   transition: all .3s ease-in-out 0s
 }
 
-button.NotFound_animbutton__GMcXK {
+button.NotFound_animbutton {
   color: #313133;
   -webkit-transform: translateY(-6px);
   transform: translateY(-6px)
 }
 
-button.NotFound_animbutton__GMcXK:after {
-  -webkit-animation: NotFound_ring__aPCuc 1.5s infinite;
-  animation: NotFound_ring__aPCuc 1.5s infinite;
+button.NotFound_animbutton:after {
+  -webkit-animation: NotFound_ring 1.5s infinite;
+  animation: NotFound_ring 1.5s infinite;
   border: 6px solid #e94e0095;
   border-radius: 100%;
   content: "";
@@ -7915,7 +7914,7 @@ button.NotFound_animbutton__GMcXK:after {
   z-index: -1
 }
 
-@-webkit-keyframes NotFound_ring__aPCuc {
+@-webkit-keyframes NotFound_ring {
   0% {
     height: 10px;
     opacity: 1;
@@ -7929,7 +7928,7 @@ button.NotFound_animbutton__GMcXK:after {
   }
 }
 
-@keyframes NotFound_ring__aPCuc {
+@keyframes NotFound_ring {
   0% {
     height: 10px;
     opacity: 1;
@@ -7943,23 +7942,23 @@ button.NotFound_animbutton__GMcXK:after {
   }
 }
 
-.Downloads_downloadsOverlay__HHyIm {
+.Downloads_downloadsOverlay {
   display: flex;
   flex-direction: column;
   height: 100%
 }
 
-.Downloads_logoWrapper__iIG9y {
+.Downloads_logoWrapper {
   display: flex;
   justify-content: center;
   padding: 18px 0 10px
 }
 
-.Downloads_logoWrapper__iIG9y img {
+.Downloads_logoWrapper img {
   cursor: pointer
 }
 
-.Downloads_downloadOptionsWrapper__DUVYN {
+.Downloads_downloadOptionsWrapper {
   align-items: center;
   display: flex;
   flex-grow: 1;
@@ -7967,14 +7966,14 @@ button.NotFound_animbutton__GMcXK:after {
   padding-bottom: 18px
 }
 
-.Downloads_downloadContentWrapper__ai8pI {
+.Downloads_downloadContentWrapper {
   display: flex;
   flex-direction: column;
   gap: 15px;
   width: 70%
 }
 
-.Downloads_linkContent__-6iw6 {
+.Downloads_linkContent {
   align-items: center;
   border: 1px solid var(--sv368Color);
   border-radius: 41px;
@@ -7985,31 +7984,31 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 10px 20px
 }
 
-.Downloads_linkContent__-6iw6:active {
+.Downloads_linkContent:active {
   padding-left: 15px
 }
 
-.Downloads_linkNameGrp__7b2rf {
+.Downloads_linkNameGrp {
   display: flex;
   flex-direction: column;
   gap: 5px
 }
 
-.Downloads_linkNameGrp__7b2rf div:nth-child(2) {
+.Downloads_linkNameGrp div:nth-child(2) {
   font-size: 12px
 }
 
-.Downloads_linkContent__-6iw6:hover {
+.Downloads_linkContent:hover {
   background: var(--headerFooterBkg)
 }
 
 @media only screen and (max-width:414px) {
-  .Downloads_downloadContentWrapper__ai8pI {
+  .Downloads_downloadContentWrapper {
     width: 85%
   }
 }
 
-.Android_androidWrapper__5nKKQ {
+.Android_androidWrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
@@ -8017,14 +8016,14 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 15px 0
 }
 
-.Android_downloadWrapper__MEPU2 {
+.Android_downloadWrapper {
   display: flex;
   justify-content: center;
   padding: 10px 0;
   width: 100%
 }
 
-.Android_downloadButton__B6ZTS :before {
+.Android_downloadButton :before {
   background: #61efff;
   bottom: 0;
   -webkit-filter: blur(1em);
@@ -8039,10 +8038,10 @@ button.NotFound_animbutton__GMcXK:after {
   transform: translateY(120%) rotateX(95deg) scaleY(.35)
 }
 
-.Android_downloadButton__B6ZTS {
+.Android_downloadButton {
   align-items: center;
-  -webkit-animation: Android_border-flicker__1vatI 2s linear infinite;
-  animation: Android_border-flicker__1vatI 2s linear infinite;
+  -webkit-animation: Android_border-flicker 2s linear infinite;
+  animation: Android_border-flicker 2s linear infinite;
   background: linear-gradient(180deg, #e2f8ff, #acebff);
   border: .15em solid #61efff;
   border-radius: .45em;
@@ -8062,53 +8061,53 @@ button.NotFound_animbutton__GMcXK:after {
   width: fit-content
 }
 
-.Android_downloadButton__B6ZTS a {
+.Android_downloadButton a {
   color: var(--darkColor);
   text-decoration: none
 }
 
-.Android_glowingTxt__0yowS {
-  -webkit-animation: Android_text-flicker__x2-5l 3s linear infinite;
-  animation: Android_text-flicker__x2-5l 3s linear infinite;
+.Android_glowingTxt {
+  -webkit-animation: Android_text-flicker 3s linear infinite;
+  animation: Android_text-flicker 3s linear infinite;
   -webkit-text-shadow: 0 0 .125em hsla(0, 0%, 100%, .3), 0 0 .45em #61efff;
   -moz-text-shadow: 0 0 .125em hsla(0, 0%, 100%, .3), 0 0 .45em #61efff;
   text-shadow: 0 0 .125em hsla(0, 0%, 100%, .3), 0 0 .45em #61efff
 }
 
-.Android_faultyLetter__xfaWc {
-  -webkit-animation: Android_faulty-flicker__k5CiD 2s linear infinite;
-  animation: Android_faulty-flicker__k5CiD 2s linear infinite;
+.Android_faultyLetter {
+  -webkit-animation: Android_faulty-flicker 2s linear infinite;
+  animation: Android_faulty-flicker 2s linear infinite;
   opacity: .5
 }
 
-.Android_downloadButton__B6ZTS:hover {
+.Android_downloadButton:hover {
   text-shadow: none
 }
 
-.Android_downloadButton__B6ZTS:hover,
-.Android_downloadButton__B6ZTS:hover .Android_glowingTxt__0yowS {
+.Android_downloadButton:hover,
+.Android_downloadButton:hover .Android_glowingTxt {
   -webkit-animation: none;
   animation: none
 }
 
-.Android_downloadButton__B6ZTS:hover .Android_faultyLetter__xfaWc {
+.Android_downloadButton:hover .Android_faultyLetter {
   -webkit-animation: none;
   animation: none;
   opacity: 1;
   text-shadow: none
 }
 
-.Android_downloadButton__B6ZTS:hover:before {
+.Android_downloadButton:hover:before {
   -webkit-filter: blur(1.5em);
   filter: blur(1.5em);
   opacity: 1
 }
 
-.Android_downloadButton__B6ZTS:hover:after {
+.Android_downloadButton:hover:after {
   opacity: 1
 }
 
-@-webkit-keyframes Android_faulty-flicker__k5CiD {
+@-webkit-keyframes Android_faulty-flicker {
   0% {
     opacity: .1
   }
@@ -8146,7 +8145,7 @@ button.NotFound_animbutton__GMcXK:after {
   }
 }
 
-@keyframes Android_faulty-flicker__k5CiD {
+@keyframes Android_faulty-flicker {
   0% {
     opacity: .1
   }
@@ -8184,179 +8183,179 @@ button.NotFound_animbutton__GMcXK:after {
   }
 }
 
-@-webkit-keyframes Android_text-flicker__x2-5l {
+@-webkit-keyframes Android_text-flicker {
   0% {
-    opacity: .1
+    opacity: .1;
   }
 
   2% {
-    opacity: 1
+    opacity: 1;
   }
 
   8% {
-    opacity: .1
+    opacity: .1;
   }
 
   9% {
-    opacity: 1
+    opacity: 1;
   }
 
   12% {
-    opacity: .1
+    opacity: .1;
   }
 
   20% {
-    opacity: 1
+    opacity: 1;
   }
 
   25% {
-    opacity: .3
+    opacity: .3;
   }
 
   30% {
-    opacity: 1
+    opacity: 1;
   }
 
   70% {
-    opacity: .7
+    opacity: .7;
   }
 
   72% {
-    opacity: .2
+    opacity: .2;
   }
 
   77% {
-    opacity: .9
+    opacity: .9;
   }
 
   to {
-    opacity: .9
+    opacity: .9;
   }
 }
 
-@keyframes Android_text-flicker__x2-5l {
+@keyframes Android_text-flicker {
   0% {
-    opacity: .1
+    opacity: .1;
   }
 
   2% {
-    opacity: 1
+    opacity: 1;
   }
 
   8% {
-    opacity: .1
+    opacity: .1;
   }
 
   9% {
-    opacity: 1
+    opacity: 1;
   }
 
   12% {
-    opacity: .1
+    opacity: .1;
   }
 
   20% {
-    opacity: 1
+    opacity: 1;
   }
 
   25% {
-    opacity: .3
+    opacity: .3;
   }
 
   30% {
-    opacity: 1
+    opacity: 1;
   }
 
   70% {
-    opacity: .7
+    opacity: .7;
   }
 
   72% {
-    opacity: .2
+    opacity: .2;
   }
 
   77% {
-    opacity: .9
+    opacity: .9;
   }
 
   to {
-    opacity: .9
+    opacity: .9;
   }
 }
 
-@-webkit-keyframes Android_border-flicker__1vatI {
+@-webkit-keyframes Android_border-flicker {
   0% {
-    opacity: .1
+    opacity: .1;
   }
 
   2% {
-    opacity: 1
+    opacity: 1;
   }
 
   4% {
-    opacity: .1
+    opacity: .1;
   }
 
   8% {
-    opacity: 1
+    opacity: 1;
   }
 
   70% {
-    opacity: .7
+    opacity: .7;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
-@keyframes Android_border-flicker__1vatI {
+@keyframes Android_border-flicker {
   0% {
-    opacity: .1
+    opacity: .1;
   }
 
   2% {
-    opacity: 1
+    opacity: 1;
   }
 
   4% {
-    opacity: .1
+    opacity: .1;
   }
 
   8% {
-    opacity: 1
+    opacity: 1;
   }
 
   70% {
-    opacity: .7
+    opacity: .7;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
-.Android_ImageCard__JTu4S {
+.Android_ImageCard {
   border: 1px solid var(--lightColor);
   border-radius: var(--borderRadius);
   cursor: pointer;
   padding: 0 15px 15px
 }
 
-.Android_ImageCard__JTu4S p {
+.Android_ImageCard p {
   color: var(--lightColor);
   font-size: 1.1rem;
   font-weight: 700;
   margin: 10px 0
 }
 
-.Android_ImageCard__JTu4S img {
+.Android_ImageCard img {
   border: 1px solid var(--lightColor);
   border-radius: 10px;
   width: 180px
 }
 
-.StepModal_modalOverlay__VzMLJ {
+.StepModal_modalOverlay {
   align-items: center;
   display: flex;
   height: 100%;
@@ -8365,7 +8364,7 @@ button.NotFound_animbutton__GMcXK:after {
   width: 100%
 }
 
-.StepModal_modalWrapper__a329B {
+.StepModal_modalWrapper {
   background: var(--modalBkg);
   border: 1px solid var(--lightColor);
   border-radius: var(--borderRadius);
@@ -8374,27 +8373,27 @@ button.NotFound_animbutton__GMcXK:after {
   width: 310Px
 }
 
-.StepModal_ImageCard__MMt5Z {
+.StepModal_ImageCard {
   align-items: center;
   display: flex;
   flex-direction: column
 }
 
-.StepModal_ImageCardHeader__ixvcl {
+.StepModal_ImageCardHeader {
   align-items: center;
   display: flex;
   justify-content: space-between;
   width: 90%
 }
 
-.StepModal_ImageCardHeader__ixvcl p {
+.StepModal_ImageCardHeader p {
   color: var(--lightColor);
   font-size: 1.3rem;
   font-weight: 700;
   margin: 10px 0
 }
 
-.StepModal_icon__3Uo8R {
+.StepModal_icon {
   background: var(--lightBtn);
   border-radius: 50%;
   color: var(--darkColor);
@@ -8403,12 +8402,12 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 2px
 }
 
-.StepModal_icon__3Uo8R:hover {
+.StepModal_icon:hover {
   background: var(--activeBtn);
   color: var(--lightColor)
 }
 
-.StepModal_ImageCard__MMt5Z img {
+.StepModal_ImageCard img {
   border: 1px solid var(--lightColor);
   border-radius: 10px;
   height: 550px;
@@ -8416,17 +8415,17 @@ button.NotFound_animbutton__GMcXK:after {
 }
 
 @media only screen and (max-width:375px) {
-  .StepModal_modalWrapper__a329B {
+  .StepModal_modalWrapper {
     width: 280Px
   }
 
-  .StepModal_ImageCard__MMt5Z img {
+  .StepModal_ImageCard img {
     height: 475px;
     width: 250px
   }
 }
 
-.IOS_iosWrapper__Pn6qn {
+.IOS_iosWrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
@@ -8434,21 +8433,21 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 15px 0
 }
 
-.IOS_ImageCard__6X-Q7 {
+.IOS_ImageCard {
   border: 1px solid var(--lightColor);
   border-radius: var(--borderRadius);
   cursor: pointer;
   padding: 0 15px 15px
 }
 
-.IOS_ImageCard__6X-Q7 p {
+.IOS_ImageCard p {
   color: var(--lightColor);
   font-size: 1.1rem;
   font-weight: 700;
   margin: 10px 0
 }
 
-.IOS_ImageCard__6X-Q7 img {
+.IOS_ImageCard img {
   border: 1px solid var(--lightColor);
   border-radius: 10px;
   width: 180px
@@ -8480,7 +8479,7 @@ button.NotFound_animbutton__GMcXK:after {
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 20
+  z-index: 20;
 }
 
 .Profile_headerTitle {
@@ -8490,7 +8489,7 @@ button.NotFound_animbutton__GMcXK:after {
   font-weight: 500;
   line-height: normal;
   padding: 7px 0;
-  text-align: center
+  text-align: center;
 }
 
 .Profile_headerWrapper {
@@ -8536,7 +8535,7 @@ button.NotFound_animbutton__GMcXK:after {
   width: 70%;
 }
 
-.Profile_avatarStyles__k8BTV {
+.Profile_avatarStyles {
   height: 84px !important;
   width: 84px !important
 }
@@ -8565,19 +8564,19 @@ button.NotFound_animbutton__GMcXK:after {
   z-index: 10;
 }
 
-.Profile_profileHeader__kqTOq {
+.Profile_profileHeader {
   display: flex;
   flex-direction: column;
   gap: 5px
 }
 
-.Profile_userNameWrapper__3tjSD {
+.Profile_userNameWrapper {
   display: flex;
   flex-direction: column;
   gap: 10px
 }
 
-.Profile_userNameSection__RJ4Qo {
+.Profile_userNameSection {
   align-items: flex-end;
   display: flex;
   flex-wrap: wrap;
@@ -8585,12 +8584,12 @@ button.NotFound_animbutton__GMcXK:after {
   justify-content: space-between
 }
 
-.Profile_peofileMenuWrapper__p5eBq {
+.Profile_peofileMenuWrapper {
   display: flex;
   justify-content: space-evenly
 }
 
-.Profile_peofileMenuButtonWrapper__ln9Ev {
+.Profile_peofileMenuButtonWrapper {
   align-items: center;
   color: var(--lightColor);
   cursor: pointer;
@@ -8599,7 +8598,7 @@ button.NotFound_animbutton__GMcXK:after {
   gap: 8px
 }
 
-.Profile_peofileMenuButton__1wYTV {
+.Profile_peofileMenuButton {
   align-items: center;
   border: 1px solid var(--sv368ColorLight);
   border-radius: 35%;
@@ -8610,11 +8609,11 @@ button.NotFound_animbutton__GMcXK:after {
   width: 55px;
 }
 
-.Profile_peofileMenuButton__1wYTV img {
+.Profile_peofileMenuButton img {
   width: 25px;
 }
 
-.Profile_peofileMenuButtonWrapper__ln9Ev span {
+.Profile_peofileMenuButtonWrapper span {
   font-size: 12px;
 }
 
@@ -8629,7 +8628,7 @@ button.NotFound_animbutton__GMcXK:after {
   text-align: center;
 }
 
-.Profile_profileLinkSection__7rgIr {
+.Profile_profileLinkSection {
   align-items: center;
   border-bottom: 1px solid var(--sv368ColorLight);
   color: var(--lightColor);
@@ -8639,7 +8638,7 @@ button.NotFound_animbutton__GMcXK:after {
   padding-bottom: 10px;
 }
 
-.Profile_menuStyles__BuUx0 {
+.Profile_menuStyles {
   color: #fff;
   font-size: 18px;
   margin-bottom: -10px;
@@ -8676,12 +8675,12 @@ button.NotFound_animbutton__GMcXK:after {
 }
 
 @media only screen and (max-width:375px) {
-  .Profile_peofileMenuButton__1wYTV {
+  .Profile_peofileMenuButton {
     height: 45px;
     width: 45px;
   }
 
-  .Profile_headerOverlay__hz7G3 {
+  .Profile_headerOverlay {
     padding: 12px 4px;
   }
 
@@ -8697,7 +8696,7 @@ button.NotFound_animbutton__GMcXK:after {
     font-size: 24px;
   }
 
-  .Profile_avatarStyles__k8BTV {
+  .Profile_avatarStyles {
     height: 70px !important;
     width: 70px !important;
   }
@@ -8722,45 +8721,45 @@ button.NotFound_animbutton__GMcXK:after {
   }
 }
 
-.LabelValue_labelValueWrapper__beGNY {
+.LabelValue_labelValueWrapper {
   display: flex;
   font-family: Roboto, sans-serif;
   gap: 3px
 }
 
-.LabelValue_labelValueWrapper__beGNY span:first-child {
+.LabelValue_labelValueWrapper span:first-child {
   color: var(--lightColor);
   font-size: 14px;
   margin-top: 3px
 }
 
-.LabelValue_labelValueWrapper__beGNY span:nth-child(2) {
+.LabelValue_labelValueWrapper span:nth-child(2) {
   color: var(--lightColor);
   font-size: 18px
 }
 
 @media only screen and (max-width:414px) {
-  .LabelValue_labelValueWrapper__beGNY span:first-child {
+  .LabelValue_labelValueWrapper span:first-child {
     font-size: 13px
   }
 
-  .LabelValue_labelValueWrapper__beGNY span:nth-child(2) {
+  .LabelValue_labelValueWrapper span:nth-child(2) {
     font-size: 16px
   }
 }
 
 @media only screen and (max-width:360px) {
-  .LabelValue_labelValueWrapper__beGNY span:first-child {
+  .LabelValue_labelValueWrapper span:first-child {
     font-size: 12px;
     margin-top: 2px
   }
 
-  .LabelValue_labelValueWrapper__beGNY span:nth-child(2) {
+  .LabelValue_labelValueWrapper span:nth-child(2) {
     font-size: 14px
   }
 }
 
-.ChatImage_chatImgWrapper__HI4A2 {
+.ChatImage_chatImgWrapper {
   bottom: 0;
   display: flex;
   justify-content: flex-end;
@@ -8770,27 +8769,27 @@ button.NotFound_animbutton__GMcXK:after {
   z-index: 1000
 }
 
-.ChatImage_chatImgWrapper__HI4A2 img {
+.ChatImage_chatImgWrapper img {
   cursor: pointer;
   height: 50px;
   width: 50px
 }
 
 @media only screen and (max-width:414px) {
-  .ChatImage_chatImgWrapper__HI4A2 img {
+  .ChatImage_chatImgWrapper img {
     height: 50px;
     width: 50px
   }
 }
 
 @media only screen and (max-width:280px) {
-  .ChatImage_chatImgWrapper__HI4A2 img {
+  .ChatImage_chatImgWrapper img {
     height: 35px;
     width: 35px
   }
 }
 
-.AllWallet_modalContainer__cwqkR {
+.AllWallet_modalContainer {
   align-content: center;
   justify-items: center;
   left: 50% !important;
@@ -8818,7 +8817,7 @@ button.NotFound_animbutton__GMcXK:after {
   width: 0
 }
 
-.AllWallet_closeStyles__pw0rw {
+.AllWallet_closeStyles {
   color: #06bbf7;
   cursor: pointer;
   height: 32px;
@@ -8874,7 +8873,7 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 8px;
 }
 
-.AllWallet_dagaRefresh__Hcin4 {
+.AllWallet_dagaRefresh {
   align-items: center;
   cursor: pointer;
   display: flex;
@@ -8903,14 +8902,14 @@ button.NotFound_animbutton__GMcXK:after {
   width: 50%;
 }
 
-.AllWallet_otherGame__yzDj- {
+.AllWallet_otherGame {
   color: #fff;
   display: flex;
   flex-direction: column;
   gap: 8px
 }
 
-.AllWallet_otherGameRow__Xb4s4 {
+.AllWallet_otherGameRow {
   align-items: center;
   display: flex;
   justify-content: space-between
@@ -8932,7 +8931,7 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 20px 10px;
 }
 
-.AllWallet_allWalletHeader__BLlYO {
+.AllWallet_allWalletHeader {
   padding: 3%;
 }
 
@@ -8957,7 +8956,7 @@ button.NotFound_animbutton__GMcXK:after {
   font-size: 20px;
 }
 
-.AllWallet_gameSectionStyles__BTkvQ {
+.AllWallet_gameSectionStyles {
   background: #1e2134 0 0 no-repeat padding-box;
   border-radius: 14px;
   display: flex;
@@ -8968,7 +8967,7 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 10px
 }
 
-.AllWallet_gameSection__JWqxV {
+.AllWallet_gameSection {
   border-bottom: 1px solid #3d3f4a;
   color: #fff;
   font-weight: 400 !important;
@@ -8979,20 +8978,20 @@ button.NotFound_animbutton__GMcXK:after {
   width: 100%
 }
 
-.AllWallet_games__MEyWg {
+.AllWallet_games {
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin-top: 10px
 }
 
-.AllWallet_singleGameSection__U6ILS {
+.AllWallet_singleGameSection {
   display: flex;
   font-size: 12px;
   justify-content: space-between
 }
 
-.AllWallet_buttonStyles__WYO8K {
+.AllWallet_buttonStyles {
   background: linear-gradient(180deg, #06bbf7, #17346c);
   border: 1px solid #06b9f3;
   border-radius: 8px;
@@ -9003,7 +9002,7 @@ button.NotFound_animbutton__GMcXK:after {
   margin-top: auto
 }
 
-.AllWallet_disabledButtonStyles__\+mx4K {
+.AllWallet_disabledButtonStyles {
   background: #4f5268 0 0 no-repeat padding-box;
   border-radius: 10px;
   color: #000;
@@ -9011,37 +9010,37 @@ button.NotFound_animbutton__GMcXK:after {
   width: 100%
 }
 
-.AllWallet_refreshGameBalance__mIu23 {
+.AllWallet_refreshGameBalance {
   cursor: pointer;
   margin-left: 8px
 }
 
-.AllWallet_rotateIcon__wXKhG {
-  -webkit-animation: AllWallet_rotate__F92Rf .5s linear infinite;
-  animation: AllWallet_rotate__F92Rf .5s linear infinite
+.AllWallet_rotateIcon {
+  -webkit-animation: AllWallet_rotate .5s linear infinite;
+  animation: AllWallet_rotate .5s linear infinite;
 }
 
-@-webkit-keyframes AllWallet_rotate__F92Rf {
+@-webkit-keyframes AllWallet_rotate {
   0% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg)
+    transform: rotate(0deg);
   }
 
   to {
     -webkit-transform: rotate(1turn);
-    transform: rotate(1turn)
+    transform: rotate(1turn);
   }
 }
 
-@keyframes AllWallet_rotate__F92Rf {
+@keyframes AllWallet_rotate {
   0% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg)
+    transform: rotate(0deg);
   }
 
   to {
     -webkit-transform: rotate(1turn);
-    transform: rotate(1turn)
+    transform: rotate(1turn);
   }
 }
 
@@ -9053,7 +9052,7 @@ button.NotFound_animbutton__GMcXK:after {
   font-weight: 500;
   justify-content: center;
   line-height: normal;
-  text-align: center
+  text-align: center;
 }
 
 .BankAccountManagement_bankManagementOverlay {
@@ -9091,7 +9090,7 @@ button.NotFound_animbutton__GMcXK:after {
   display: flex;
   height: 20px;
   justify-content: center;
-  width: 20px
+  width: 20px;
 }
 
 .BankAccountManagement_supportStyles {
@@ -9099,14 +9098,14 @@ button.NotFound_animbutton__GMcXK:after {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 20px
+  padding: 20px;
 }
 
 .BankAccountManagement_textStyles {
   color: #fff;
   font-size: 14px;
   font-weight: 400;
-  text-align: center
+  text-align: center;
 }
 
 .BankAccountManagement_supportBtn {
@@ -9120,23 +9119,23 @@ button.NotFound_animbutton__GMcXK:after {
   gap: 6px;
   height: 40px;
   justify-content: center;
-  min-width: 115px
+  min-width: 115px;
 }
 
-.BankAccountManagement_banksSection__39X5a {
+.BankAccountManagement_banksSection {
   display: flex;
   flex-direction: column;
   gap: 8px;
   max-height: 340px;
-  overflow: auto
+  overflow: auto;
 }
 
-.BankAccountManagement_bankCardWrapper__fKAvR {
+.BankAccountManagement_bankCardWrapper {
   display: flex;
-  gap: 8px
+  gap: 8px;
 }
 
-.BankAccountManagement_bankCard__Y\+8Ki {
+.BankAccountManagement_bankCard {
   align-items: center;
   background: linear-gradient(180deg, #212a43, #2d3970);
   border: 1px solid #00c1fe;
@@ -9145,27 +9144,27 @@ button.NotFound_animbutton__GMcXK:after {
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  width: 100%
+  width: 100%;
 }
 
-.BankAccountManagement_bankCard__Y\+8Ki span {
+.BankAccountManagement_bankCard span {
   font-size: 14px;
   font-style: normal;
-  font-weight: 400
+  font-weight: 400;
 }
 
-.BankAccountManagement_bankCard__Y\+8Ki span:nth-child(2) {
+.BankAccountManagement_bankCard span:nth-child(2) {
   font-size: 16px;
-  font-weight: 500
+  font-weight: 500;
 }
 
-.BankAccountManagement_bankCardContent__IMQCa {
+.BankAccountManagement_bankCardContent {
   display: flex;
   flex-direction: column;
-  gap: 4px
+  gap: 4px;
 }
 
-.BankAccountManagement_bankCard__Y\+8Ki:hover {
+.BankAccountManagement_bankCard:hover {
   background: transparent linear-gradient(90deg, #33405b, #4d576e)
 }
 
@@ -9179,42 +9178,42 @@ button.NotFound_animbutton__GMcXK:after {
   margin: 0 auto;
   text-align: center;
   transition: .5s;
-  width: 220px
+  width: 220px;
 }
 
 .BankAccountManagement_addBnksBtn:hover:enabled {
-  opacity: .7
+  opacity: .7;
 }
 
-.BankAccountManagement_addBnksBtn.BankAccountManagement_disabled__s8qBD {
+.BankAccountManagement_addBnksBtn.BankAccountManagement_disabled {
   border-color: var(--disableBkg);
   color: var(--disableBkg);
-  cursor: not-allowed
+  cursor: not-allowed;
 }
 
-.BankAccountManagement_radioStyles__d3BK0 {
+.BankAccountManagement_radioStyles {
   height: 20px;
   margin: initial;
-  width: 20px
+  width: 20px;
 }
 
-.BankAccountManagement_bankCardWrapper__fKAvR input[type=radio] {
+.BankAccountManagement_bankCardWrapper input[type=radio] {
   accent-color: var(--sv368Color)
 }
 
-.ForgotPassword_forgotContentWrapper__jUFc- {
+.ForgotPassword_forgotContentWrapper {
   display: flex;
   flex-direction: column;
   height: 100%;
   overflow: auto
 }
 
-.ForgotPassword_imageSection__UTfhn {
+.ForgotPassword_imageSection {
   display: flex;
   position: relative
 }
 
-.ForgotPassword_topButtonWrapper__2iOxh {
+.ForgotPassword_topButtonWrapper {
   align-items: center;
   bottom: 18%;
   color: var(--lightColor);
@@ -9224,7 +9223,7 @@ button.NotFound_animbutton__GMcXK:after {
   width: 100%
 }
 
-.ForgotPassword_topButtonWrapper__2iOxh button {
+.ForgotPassword_topButtonWrapper button {
   background: var(--lightBtn);
   border: 2px solid var(--darkColor);
   border-radius: var(--btnRadius);
@@ -9234,11 +9233,11 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 10px 15px
 }
 
-.ForgotPassword_topButtonWrapper__2iOxh button:hover {
+.ForgotPassword_topButtonWrapper button:hover {
   background: var(--lightBtnHover)
 }
 
-.ForgotPassword_linkButtonsWrapper__cQ91q {
+.ForgotPassword_linkButtonsWrapper {
   align-items: center;
   color: var(--lightColor);
   display: flex;
@@ -9248,13 +9247,13 @@ button.NotFound_animbutton__GMcXK:after {
   padding-bottom: 20px
 }
 
-.ForgotPassword_helperText__urGGQ {
+.ForgotPassword_helperText {
   font-weight: 700;
   padding: 0 30px;
   text-align: center
 }
 
-.ForgotPassword_buttonWrapper__3TfpG {
+.ForgotPassword_buttonWrapper {
   align-items: center;
   background: transparent;
   border: 1px solid var(--lightColor);
@@ -9267,78 +9266,78 @@ button.NotFound_animbutton__GMcXK:after {
   width: 90%
 }
 
-.ForgotPassword_buttonWrapper__3TfpG:hover {
+.ForgotPassword_buttonWrapper:hover {
   background: var(--lightColor);
   color: var(--darkColor);
   font-weight: 700
 }
 
-.ForgotPassword_buttonWrapper__3TfpG:hover .ForgotPassword_lastBtn__MHeiO {
+.ForgotPassword_buttonWrapper:hover .ForgotPassword_lastBtn {
   color: var(--darkColor)
 }
 
-.ForgotPassword_twoBtns__0N60h {
+.ForgotPassword_twoBtns {
   align-items: center;
   display: flex;
   font-size: 16px;
   gap: 15px
 }
 
-.ForgotPassword_twoBtns__0N60h img {
+.ForgotPassword_twoBtns img {
   border-radius: 20%;
   width: 26px
 }
 
-.ForgotPassword_lastBtn__MHeiO {
+.ForgotPassword_lastBtn {
   font-size: 14px
 }
 
 @media only screen and (max-width:540px) {
-  .ForgotPassword_imageSection__UTfhn img {
+  .ForgotPassword_imageSection img {
     height: 300px
   }
 
-  .ForgotPassword_linkButtonsWrapper__cQ91q {
+  .ForgotPassword_linkButtonsWrapper {
     gap: 15px
   }
 }
 
 @media only screen and (max-width:414px) {
-  .ForgotPassword_imageSection__UTfhn img {
+  .ForgotPassword_imageSection img {
     height: auto
   }
 }
 
-.CollectPoints_collectOverlay__XLyyg {
+.CollectPoints_collectOverlay {
   display: flex;
   flex-direction: column;
   height: 100%;
   padding: 0 15px
 }
 
-.CollectPoints_collectHeader__YNsg6 {
+.CollectPoints_collectHeader {
   color: var(--lightColor);
   display: flex;
   gap: 10px;
   padding: 25px 0
 }
 
-.CollectPoints_collectHeader__YNsg6 img {
+.CollectPoints_collectHeader img {
   width: 25px
 }
 
-.CollectPoints_collectHeader__YNsg6 span {
+.CollectPoints_collectHeader span {
   font-size: .9rem
 }
 
-.CollectPoints_collectBody__O9PDn {
+.CollectPoints_collectBody {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   gap: 15px
 }
 
-.CollectPoints_rewardCardWrapper__kd33R {
+.CollectPoints_rewardCardWrapper {
   background: var(--modalBkg);
   border-radius: 7px;
   box-shadow: 0 1px 5px #00000091;
@@ -9347,11 +9346,11 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 15px 10px
 }
 
-.CollectPoints_mediaImgWrapper__N-N-l img {
+.CollectPoints_mediaImgWrapper img {
   width: 35px
 }
 
-.CollectPoints_rewardCardInner__CU0MZ {
+.CollectPoints_rewardCardInner {
   color: var(--lightColor);
   display: flex;
   flex-direction: column;
@@ -9359,12 +9358,12 @@ button.NotFound_animbutton__GMcXK:after {
   gap: 12px
 }
 
-.CollectPoints_rewardCardInner__CU0MZ p {
+.CollectPoints_rewardCardInner p {
   font-size: 14px;
   margin: 0
 }
 
-.CollectPoints_rewardBar__UV\+EY {
+.CollectPoints_rewardBar {
   background-color: var(--lightColor);
   border-radius: 9px;
   color: var(--darkColor);
@@ -9372,51 +9371,51 @@ button.NotFound_animbutton__GMcXK:after {
   text-align: center
 }
 
-.CollectPoints_proceedWrapper__CxZqF {
+.CollectPoints_proceedWrapper {
   display: flex;
   flex-direction: column;
   gap: 8px
 }
 
-.CollectPoints_rewardCoinsWrapper__\+qOdT {
+.CollectPoints_rewardCoinsWrapper {
   align-items: center;
   display: flex;
   gap: 15px
 }
 
-.CollectPoints_rewardCoin__\+mXkD {
+.CollectPoints_rewardCoin {
   align-items: center;
   display: flex;
   gap: 5px
 }
 
-.CollectPoints_rewardCoin__\+mXkD img {
+.CollectPoints_rewardCoin img {
   display: flex;
-  width: 15px
+  width: 15px;
 }
 
-.CollectPoints_rewardCoin__\+mXkD span {
-  font-size: 12px
+.CollectPoints_rewardCoin span {
+  font-size: 12px;
 }
 
-.CollectPoints_rewardCoinsWrapper__\+qOdT div:first-child {
-  color: #fbdf71
+.CollectPoints_rewardCoinsWrapper div:first-child {
+  color: #fbdf71;
 }
 
-.CollectPoints_rewardCoinsWrapper__\+qOdT div:nth-child(2) {
-  color: #8f8
+.CollectPoints_rewardCoinsWrapper div:nth-child(2) {
+  color: #8f8;
 }
 
-.CollectPoints_proceedWrapper__CxZqF button {
+.CollectPoints_proceedWrapper button {
   background: transparent linear-gradient(180deg, #5bee5d, #289405);
   border: 1px solid #c1ffc9;
   border-radius: 21px;
   color: var(--lightColor);
   cursor: pointer;
-  padding: 5px 8px
+  padding: 5px 8px;
 }
 
-.CollectPoints_submitButton__qpX7m {
+.CollectPoints_submitButton {
   background: var(--activeBtn);
   border: 1px solid var(--lightColor);
   border-radius: var(--borderRadius);
@@ -9426,10 +9425,10 @@ button.NotFound_animbutton__GMcXK:after {
   font-weight: 600;
   margin: 1.4rem 0;
   padding: 12px 0;
-  width: 100%
+  width: 100%;
 }
 
-.MissionDiary_missionTabsOverlay__KDajj {
+.MissionDiary_missionTabsOverlay {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -9440,12 +9439,12 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 20px
 }
 
-.MissionDiary_chatImgWrapper__-0g52 img {
+.MissionDiary_chatImgWrapper img {
   height: 100px;
   width: 100px
 }
 
-.MissionDiary_chatImgWrapper__-0g52 {
+.MissionDiary_chatImgWrapper {
   align-items: flex-end;
   color: var(--lightColor);
   display: flex;
@@ -9456,17 +9455,17 @@ button.NotFound_animbutton__GMcXK:after {
 }
 
 @media only screen and (max-width:414px) {
-  .MissionDiary_missionTabsOverlay__KDajj {
+  .MissionDiary_missionTabsOverlay {
     gap: 12px;
     padding: 5px 10px
   }
 
-  .MissionDiary_chatImgWrapper__-0g52 img {
+  .MissionDiary_chatImgWrapper img {
     height: 100px;
     width: 100px
   }
 
-  .MissionDiary_chatImgWrapper__-0g52 {
+  .MissionDiary_chatImgWrapper {
     align-items: flex-end;
     background-color: red;
     color: var(--lightColor);
@@ -9479,19 +9478,19 @@ button.NotFound_animbutton__GMcXK:after {
   }
 }
 
-.tab1_tab1Wrapper__YX--R {
+.tab1_tab1Wrapper {
   display: flex;
   flex-direction: column;
   gap: 15px
 }
 
-.tab1_tab1TopContent__zjJS5 {
+.tab1_tab1TopContent {
   display: flex;
   flex-direction: column;
   gap: 3px
 }
 
-.tab1_tabBox__FkVkY {
+.tab1_tabBox {
   background: var(--modalBkg);
   border-radius: 7px;
   box-shadow: 0 1px 5px #00000091;
@@ -9501,54 +9500,54 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 15px 10px
 }
 
-.tab1_tabFirstLine__WnJia {
+.tab1_tabFirstLine {
   color: var(--lightColor);
   font-size: 15px
 }
 
-.tab1_tabSecondLine__Yz-UK {
+.tab1_tabSecondLine {
   align-items: center;
   display: flex;
   gap: 5px;
   justify-content: space-between
 }
 
-.tab1_tabSecondLine__Yz-UK p {
+.tab1_tabSecondLine p {
   color: #d5d5d5;
   font-size: 14px;
   margin: 0
 }
 
-.tab1_tabSecondLine__Yz-UK p:first-child {
+.tab1_tabSecondLine p:first-child {
   flex-grow: 1
 }
 
-.tab1_tabSecondLine__Yz-UK p:nth-child(2) {
+.tab1_tabSecondLine p:nth-child(2) {
   font-size: 11px
 }
 
-.tab1_tabSecondLine__Yz-UK span {
+.tab1_tabSecondLine span {
   background-color: #75943e;
   border-radius: 6px;
   height: 6px;
   width: 70px
 }
 
-.tab1_tabThirdLine__LD7Uk {
+.tab1_tabThirdLine {
   align-items: center;
   display: flex;
   gap: 5px;
   margin-top: 5px
 }
 
-.tab1_tabThirdLine__LD7Uk p {
+.tab1_tabThirdLine p {
   color: #fb2;
   flex-grow: 1;
   font-size: 14px;
   margin: 0
 }
 
-.tab1_tabThirdLine__LD7Uk button {
+.tab1_tabThirdLine button {
   background: #e39d00;
   border: none;
   border-radius: 6px;
@@ -9557,55 +9556,55 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 5px 8px
 }
 
-.tab2_secondTabOverlay__-aSoX,
-.tab2_tabBox__JNB08 {
+.tab2_secondTabOverlay,
+.tab2_tabBox {
   display: flex;
   flex-direction: column;
   gap: 10px
 }
 
-.tab2_tabBox__JNB08 {
+.tab2_tabBox {
   background: var(--modalBkg);
   border-radius: 7px;
   box-shadow: 0 1px 5px #00000091;
   padding: 15px 10px
 }
 
-.tab2_tabFirstLine__37mqv {
+.tab2_tabFirstLine {
   color: var(--lightColor);
   font-size: 15px
 }
 
-.tab2_tabSecondLine__EbPzv {
+.tab2_tabSecondLine {
   align-items: center;
   display: flex;
   gap: 5px;
   justify-content: space-between
 }
 
-.tab2_tabSecondLine__EbPzv p {
+.tab2_tabSecondLine p {
   color: #d5d5d5;
   font-size: 14px;
   margin: 0
 }
 
-.tab2_tabSecondLine__EbPzv p:first-child {
+.tab2_tabSecondLine p:first-child {
   flex-grow: 1;
   font-size: 12px
 }
 
-.tab2_tabSecondLine__EbPzv p:nth-child(2) {
+.tab2_tabSecondLine p:nth-child(2) {
   font-size: 11px
 }
 
-.tab2_tabSecondLine__EbPzv span {
+.tab2_tabSecondLine span {
   border: 1px solid #75943e;
   border-radius: 6px;
   height: 6px;
   width: 70px
 }
 
-.tab2_tabThirdLine__IKnB2 {
+.tab2_tabThirdLine {
   align-items: center;
   color: #fb2;
   display: flex;
@@ -9614,49 +9613,49 @@ button.NotFound_animbutton__GMcXK:after {
   margin-top: 5px
 }
 
-.tab3_tabBox__KEY9X {
+.tab3_tabBox {
   color: var(--lightColor);
   display: flex;
   flex-direction: column;
   gap: 5px
 }
 
-.tab3_tabLine__tB0Os {
+.tab3_tabLine {
   font-size: 11px;
   padding-top: 10px
 }
 
-.Deposits_content__RYTVv {
+.Deposits_content {
   color: var(--lightColor);
   font-family: Roboto, sans-serif;
   margin: auto;
   width: 95%
 }
 
-.Deposits_content__RYTVv p {
+.Deposits_content p {
   line-height: 19.9px;
   padding: 2px
 }
 
-.Deposits_content__RYTVv p span {
+.Deposits_content p span {
   color: var(--aquaColor)
 }
 
-.UserHelpAndSupport_helpOverlay__JDADY,
-.UserHelpAndSupport_helpSupportOverlay__mae1U {
+.UserHelpAndSupport_helpOverlay,
+.UserHelpAndSupport_helpSupportOverlay {
   display: flex;
   flex-direction: column;
   height: 100%
 }
 
-.UserHelpAndSupport_helpOverlay__JDADY {
+.UserHelpAndSupport_helpOverlay {
   flex-grow: 1;
   justify-content: space-between;
   margin: 0 auto;
   width: 95%
 }
 
-.UserHelpAndSupport_helpWrapper__G5d1N {
+.UserHelpAndSupport_helpWrapper {
   background: transparent linear-gradient(0deg, #19253f, #19253f 25%, #212d47 49%, #33405b);
   border-radius: 30px 30px 0 0;
   box-shadow: 0 0 10px #19253f;
@@ -9667,7 +9666,7 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 25px
 }
 
-.UserHelpAndSupport_profileLinkSection__Q8z1v {
+.UserHelpAndSupport_profileLinkSection {
   align-items: center;
   border-bottom: 1px solid #52525d;
   color: var(--lightColor);
@@ -9678,11 +9677,11 @@ button.NotFound_animbutton__GMcXK:after {
   padding-bottom: 10px
 }
 
-.UserHelpAndSupport_profileLinkSection__Q8z1v span {
+.UserHelpAndSupport_profileLinkSection span {
   font-size: .9rem
 }
 
-.UserHelpAndSupport_linkImgWrapper__v08Fn {
+.UserHelpAndSupport_linkImgWrapper {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -9690,61 +9689,61 @@ button.NotFound_animbutton__GMcXK:after {
   justify-content: center
 }
 
-.UserHelpAndSupport_chatImgWrapper__SrIsk {
+.UserHelpAndSupport_chatImgWrapper {
   display: flex;
   justify-content: flex-end;
   padding: 0 5px 10px 0
 }
 
-.UserHelpAndSupport_chatImgWrapper__SrIsk img {
+.UserHelpAndSupport_chatImgWrapper img {
   cursor: pointer;
   height: 50px;
   width: 50px
 }
 
 @media only screen and (max-width:414px) {
-  .UserHelpAndSupport_helpWrapper__G5d1N {
+  .UserHelpAndSupport_helpWrapper {
     padding: 20px
   }
 
-  .UserHelpAndSupport_chatImgWrapper__SrIsk img {
+  .UserHelpAndSupport_chatImgWrapper img {
     height: 50px;
     width: 50px
   }
 }
 
 @media only screen and (max-width:280px) {
-  .UserHelpAndSupport_helpOverlay__JDADY {
+  .UserHelpAndSupport_helpOverlay {
     width: 98%
   }
 
-  .UserHelpAndSupport_helpWrapper__G5d1N {
+  .UserHelpAndSupport_helpWrapper {
     padding: 15px
   }
 
-  .UserHelpAndSupport_chatImgWrapper__SrIsk img {
+  .UserHelpAndSupport_chatImgWrapper img {
     height: 35px;
     width: 35px
   }
 }
 
-.Withdrawls_content__J-gJu {
+.Withdrawls_content {
   color: var(--lightColor);
   font-family: Roboto, sans-serif;
   margin: auto;
   width: 95%
 }
 
-.Withdrawls_content__J-gJu p {
+.Withdrawls_content p {
   line-height: 19.9px;
   padding: 2px
 }
 
-.Withdrawls_content__J-gJu p span {
+.Withdrawls_content p span {
   color: var(--aquaColor)
 }
 
-.FAQs_faqWrapper__TFYbM {
+.FAQs_faqWrapper {
   color: var(--lightColor);
   display: flex;
   flex-direction: column;
@@ -9755,53 +9754,53 @@ button.NotFound_animbutton__GMcXK:after {
   width: 95%
 }
 
-.FAQs_faqContent__t0XPQ {
+.FAQs_faqContent {
   display: flex;
   flex-direction: column;
   gap: 8px
 }
 
-.FAQs_faqContent__t0XPQ span {
+.FAQs_faqContent span {
   color: var(--aquaColor)
 }
 
-.UserAgreement_content__WclkA {
+.UserAgreement_content {
   color: var(--lightColor);
   font-family: Roboto, sans-serif;
   margin: auto;
   width: 95%
 }
 
-.UserAgreement_content__WclkA p {
+.UserAgreement_content p {
   line-height: 19.9px;
   padding: 2px
 }
 
-.PrivacyPolicy_content__mOUzg {
+.PrivacyPolicy_content {
   color: var(--lightColor);
   font-family: Roboto, sans-serif;
   margin: auto;
   width: 95%
 }
 
-.PrivacyPolicy_content__mOUzg p {
+.PrivacyPolicy_content p {
   line-height: 19.9px;
   padding: 2px
 }
 
-.Others_content__1E0UC {
+.Others_content {
   color: var(--lightColor);
   font-family: Roboto, sans-serif;
   margin: auto;
   width: 95%
 }
 
-.Others_content__1E0UC p {
+.Others_content p {
   line-height: 19.9px;
   padding: 2px
 }
 
-.Notifications_headingText__JrEJl {
+.Notifications_headingText {
   color: #fff;
   display: flex;
   font-size: 24px;
@@ -9812,7 +9811,7 @@ button.NotFound_animbutton__GMcXK:after {
   text-align: center
 }
 
-.Notifications_notificationsOverlay__yvp93 {
+.Notifications_notificationsOverlay {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -9820,7 +9819,7 @@ button.NotFound_animbutton__GMcXK:after {
   padding: 0 10px
 }
 
-.Notifications_notificationsWrapper__0cWiC {
+.Notifications_notificationsWrapper {
   border-radius: 15px;
   box-sizing: border-box;
   display: flex;
@@ -9831,26 +9830,26 @@ button.NotFound_animbutton__GMcXK:after {
   width: 100%
 }
 
-.Notifications_notificationRead__i4tlj {
+.Notifications_notificationRead {
   background: #1f2133 0 0 no-repeat padding-box
 }
 
-.Notifications_notificationUnread__8r33B {
+.Notifications_notificationUnread {
   background: #38478b 0 0 no-repeat padding-box
 }
 
-.Notifications_dividerStyle__zfcED {
+.Notifications_dividerStyle {
   margin: 0;
   width: 100%
 }
 
-.Notifications_dividerStyle__zfcED hr {
+.Notifications_dividerStyle hr {
   border: 1px solid #515151;
   margin: auto;
   width: 95%
 }
 
-.Notifications_titleStyling__Elv8s {
+.Notifications_titleStyling {
   -webkit-font-feature-settings: normal;
   font-feature-settings: normal;
   word-wrap: break-word;
@@ -9870,7 +9869,7 @@ button.NotFound_animbutton__GMcXK:after {
   text-align: left
 }
 
-.Notifications_titleDateContainer__1K2ui {
+.Notifications_titleDateContainer {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -9878,7 +9877,7 @@ button.NotFound_animbutton__GMcXK:after {
   width: 100%
 }
 
-.Notifications_titleDateContainer__1K2ui p {
+.Notifications_titleDateContainer p {
   -webkit-font-feature-settings: normal;
   font-feature-settings: normal;
   color: #00c1fe;
@@ -9893,7 +9892,7 @@ button.NotFound_animbutton__GMcXK:after {
   text-align: right
 }
 
-.Notifications_detailStyling__l\+3LO {
+.Notifications_detailStyling {
   word-wrap: break-word;
   color: #dcf6fe;
   font-size: 14px;
@@ -9908,7 +9907,7 @@ button.NotFound_animbutton__GMcXK:after {
   text-align: left
 }
 
-.Notifications_noNotificationWrapper__2Ksxh {
+.Notifications_noNotificationWrapper {
   align-items: center;
   box-sizing: border-box;
   display: flex;
@@ -9919,14 +9918,14 @@ button.NotFound_animbutton__GMcXK:after {
   width: 100%
 }
 
-.Notifications_noNotificationImageContainer__AOKX9 {
+.Notifications_noNotificationImageContainer {
   height: 100%;
   max-height: 130px;
   max-width: 108px;
   width: 100%
 }
 
-.Notifications_noNotificationWrapper__2Ksxh h1 {
+.Notifications_noNotificationWrapper h1 {
   color: #00c1fe;
   font-size: 24px;
   font-weight: 400;
@@ -9935,14 +9934,14 @@ button.NotFound_animbutton__GMcXK:after {
   opacity: 1
 }
 
-.Notifications_noNotificationImageContainer__AOKX9 img {
+.Notifications_noNotificationImageContainer img {
   height: 100%;
   object-fit: contain;
   opacity: 1;
   width: 100%
 }
 
-.Notifications_textStyling__Rhxvt {
+.Notifications_textStyling {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
@@ -9953,15 +9952,15 @@ button.NotFound_animbutton__GMcXK:after {
 }
 
 @media (max-width:340px) {
-  .Notifications_titleDateContainer__1K2ui {
+  .Notifications_titleDateContainer {
     display: inline
   }
 
-  .Notifications_titleStyling__Elv8s {
+  .Notifications_titleStyling {
     line-height: 15px
   }
 
-  .Notifications_titleDateContainer__1K2ui p {
+  .Notifications_titleDateContainer p {
     line-height: 30px
   }
 }
