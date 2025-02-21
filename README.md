@@ -8,4 +8,5 @@
 /profile.html<br>
 /promotion.html<br>
 /transections.html<br>
+/transectiondetail.html<br>
 /withdraw.html<br>
