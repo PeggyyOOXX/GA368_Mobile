@@ -3028,21 +3028,33 @@ code {
 }
 
 .PlayGameModal_modalTopOverlay {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
   color: #fff;
-  margin: 0 16px;
   place-self: center;
-  width: inherit
 }
 
 .PlayGameModal_modalWrapper {
   background: linear-gradient(180deg, #1e2134, #2c386e);
   border-radius: 16px;
   box-shadow: inset -2px 0 0 0 #00c1fe, inset 2px 0 0 0 #00c1fe;
-  display: flex;
   flex-direction: column;
   gap: 24px;
   margin: 0 16px;
-  padding: 16px 16px 24px
+  padding: 16px 16px 24px;
+  align-items: center;
+  display: flex;
+  width: 100%;
 }
 
 .PlayGameModal_closeIcon {
@@ -3056,6 +3068,12 @@ code {
 
 .PlayGameModal_playGameheader {
   display: flex
+}
+.PlayGameModal_playGameheaderhr{
+  margin: 0px;
+  flex-shrink: 0;
+  border: 1px solid #5f5f5f;
+  width: 100%;
 }
 
 .PlayGameModal_balanceSectionWrapper {
@@ -3113,7 +3131,11 @@ code {
   font-size: 13px;
   font-weight: 700
 }
-
+.PlayGameModal_inputpointWrapper{
+  display: grid; 
+  gap: 8px;
+  width: 100%;
+}
 .PlayGameModal_inputWrapper input {
   background: #1e2134;
   border: 1px solid #3f519f;
@@ -3132,7 +3154,7 @@ code {
 .PlayGameModal_inputWrapper {
   height: 40px;
   position: relative;
-  width: 100%
+  width: 100%;
 }
 
 .PlayGameModal_transferAllBtnWrapper {
@@ -3152,24 +3174,25 @@ code {
 }
 
 .PlayGameModal_transferAllBtn:hover {
-  background: linear-gradient(180deg, #15c7fe, #e9fef7)
+  background: linear-gradient(180deg, #15c7fe, #e9fef7);
 }
 
 .PlayGameModal_loadingErrorWrapper {
-  text-align: center
+  text-align: center;
 }
 
 .PlayGameModal_loadingErrorWrapper strong {
   color: var(--redColor);
   display: flex;
   justify-content: center;
-  margin-top: 15px
+  margin-top: 15px;
 }
 
 .PlayGameModal_playGameFooterDisable,
 .PlayGameModal_playGameFooter {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  width: 100%;
 }
 
 .PlayGameModal_playGameFooter button {
@@ -3180,11 +3203,11 @@ code {
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
-  padding: 12px 0
+  padding: 12px 0;
 }
 
 .PlayGameModal_playGameFooter button:hover {
-  background: linear-gradient(180deg, #202234, #30334e)
+  background: linear-gradient(180deg, #202234, #30334e);
 }
 
 .PlayGameModal_playGameFooterDisable button {
@@ -5020,24 +5043,24 @@ code {
 .LinksPage_linkstOverlay {
   display: flex;
   flex-direction: column;
-  height: 100%
+  height: 100%;
 }
 
 .LinksPage_linksContentWrapper {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 18px 0
+  padding: 18px 0;
 }
 
 .LinksPage_logoWrapper {
   display: flex;
   justify-content: center;
-  padding-bottom: 5px
+  padding-bottom: 5px;
 }
 
 .LinksPage_logoWrapper img {
-  cursor: pointer
+  cursor: pointer;
 }
 
 .LinksPage_linksWrapper {
@@ -5046,14 +5069,14 @@ code {
   flex-grow: 1;
   gap: 15px;
   justify-content: center;
-  margin: 0 2%
+  margin: 0 2%;
 }
 
 .LinksPage_userBox {
   border: 1px solid var(--sv368Color);
   border-radius: var(--borderRadius);
   gap: 5px;
-  padding: 10px
+  padding: 10px;
 }
 
 .LinksPage_messageBox,
