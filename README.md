@@ -13,3 +13,5 @@
 /transectiondetail.html<br>
 /withdraw.html<br>
 /gamelinks.html<br>
+/notifications.html<br>
+/registeragent.html<br>
